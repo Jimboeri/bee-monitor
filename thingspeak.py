@@ -11,6 +11,9 @@ config_fname = 'thingspeak.cfg'
 config = configparser.ConfigParser()
 config.read(config_fname)
 
+defaults_fname = 'defaults.cfg'
+defaults = configparser.ConfigParser()
+defaults.read(defaults_fname)
 
 headers = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/plain", "THINGSPEAKAPIKEY": "N6BP4CYM039RFCNY"}
 
@@ -41,11 +44,14 @@ class gatewayMessage:
     """This decodes an input topic """
         
     self.config_found = 0
+    
+    myList = inpTopic.split("/")
+    
     for sec in config.sections():
       if sec == 'mqtt' or sec == 'thingspeak':
         continue
 
-      if inpTopic.startswith(config[sec].get('base_topic',"")+"/"):
+      if config['mqtt'].get('top_topic') + '/' + myList[1] == config[sec].get('base_topic',""):
         self.config_found = 1
         self.title = sec
         self.base_topic = config[sec].get('base_topic', '')
@@ -57,7 +63,8 @@ class gatewayMessage:
         self.field6_topic = config[sec].get('field6_topic', '')
         self.field7_topic = config[sec].get('field7_topic', '')
         self.field8_topic = config[sec].get('field8_topic', '')
-        self.subtopic = inpTopic[len(self.base_topic)+1:]
+        self.action = myList[3]
+        self.subtopic = myList[4]
         self.api_key = config[sec].get('write_key', '')
                
     if not self.config_found:
@@ -77,15 +84,15 @@ class gatewayMessage:
      
     return self.value    
       
-  def DecodeMqtt(self, mqttMsg):
-    """Populates structure for mqtt message input"""
-    self.DecodeTopic(mqttMsg.topic)
-    self.DecodeMsg(mqttMsg.payload)
+  #def DecodeMqtt(self, mqttMsg):
+  #  """Populates structure for mqtt message input"""
+  #  self.DecodeTopic(mqttMsg.topic)
+  #  self.DecodeMsg(mqttMsg.payload)
       
-  def SerialOutput(self):
-    outStr = "P,{0:d},{1:d},{2:d},{3},{4:d},{5:d},{6},{7}\n".format(self.node, self.device, 
-        self.instance, self.action, self.result, self.req_ID, self.float1, self.float2)
-    return outStr
+  #def SerialOutput(self):
+  #  outStr = "P,{0:d},{1:d},{2:d},{3},{4:d},{5:d},{6},{7}\n".format(self.node, self.device, 
+  #      self.instance, self.action, self.result, self.req_ID, self.float1, self.float2)
+  #  return outStr
  
 #*******************************************************************
 class thingspeakUpdate:
@@ -122,7 +129,7 @@ def on_connect(client, userdata, flags, rc):
       if sec == 'mqtt' or sec == 'thingspeak':
         continue
        
-      sTopic = config[sec].get('base_topic') + '/#'
+      sTopic = config[sec].get('base_topic') + '/I/#'
       client.subscribe(sTopic)
       logging.info("Subscribed to " + sTopic)
       
