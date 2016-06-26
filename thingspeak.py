@@ -6,11 +6,15 @@ import urllib
 import logging
 import configparser
 import datetime
+import time
 
 config_fname = 'thingspeak.cfg'
 config = configparser.ConfigParser()
 config.read(config_fname)
 
+defaults_fname = 'defaults.cfg'
+defaults = configparser.ConfigParser()
+defaults.read(defaults_fname)
 
 headers = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/plain", "THINGSPEAKAPIKEY": "N6BP4CYM039RFCNY"}
 
@@ -41,11 +45,14 @@ class gatewayMessage:
     """This decodes an input topic """
         
     self.config_found = 0
+    
+    myList = inpTopic.split("/")
+    
     for sec in config.sections():
       if sec == 'mqtt' or sec == 'thingspeak':
         continue
 
-      if inpTopic.startswith(config[sec].get('base_topic',"")+"/"):
+      if config['mqtt'].get('top_topic') + '/' + myList[1] == config[sec].get('base_topic',""):
         self.config_found = 1
         self.title = sec
         self.base_topic = config[sec].get('base_topic', '')
@@ -57,7 +64,8 @@ class gatewayMessage:
         self.field6_topic = config[sec].get('field6_topic', '')
         self.field7_topic = config[sec].get('field7_topic', '')
         self.field8_topic = config[sec].get('field8_topic', '')
-        self.subtopic = inpTopic[len(self.base_topic)+1:]
+        self.action = myList[3]
+        self.subtopic = myList[4]
         self.api_key = config[sec].get('write_key', '')
                
     if not self.config_found:
@@ -65,7 +73,7 @@ class gatewayMessage:
     
         
   def DecodeMsg(self, inpMsg):
-    """Decodes an input msg on json """
+    """Decodes an input msg"""
     self.value = 0
     logging.info(inpMsg)
     if self.config_found == 1:
@@ -77,15 +85,15 @@ class gatewayMessage:
      
     return self.value    
       
-  def DecodeMqtt(self, mqttMsg):
-    """Populates structure for mqtt message input"""
-    self.DecodeTopic(mqttMsg.topic)
-    self.DecodeMsg(mqttMsg.payload)
+  #def DecodeMqtt(self, mqttMsg):
+  #  """Populates structure for mqtt message input"""
+  #  self.DecodeTopic(mqttMsg.topic)
+  #  self.DecodeMsg(mqttMsg.payload)
       
-  def SerialOutput(self):
-    outStr = "P,{0:d},{1:d},{2:d},{3},{4:d},{5:d},{6},{7}\n".format(self.node, self.device, 
-        self.instance, self.action, self.result, self.req_ID, self.float1, self.float2)
-    return outStr
+  #def SerialOutput(self):
+  #  outStr = "P,{0:d},{1:d},{2:d},{3},{4:d},{5:d},{6},{7}\n".format(self.node, self.device, 
+  #      self.instance, self.action, self.result, self.req_ID, self.float1, self.float2)
+  #  return outStr
  
 #*******************************************************************
 class thingspeakUpdate:
@@ -110,7 +118,7 @@ class thingspeakUpdate:
 # **************************************************************
 # The callback for when the client receives a CONNACK response from the server.
 def on_connect(client, userdata, flags, rc):
-    #print("Connected with result code "+str(rc))
+    
     logging.info("Connected to mqtt server")
 
     # Subscribing in on_connect() means that if we lose the connection and
@@ -119,16 +127,16 @@ def on_connect(client, userdata, flags, rc):
     #logging.info("Subscribed to homeassistant/#")
     
     for sec in config.sections():
-      if sec == 'mqtt' or sec == 'thingspeak':
+      if sec == 'mqtt' or sec == 'thingspeak' or sec == 'general':
         continue
        
-      sTopic = config[sec].get('base_topic') + '/#'
+      sTopic = config[sec].get('base_topic') + '/I/#'
       client.subscribe(sTopic)
       logging.info("Subscribed to " + sTopic)
       
 
 # **************************************************************
-# The callback for when a PUBLISH message is received from the server.
+# The callback for when a MQTT message is received from the server.
 def on_message(client, userdata, msg):
   #print(msg.topic+" "+str(msg.payload))
 
@@ -137,8 +145,9 @@ def on_message(client, userdata, msg):
   # instantiate & populate the message rec
   gMsg = gatewayMessage(config)
   gMsg.DecodeTopic(msg.topic)
+  logging.info("MQTT message received {}:{}".format(msg.topic, msg.payload))
     
-  # don't bother with errors or rubbist mqtt messages
+  # don't bother with errors or rubbish mqtt messages
   if gMsg.config_found == 0:
     return
     
@@ -176,8 +185,7 @@ def on_message(client, userdata, msg):
     curr_uD.field7 = jStr
   elif gMsg.subtopic == gMsg.field8_topic:
     curr_uD.field8 = jStr
-
-        
+  
   # work out if we have all the fields
   curr_uD.complete = 1
   if gMsg.field1_topic != '' and curr_uD.field1 == '':
@@ -195,45 +203,8 @@ def on_message(client, userdata, msg):
   if gMsg.field7_topic != '' and curr_uD.field7 == '':
     curr_uD.complete = 0
   if gMsg.field8_topic != '' and curr_uD.field8 == '':
-    curr_uD.complete = 0
-  
-  # if it's taken longer than 5 seconds, send the update anyway  
-  timeDiff = datetime.datetime.now() - curr_uD.init_dt
-  if timeDiff.seconds > 5:
-    logging.info("Timeout - sending update anyway")
-    curr_uD.complete = 1
-  
-  if curr_uD.complete == 1:
-    headers = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/plain",
-      "THINGSPEAKAPIKEY": gMsg.api_key}
- 
-    params = "field1={}".format(curr_uD.field1)
-    if curr_uD.field2 != '':
-      params = params + "&field2={}".format(curr_uD.field2)
-    if curr_uD.field3 != '':
-      params = params + "&field3={}".format(curr_uD.field3)
-    if curr_uD.field4 != '':
-      params = params + "&field4={}".format(curr_uD.field4)
-    if curr_uD.field5 != '':
-      params = params + "&field5={}".format(curr_uD.field5)
-    if curr_uD.field6 != '':
-      params = params + "&field6={}".format(curr_uD.field6)
-    if curr_uD.field7 != '':
-      params = params + "&field7={}".format(curr_uD.field7)
-    if curr_uD.field8 != '':
-      params = params + "&field8={}".format(curr_uD.field8)
-    
-    try:
-      conn = http.client.HTTPConnection(config['thingspeak'].get('url'))
-      conn.request("POST", "/update", params, headers)
-      response = conn.getresponse()
-      logging.info("HTTP send success")
-      conn.close()
-      updateList.pop(nCnt)
-    except:
- 
-      logging.info("HTTP send error")
-    
+    curr_uD.complete = 0      
+     
   
 
 # ****************************************************************
@@ -243,7 +214,10 @@ def main_program():
     """
 
     # set up logging
-    logging.basicConfig(filename='thingspeak.log',level=logging.DEBUG)
+    FORMAT = '%(asctime)-15s %(message)s'
+    logging.basicConfig(filename='thingspeak.log',
+        level=config["general"].getint("loglevel"),
+        format=FORMAT)
     logging.info('Thingspeak starting')
 
     # Connect to the mqtt server
@@ -259,7 +233,52 @@ def main_program():
     # handles reconnecting.
     # Other loop*() functions are available that give a threaded interface and a
     # manual interface.
-    client.loop_forever()
+    client.loop_start()
+    
+    while True:
+      time.sleep(1)
+      nCnt=0
+      for uD in updateList:
+ 
+  
+        # if it's taken longer than 5 seconds, send the update anyway  
+        timeDiff = datetime.datetime.now() - uD.init_dt
+        if timeDiff.seconds > 5:
+          logging.info("Timeout - sending update anyway")
+          uD.complete = 1
+  
+        if uD.complete == 1:
+          headers = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/plain",
+            "THINGSPEAKAPIKEY": uD.api_key}
+ 
+          params = "field1={}".format(uD.field1)
+          if uD.field2 != '':
+            params = params + "&field2={}".format(uD.field2)
+          if uD.field3 != '':
+            params = params + "&field3={}".format(uD.field3)
+          if uD.field4 != '':
+            params = params + "&field4={}".format(uD.field4)
+          if uD.field5 != '':
+            params = params + "&field5={}".format(uD.field5)
+          if uD.field6 != '':
+            params = params + "&field6={}".format(uD.field6)
+          if uD.field7 != '':
+            params = params + "&field7={}".format(uD.field7)
+          if uD.field8 != '':
+            params = params + "&field8={}".format(uD.field8)
+    
+          try:
+            conn = http.client.HTTPConnection(config['thingspeak'].get('url'))
+            conn.request("POST", "/update", params, headers)
+            response = conn.getresponse()
+            logging.info("HTTP send success")
+            conn.close()
+            updateList.pop(nCnt)
+          except:
+ 
+            logging.warning("HTTP send error {}:{}".format(headers, params))
+        else:
+          nCnt += 1
 
 
 # Only run the program if called directly
