@@ -7,6 +7,7 @@ import logging
 import configparser
 import datetime
 import time
+import json
 
 config_fname = 'thingspeak.cfg'
 config = configparser.ConfigParser()
@@ -76,12 +77,15 @@ class gatewayMessage:
     """Decodes an input msg"""
     self.value = 0
     logging.info(inpMsg)
-    if self.config_found == 1:
-      self.value = float(inpMsg)
-      if self.subtopic == self.mqtt_val1:
-        self.float1 = self.value
-      if self.subtopic == self.mqtt_val2:
-        self.float2 = self.value
+    if inpMsg.startswith("{"):    # the payload is a JSON message
+      self.jmsg = json.loads(inpMsg)
+    else:                         # not JSON
+      if self.config_found == 1:
+        self.value = float(inpMsg)
+        if self.subtopic == self.mqtt_val1:
+          self.float1 = self.value
+        if self.subtopic == self.mqtt_val2:
+          self.float2 = self.value
      
     return self.value    
       
@@ -145,7 +149,7 @@ def on_message(client, userdata, msg):
   # instantiate & populate the message rec
   gMsg = gatewayMessage(config)
   gMsg.DecodeTopic(msg.topic)
-  logging.info("MQTT message received {}:{}".format(msg.topic, msg.payload))
+  logging.info("MQTT message received {} : {}".format(msg.topic, msg.payload))
     
   # don't bother with errors or rubbish mqtt messages
   if gMsg.config_found == 0:
