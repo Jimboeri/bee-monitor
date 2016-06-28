@@ -22,14 +22,27 @@
 //#define FREQUENCY   RF69_868MHZ
 //#define FREQUENCY   RF69_915MHZ
 //#define ENCRYPTKEY  "TheWildWestHouse" //exactly the same 16 characters/bytes on all nodes!
-//#define IS_RFM69HW  //uncomment only for RFM69HW! Leave out if you have RFM69W!
-//#define ENABLE_ATC    //comment out this line to disable AUTO TRANSMISSION CONTROL
+#define IS_RFM69HW  //uncomment only for RFM69HW! Leave out if you have RFM69W!
 #define DHT_DEVICE    101
 #define LED_DEVICE    3
 #define SCALE_DEVICE  11
 #define DS_TEMP_DEVICE 21
-
 #define LED           9 // Moteinos have LEDs on D9
+
+//*********************************************************************************************
+// EEPROM Parameter offsets
+//*********************************************************************************************
+#define PARAM_DHT_PERIOD 1
+
+#define SCALE_OFFSET 20
+#define SCALE_FACTOR 24
+#define SCALE_TEMP_FACTOR 28
+
+#define RADIO_NETWORK 101
+#define RADIO_NODE 102
+#define RADIO_GATEWAY 103
+#define RADIO_ENCRYPT 105
+
 
 //**********************************************************************************************
 // Radio transmission specific settings
@@ -60,7 +73,6 @@ char radio_encrypt[16];
 
 //***** DHT22 settings
 #define DHTPIN 7     // what digital pin we're connected to
-//#define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
 
 DHT dht(DHTPIN, DHT22);
 
@@ -70,20 +82,6 @@ unsigned long dht_period_time;      //seconds since last period
 unsigned long t1 = 0L;
 float h, t;
 
-// EEPROM Parameter offsets
-#define PARAM_DHT_PERIOD 1
-
-#define SCALE_OFFSET 20
-#define SCALE_FACTOR 24
-#define SCALE_TEMP_FACTOR 28
-
-#define RADIO_NETWORK 101
-#define RADIO_NODE 102
-#define RADIO_GATEWAY 103
-#define RADIO_ENCRYPT 105
-
-//***********************************************************
-
 //************************************************************
 // LED is device 3
 // ***********************************************************
@@ -92,7 +90,6 @@ int ledStatus = 0;    // initially off
 //************************************************************
 // Scale is device 11
 // ***********************************************************
-
 #define HX711_DOUT    A1
 #define HX711_PD_SCK  A0
 HX711 scale(HX711_DOUT, HX711_PD_SCK);    // parameter "gain" is omited; the default value 128 is used by the library
@@ -101,20 +98,18 @@ float scale_factor = 21.6166f;            // the factor is a multiplier to conve
 float temperature_factor = 0.00051f;       // this factor is a multiplier to attempt to correct for temperature variations
 
 //************************************************************
-// Scale is device 11
+// DS18B20 thermometer is device 21
 // ***********************************************************
-
 #define DS18B20_DIN    6
 OneWire  ds(DS18B20_DIN);    // parameter "gain" is omited; the default value 128 is used by the library
+float ext_temp;
 
 //**********************************
 // General declarations
 //**********************************
-unsigned long timepassed = 0L;
 String inputString = "";         // a string to hold incoming data
 boolean stringComplete = false;  // whether the string is complete
 unsigned long requestID;
-long lastPeriod = 0;
 unsigned long sleepTimer = 0L;
 int downTimer = 0;
 int counter = 0;
@@ -124,10 +119,14 @@ int radioSent = 0;              // this is a flag to determine if a update has b
 //***  SETUP Section
 //*************************************************************
 void setup() {
+  //************************************************************
   // enable the serial channel
+  //************************************************************
   Serial.begin(SERIAL_BAUD);
-
+  
+  //************************************************************
   // set up the radio
+  //************************************************************
 
   //EEPROM.put(RADIO_NETWORK, NETWORKID);        // temp to set up network
   //EEPROM.put(RADIO_NODE, NODEID);              // temp to set up node
@@ -151,7 +150,6 @@ void setup() {
     Serial.print(y);
     radio_encrypt[x] = y;
   }
-  //radio_encrypt = radio_encrypt + '"';
 
   radio.initialize(FREQUENCY, radio_node, radio_network);
 #ifdef IS_RFM69HW
@@ -163,10 +161,10 @@ void setup() {
   //For indoor nodes that are pretty static and at pretty stable temperatures (like a MotionMote) -90dBm is quite safe
   //For more variable nodes that can expect to move or experience larger temp drifts a lower margin like -70 to -80 would probably be better
   //Always test your ATC mote in the edge cases in your own environment to ensure ATC will perform as you expect
-#ifdef ENABLE_ATC
-  radio.enableAutoPower(-70);
-  Serial.println("RFM69_ATC Enabled (Auto Transmission Control)\n");
-#endif
+  //#ifdef ENABLE_ATC
+  //radio.enableAutoPower(-70);
+  //Serial.println("RFM69_ATC Enabled (Auto Transmission Control)\n");
+  //#endif
 
   char buff[50];
   sprintf(buff, "\nTransmitting at %d Mhz...", FREQUENCY == RF69_433MHZ ? 433 : FREQUENCY == RF69_868MHZ ? 868 : 915);
@@ -174,11 +172,9 @@ void setup() {
 
   sendData.nodeID = radio_node;    // This node id should be the same for all devices
 
-  // set up the DHT22 temerature sensor
-
-  //***************
+  //************************************************************
   //**Setup for DHT
-  //****************
+  //************************************************************
   dht.begin();      // Initialise the DHT module
   dht_period_time = millis();  //seconds since last period
 
@@ -194,12 +190,14 @@ void setup() {
   Serial.print(dht_period);
   Serial.println(" millseconds");
 
+  //************************************************************
   //set up of LED
+  //************************************************************
   pinMode(LED, OUTPUT);
 
-  //***************
+  //************************************************************
   //**Setup for HX711 based scale
-  //****************
+   //************************************************************
 
   Serial.println("Before setting up the scale:");
   Serial.print("read average raw output: \t\t");
@@ -225,6 +223,7 @@ void setup() {
 
   scale.set_scale(scale_factor);                // this value is obtained by calibrating the scale with known weights
   scale.set_offset(scale_offset);               // Initialise the scale
+
 }
 //************************************************
 // End of Setup
@@ -249,9 +248,14 @@ void loop() {
     h = dht.readHumidity();
     t = dht.readTemperature();
     send_temp(t, h);
+    ext_temp = ds_temp();
+
+    send_dstemp(ext_temp);
     scale.power_up();
     send_mass(t);
     scale.power_down();             // put the ADC in sleep mode
+
+    
     radioSent = 1;
     sleepTimer = millis() + 5000;
   }
@@ -507,6 +511,32 @@ void send_temp(float t, float h)
     sendData.result = 0;
     sendData.float1 = t;
     sendData.float2 = h;
+    radio.sendWithRetry(radio_gateway, (const void*)(&sendData), sizeof(sendData));
+    printTheData(sendData);
+  }
+
+  // Serial.println();
+}
+// ***********************************************************************************************
+void send_dstemp(float t)
+{
+  if (isnan(t)) {
+    Serial.println("Failed to read from DS18B20");
+  }
+  else
+  {
+    Serial.print("DS18B20 Temperature: ");
+    Serial.print(t);
+    Serial.println(" *C");
+
+    //send data
+    sendData.deviceID = DS_TEMP_DEVICE; // DS18B20
+    sendData.instance = 1;
+    sendData.req_ID = millis();
+    sendData.action = 'I';
+    sendData.result = 0;
+    sendData.float1 = t;
+    sendData.float2 = 0;
     radio.sendWithRetry(radio_gateway, (const void*)(&sendData), sizeof(sendData));
     printTheData(sendData);
   }
