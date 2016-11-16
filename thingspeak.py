@@ -13,10 +13,6 @@ config_fname = 'thingspeak.cfg'
 config = configparser.ConfigParser()
 config.read(config_fname)
 
-defaults_fname = 'defaults.cfg'
-defaults = configparser.ConfigParser()
-defaults.read(defaults_fname)
-
 headers = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/plain", "THINGSPEAKAPIKEY": "N6BP4CYM039RFCNY"}
 
 updateList = []
@@ -41,6 +37,7 @@ class gatewayMessage:
     self.field8_topic = ''
     self.subtopic = ''
     self.api_key = ''
+    self.jmsg = {}
 
   def DecodeTopic(self, inpTopic):
     """This decodes an input topic """
@@ -48,9 +45,10 @@ class gatewayMessage:
     self.config_found = 0
     
     myList = inpTopic.split("/")
+    print(myList)
     
     for sec in config.sections():
-      if sec == 'mqtt' or sec == 'thingspeak':
+      if sec == 'mqtt' or sec == 'thingspeak' or sec == 'general':
         continue
 
       if config['mqtt'].get('top_topic') + '/' + myList[1] == config[sec].get('base_topic',""):
@@ -68,6 +66,13 @@ class gatewayMessage:
         self.action = myList[3]
         self.subtopic = myList[4]
         self.api_key = config[sec].get('write_key', '')
+        
+        #config.set(sec,'active', '1')
+        #print(config_fname)
+        #with open('thingspeak.cfg', 'w') as f:
+        #  config.write(f, True)
+        #  print('Config file updated')
+        
                
     if not self.config_found:
       logging.warning("Config not found, topic : {}".format(inpTopic))
@@ -82,6 +87,7 @@ class gatewayMessage:
     else:                         # not JSON
       if self.config_found == 1:
         self.value = float(inpMsg)
+        self.jmsg[self.subtopic] = self.value
         if self.subtopic == self.mqtt_val1:
           self.float1 = self.value
         if self.subtopic == self.mqtt_val2:
@@ -216,12 +222,13 @@ def main_program():
     """This program subscribes to the mqtt server and publishes specfic
     data items to thingspeak channels
     """
+    time_cntr = time.time()
 
     # set up logging
     FORMAT = '%(asctime)-15s %(message)s'
     logging.basicConfig(filename='thingspeak.log',
         level=config["general"].getint("loglevel"),
-        format=FORMAT)
+            format=FORMAT)
     logging.info('Thingspeak starting')
 
     # Connect to the mqtt server
@@ -241,6 +248,10 @@ def main_program():
     
     while True:
       time.sleep(1)
+      if time_cntr + 60 < (time.time()):
+        time_cntr = time.time()
+        config.read(config_fname)
+        
       nCnt=0
       for uD in updateList:
  
@@ -270,7 +281,7 @@ def main_program():
             params = params + "&field7={}".format(uD.field7)
           if uD.field8 != '':
             params = params + "&field8={}".format(uD.field8)
-    
+          print(params)
           try:
             conn = http.client.HTTPConnection(config['thingspeak'].get('url'))
             conn.request("POST", "/update", params, headers)
