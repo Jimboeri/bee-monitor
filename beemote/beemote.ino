@@ -1,3 +1,4 @@
+
 // Sketch to send regular temp & humidity readings to a gateway
 // System is set up at the top of a bee hive
 // Copyright Jim West (2016)
@@ -14,20 +15,26 @@
 //*********************************************************************************************
 //************ MOTEINO specific settings
 //*********************************************************************************************
-//#define NODEID      6    //must be unique for each node on same network (range up to 254, 255 is used for broadcast)
-//#define NETWORKID   100   //the same on all nodes that talk to each other (range up to 255)
-//#define GATEWAYID   1
+#define NODEID      7    //must be unique for each node on same network (range up to 254, 255 is used for broadcast)
+#define NETWORKID   100   //the same on all nodes that talk to each other (range up to 255)
+#define GATEWAYID   1
 //Match frequency to the hardware version of the radio on your Moteino (uncomment one):
 #define FREQUENCY   RF69_433MHZ
 //#define FREQUENCY   RF69_868MHZ
 //#define FREQUENCY   RF69_915MHZ
-//#define ENCRYPTKEY  "TheWildWestHouse" //exactly the same 16 characters/bytes on all nodes!
+#define ENCRYPTKEY  "TheWildWestHouse" //exactly the same 16 characters/bytes on all nodes!
 #define IS_RFM69HW  //uncomment only for RFM69HW! Leave out if you have RFM69W!
+
+#define ISDS18B20   // comment out if DS18B20 is not connected
+
+//#define INITIAL_SETUP // uncomment this for an initial setup of a moteino
+
 #define DHT_DEVICE    101
 #define LED_DEVICE    3
 #define SCALE_DEVICE  11
 #define DS_TEMP_DEVICE 21
-#define LED           9 // Moteinos have LEDs on D9
+#define LED           9// Moteinos have LEDs on D9
+#define BATTERY_CHECK A3
 
 //*********************************************************************************************
 // EEPROM Parameter offsets
@@ -66,6 +73,7 @@ char radio_encrypt[16];
 // Serial channel settings
 //*********************************************************************************************
 #define SERIAL_BAUD   115200
+#define BATTERY_FACTOR  150.0
 
 //**********************************************************************************************
 //*** Definitions for Sensors
@@ -100,9 +108,9 @@ float temperature_factor = 0.00051f;       // this factor is a multiplier to att
 //************************************************************
 // DS18B20 thermometer is device 21
 // ***********************************************************
-#define DS18B20_DIN    6
-OneWire  ds(DS18B20_DIN);    // parameter "gain" is omited; the default value 128 is used by the library
-float ext_temp;
+//#define DS18B20_DIN    6
+//OneWire  ds(DS18B20_DIN);    // parameter "gain" is omited; the default value 128 is used by the library
+//float ext_temp;
 
 //**********************************
 // General declarations
@@ -123,15 +131,17 @@ void setup() {
   // enable the serial channel
   //************************************************************
   Serial.begin(SERIAL_BAUD);
-  
+
   //************************************************************
   // set up the radio
   //************************************************************
 
-  //EEPROM.put(RADIO_NETWORK, NETWORKID);        // temp to set up network
-  //EEPROM.put(RADIO_NODE, NODEID);              // temp to set up node
-  //EEPROM.put(RADIO_GATEWAY, GATEWAYID);        // temp to set up gateway
-  //EEPROM.put(RADIO_ENCRYPT, ENCRYPTKEY);       // temp to set up encryption key
+#ifdef INITIAL_SETUP
+  EEPROM.put(RADIO_NETWORK, NETWORKID);        // temp to set up network
+  EEPROM.put(RADIO_NODE, NODEID);              // temp to set up node
+  EEPROM.put(RADIO_GATEWAY, GATEWAYID);        // temp to set up gateway
+  EEPROM.put(RADIO_ENCRYPT, ENCRYPTKEY);       // temp to set up encryption key
+#endif
   EEPROM.get(RADIO_NETWORK, radio_network);      // get network
   EEPROM.get(RADIO_NODE, radio_node);            // get node
   EEPROM.get(RADIO_GATEWAY, radio_gateway);      // get gateway
@@ -178,7 +188,9 @@ void setup() {
   dht.begin();      // Initialise the DHT module
   dht_period_time = millis();  //seconds since last period
 
-  //EEPROM.put(PARAM_DHT_PERIOD, dht_period); // temp to set up interval
+#ifdef INITIAL_SETUP
+  EEPROM.put(PARAM_DHT_PERIOD, dht_period); // temp to set up interval
+#endif
   EEPROM.get(PARAM_DHT_PERIOD, t1);      // start delay parameter
   if (t1 < 4000000000)                  // a realistic delay interval
     dht_period = t1;
@@ -197,26 +209,28 @@ void setup() {
 
   //************************************************************
   //**Setup for HX711 based scale
-   //************************************************************
+  //************************************************************
 
   Serial.println("Before setting up the scale:");
   Serial.print("read average raw output: \t\t");
   Serial.println(scale.read_average(20));       // print the average of 20 readings from the ADC
 
-  //EEPROM.put(SCALE_OFFSET, scale_offset);     // temp to set up initial offset not needed when in operation
+#ifdef INITIAL_SETUP
+  EEPROM.put(SCALE_OFFSET, scale_offset);     // temp to set up initial offset not needed when in operation
+  EEPROM.put(SCALE_FACTOR, scale_factor);     // temp to set up initial factor not needed when in operation
+  EEPROM.put(SCALE_TEMP_FACTOR, temperature_factor);     // temp to set up initial factor not needed when in operation
+#endif
   EEPROM.get(SCALE_OFFSET, scale_offset);       // scale offset
 
   // temp - tare scale on start up
-  //scale_offset = scale.read_average(20);
+  scale_offset = scale.read_average(20);
   Serial.print("Initial scale offset: \t\t");
   Serial.println(scale_offset);
 
-  //EEPROM.put(SCALE_FACTOR, scale_factor);     // temp to set up initial factor not needed when in operation
   EEPROM.get(SCALE_FACTOR, scale_factor);       // scale factor parameter
   Serial.print("Initial scale factor: \t\t");
   Serial.println(scale_factor);
 
-  //EEPROM.put(SCALE_TEMP_FACTOR, temperature_factor);     // temp to set up initial factor not needed when in operation
   EEPROM.get(SCALE_TEMP_FACTOR, temperature_factor);       // scale factor parameter
   Serial.print("Initial temperature factor: \t");
   Serial.println(temperature_factor * 1000);
@@ -247,15 +261,17 @@ void loop() {
   {
     h = dht.readHumidity();
     t = dht.readTemperature();
+    Serial.print(t);
+    Serial.println(" degrees");
     send_temp(t, h);
-    ext_temp = ds_temp();
 
-    send_dstemp(ext_temp);
+    //ext_temp = ds_temp();
+    //send_dstemp(ext_temp);
+
     scale.power_up();
-    send_mass(t);
+    send_mass(20);
     scale.power_down();             // put the ADC in sleep mode
 
-    
     radioSent = 1;
     sleepTimer = millis() + 5000;
   }
@@ -314,6 +330,15 @@ void process_serial()
 
   if (inputString == "T") //T = set Tare on scale
     scale_tare();
+  if (inputString == "R") //e=disable encryption
+  {
+    Serial.print("Query Response - base load cell offset is ");
+    Serial.println(scale_offset);
+    Serial.print("Query Response - temperature conversion factor is ");
+    Serial.println(temperature_factor, 5);
+    Serial.print("Query Response - mass conversion factor is ");
+    Serial.println(scale_factor);
+  }
 
   // clear the string:
   inputString = "";
@@ -399,6 +424,7 @@ void process_radio()
             radio.sendWithRetry(radio_gateway, (const void*)(&sendData), sizeof(sendData));
             Serial.print("New value ");
             Serial.println(scale_factor);
+            scale.set_scale(scale_factor);
           }
         }
         break;
@@ -427,7 +453,7 @@ void process_radio()
           sendData.float2 = temperature_factor;
           radio.sendWithRetry(radio_gateway, (const void*)(&sendData), sizeof(sendData));
           Serial.print("Query Response - temperature conversion factor is ");
-          Serial.println(sendData.float2,5);
+          Serial.println(sendData.float2, 5);
           sendData.float1 = 3;
           sendData.float2 = scale_factor;
           radio.sendWithRetry(radio_gateway, (const void*)(&sendData), sizeof(sendData));
@@ -439,9 +465,13 @@ void process_radio()
         h = dht.readHumidity();
         t = dht.readTemperature();
         send_temp(t, h);
-        scale.power_up();
-        send_mass(t);
-        scale.power_down();
+
+        //ext_temp = ds_temp();
+        //send_dstemp(ext_temp);
+
+        //scale.power_up();
+        //send_mass(20);
+        //scale.power_down();
         break;
       case 'A':
         if (receiveData.deviceID == LED_DEVICE)
@@ -474,7 +504,7 @@ void process_radio()
         sendData.req_ID = requestID;
         sendData.action = 'C';
         sendData.result = 0;
-        sendData.float1 = readVcc();
+        sendData.float1 = battCheck();
         sendData.float2 = radio.RSSI;
         radio.sendWithRetry(radio_gateway, (const void*)(&sendData), sizeof(sendData));
         Serial.print("Vcc battery level is ");
@@ -513,6 +543,7 @@ void send_temp(float t, float h)
     sendData.float2 = h;
     radio.sendWithRetry(radio_gateway, (const void*)(&sendData), sizeof(sendData));
     printTheData(sendData);
+    Serial.println("Transmitted");
   }
 
   // Serial.println();
@@ -541,12 +572,15 @@ void send_dstemp(float t)
     printTheData(sendData);
   }
 
-  // Serial.println();
+  Serial.println();
 }
 
 // ***********************************************************************************************
 void send_mass(float t)
 {
+  Serial.print("read average raw output: \t\t");
+  Serial.println(scale.read_average(50));       // print the average of 20 readings from the ADC
+
   float m = scale.get_units(10);
   Serial.print("mass: ");
   Serial.print(m);
@@ -571,12 +605,14 @@ void send_mass(float t)
   sendData.action = 'I';
   sendData.result = 0;
   sendData.float1 = m + wt_corr;
-  sendData.float2 = readVcc();
+  sendData.float2 = battCheck();
+  Serial.print("Battery level ");
+  Serial.print(sendData.float2);
   if (radio.sendWithRetry(radio_gateway, (const void*)(&sendData), sizeof(sendData)))
-    Serial.print("ok!");
-  else Serial.print("nothing");
+    Serial.println(" ok!");
+  else Serial.println(" nothing");
   printTheData(sendData);
-
+  Serial.println("Transmitted");
 }
 // ***********************************************************************************************
 void scale_tare()
@@ -595,31 +631,12 @@ void scale_tare()
   Serial.println("Scale TARE request completed");
 }
 
-// ******************************************************************************************
-long readVcc() {
-  // Read 1.1V reference against AVcc
-  // set the reference to Vcc and the measurement to the internal 1.1V reference
-#if defined(__AVR_ATmega32U4__) || defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__)
-  ADMUX = _BV(REFS0) | _BV(MUX4) | _BV(MUX3) | _BV(MUX2) | _BV(MUX1);
-#elif defined (__AVR_ATtiny24__) || defined(__AVR_ATtiny44__) || defined(__AVR_ATtiny84__)
-  ADMUX = _BV(MUX5) | _BV(MUX0);
-#elif defined (__AVR_ATtiny25__) || defined(__AVR_ATtiny45__) || defined(__AVR_ATtiny85__)
-  ADMUX = _BV(MUX3) | _BV(MUX2);
-#else
-  ADMUX = _BV(REFS0) | _BV(MUX3) | _BV(MUX2) | _BV(MUX1);
-#endif
-
-  delay(2); // Wait for Vref to settle
-  ADCSRA |= _BV(ADSC); // Start conversion
-  while (bit_is_set(ADCSRA, ADSC)); // measuring
-
-  uint8_t low  = ADCL; // must read ADCL first - it then locks ADCH
-  uint8_t high = ADCH; // unlocks both
-
-  long result = (high << 8) | low;
-
-  result = 1125300L / result; // Calculate Vcc (in mV); 1125300 = 1.1*1023*1000
-  return result; // Vcc in millivolts
+// ***************************************************************************************************
+float battCheck()
+{
+  int bLevel = analogRead(BATTERY_CHECK);
+  float v = bLevel / BATTERY_FACTOR;
+  return v;
 }
 
 // *************************************************************************************************
@@ -652,17 +669,17 @@ float ds_temp()
   byte addr[8];
   float celsius;
 
-  ds.reset_search();
-  if ( !ds.search(addr)) {
-    Serial.println("No OneWire device found.");
-    Serial.println();
-    return(0);
-  }
+  //ds.reset_search();
+  //if ( !ds.search(addr)) {
+  //  Serial.println("No OneWire device found.");
+  //  Serial.println();
+  //  return (0);
+  //}
 
-  if (OneWire::crc8(addr, 7) != addr[7]) {
-    Serial.println("CRC is not valid!");
-    return(0);
-  }
+  //if (OneWire::crc8(addr, 7) != addr[7]) {
+  //  Serial.println("CRC is not valid!");
+  //  return (0);
+  //}
 
   // the first ROM byte indicates which chip
   switch (addr[0]) {
@@ -680,23 +697,23 @@ float ds_temp()
       break;
     default:
       //Serial.println("Device is not a DS18x20 family device.");
-      return(0);
+      return (0);
   }
 
-  ds.reset();
-  ds.select(addr);
-  ds.write(0x44, 1);        // start conversion, with parasite power on at the end
+  //ds.reset();
+  //ds.select(addr);
+  //ds.write(0x44, 1);        // start conversion, with parasite power on at the end
 
-  delay(1000);     // maybe 750ms is enough, maybe not
+  //delay(1000);     // maybe 750ms is enough, maybe not
   // we might do a ds.depower() here, but the reset will take care of it.
 
-  present = ds.reset();
-  ds.select(addr);
-  ds.write(0xBE);         // Read Scratchpad
+  //present = ds.reset();
+  //ds.select(addr);
+  //ds.write(0xBE);         // Read Scratchpad
 
-  for ( i = 0; i < 9; i++) {           // we need 9 bytes
-    data[i] = ds.read();
-  }
+  //for ( i = 0; i < 9; i++) {           // we need 9 bytes
+  //  data[i] = ds.read();
+  //}
 
   // Convert the data to actual temperature
   // because the result is a 16 bit signed integer, it should
@@ -720,4 +737,3 @@ float ds_temp()
   celsius = (float)raw / 16.0;
   return (celsius);
 }
-

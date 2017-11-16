@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by TinyCAD Version 2.80.08 Build #631 Production Release
+If you wish to view this file go to http://tinycad.sourceforge.net to
+download the executable.-->
+<TinyCADSheets>
+	<TinyCAD>
+		<NAME>Sheet 1</NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='100.00000' snap='1'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='2'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<FILL id='0'>
+			<INDEX>-1</INDEX>
+			<COLOR>000000</COLOR>
+		</FILL>
+		<FILL id='1'>
+			<INDEX>0</INDEX>
+			<COLOR>000000</COLOR>
+		</FILL>
+		<FILL id='2'>
+			<INDEX>6</INDEX>
+			<COLOR>000000</COLOR>
+		</FILL>
+		<IMAGE id='1' type='JPEG'>
+			<UUENCODE size='45877'>
+M_]C_X  02D9)1@ ! 0$ 2 !(  #_VP!#  $! 0$! 0$! 0$! 0$&quot; @,&quot; @(&quot;
+M @0# P(#!00%!04$! 0%!@&lt;&amp;!04&#039;!@0$!@D&amp;!P@(&quot; @(!08)&quot;@D(&quot;@&lt;(&quot; C_
+MVP!# 0$! 0(&quot; @0&quot; @0(!00%&quot; @(&quot; @(&quot; @(&quot; @(&quot; @(&quot; @(&quot; @(&quot; @(&quot; @(
+M&quot; @(&quot; @(&quot; @(&quot; @(&quot; @(&quot; @(&quot; @(&quot; C_P@ 1&quot; &quot;Q 0,# 1$  A$! Q$!_\0 
+M&#039;@   00&quot; P$             &quot;  &amp;!PD!!0($&quot;@/_Q  &lt; 0  !P$!        
+M         0,$!08&#039; @C_V@ , P$  A #$    1/J/H&lt;KT:2&quot;#C4C!0SR%#L.
+MF#LGN:4#SC3SE;Y&gt;+/=U&lt;?+28! B*OH!W-\M&quot;]71I?XKN[) &gt;%;&gt;;R.9 ZMI
+MY*)TII&amp;^BX3ID\9X&quot;&quot;^IF*CG4(=6/4DX)H4T(%M-.EOEXI=W&gt;Y2PY-2S5=0O
+MUE,+\Q4=ZH]!SKS77BTT:.BD[DG^,&gt;9=GZM]-[WRA2O&#039;[9,1PQXNL_H&#039;:^D/
+M3I)^5O/!$&gt;B;&quot;7.;R$&lt;=4,VVGTPS&#039;F3S)1&#039;I^YISAD)ISH/(WWT&quot;2WGSS$QG
+MJOT+N_-%&lt;K32&amp;()&quot;XA]C7F?9&gt;K?3&gt;_\ *%)T9M]K=ISRI6,T&amp;9.XX7T;;*IP
+M4EN&amp;(&#039;1U]*MU4832LCU.-%)&quot;^3&quot;I O+N(@5&amp;U63OLC!MII9)KU/H!N,[:\V&quot;
+MO\IKKC]:,AYG[&gt;XD(53L!?N,ZK68;!8T^R8&lt;TK9O.DWUQ&quot; DAJ-M$EB8&amp;--#
+MNXF,&lt;HPA=GU?#W1!WR+C&gt;](M?A[M3:ZL.CU?9U7RQT@F5ZJ2+FL5I1VJ[WID
+MSN9-Q&amp;P&lt;)H/&#039;N+FY&gt;N!&quot;QT4Y&#039;^:,!.6&amp;UM=7&gt;HQCE.5=IQST4C60G(? E]2;
+MAU&#039;&amp;Z7E]Z$Y_SQ4)6])O#&gt;8?3_UJL:G:11;WDD[_ .4HEJNV,:(T&amp;S)]D F-
+M;ILE$7$&lt;&gt;)C?04#0&quot; 0$L=5U_=Q\&quot;(6,@W=6[Y 4VUVP?2!3;U63I?YOJ^&#039; 
+M=V2KY[0(*NVY]&#039;$GHZC**H#:C-1H$&quot;/IN/N+-&quot;G%D*32O&#039;L-T[&gt;8_A=*F;NL
+MM\/-H:.]-G!&quot;5L0&quot; 0&quot; 0&quot;(D9HB0&quot;,(C1&lt;($2HI+!$T^M%\X]]5@97F+9I2B
+MXZ&gt;/0]4H;@]K,IK1A1=VUM%-QQS,/&gt;3H3&gt;8V9[2M C2&quot;U;/0XF$1_0VSCEL;
+MY&amp;@@$ @$!KVEPTS/1$ @,\\632.0,1*3-=K0PL;W&gt;(-+R7O*,&quot;@RK2Y=1A2&gt;
+MN3:GBOZ1&gt;J[P^G,M=;?5@&quot;=IH#NDZ20F@&gt;8.PJV^7&quot;XL9;[&#039;Z/,@@-H[HI(6
+M7S3$0) (! (#J,[*PZWZK0- (!$2,??A/X]*.1_5OH365.0Y&gt;&amp;ERDME7GFB/
+M0&#039;-CU(#N%B!*V8 =,A4&quot;&#039;T+R[J6&lt;WMG&lt;&amp;+F8^Q.ER^0&amp;T=T9Y67S1D! (# &amp;
+M0.HSL;#KGJM%T@$!GDD @$!P/BWJ6PAM0KV#N)^X.S9U2_7;]?E)8C7!UH%9
+M3/8X&gt;2L&#039;$!\2F?L&gt;*T%[R^?M:-N$A3V8MB/MNJ1;$-9?-+H ZP&#039;; [ &#039;&lt; &amp;Q
+ME9(ZKOJK/(0/!G*]BQM +KCCRI%-=U^V&amp;7P;90BL!\6*VZRT+SNPFW$2QJT7
+M/YB4U(V/&gt;)N!!-[IU ZEK-:M&amp;6&lt;3VLE!IWC^&#039;ZEN,8UV^/*R^:$!] -V!H@.
+M(&#039;596-AUWU62%]\KL2$T:*JYLCUDJ%R,OF#R#9&lt;7&gt;B:6I3&#039;8O6R;[T-6[SG0
+MU5=QL%+/*^7&amp;CF&quot;\J0XH6^(I6O3W?O-D+TO?(FK&amp;TN%Y62AT[Q_#]2W&amp;,:[?
+M&#039;G9?-&amp;0$ @$ @.HSL;&quot;KOJHIM*\&gt;QW7M0AVJ;I,2E5GYW1O@&#039; V-+[&#039;*4]91
+M(XU82RSX4&amp;]K-*V4NE&amp;H[-&lt;(ZR.E3G;&quot;T?5$3&amp;U_8LO59\OWFN%J7OT35C:7
+M&quot;\K10:=X^B&quot;I;C&amp;-=OCSLOFC(&quot; 0&quot; 0+J,[(PZWZKG*X&gt;&gt;VA%7:.X34&#039;.\J.
+M ,D2ZZ:[&amp;UE^[SX&lt;8ZUZLW7HNN?F7SL5+TFZVT?M&#039;B/R-VS&gt;)+8RU(F6XX/%
+M%5V:-8&#039;5^WVS&gt;LO0- PLFD:S3@E&lt;&gt;R?* 0&quot;,(BZ+2VZ9GH: 0- I@M.&#039;KD(#
+M/0AZK;B=#O,3^9YF,J5L.^^5*I#/M$]!D[B&#039;FUCO0PXEH&quot;((R0&quot;!H! II5KT
+MO*0\P*P$?&lt;RCQ[8[T-&amp;/PZF%:)CI.50*&#039;49SHDN6CREUEQNL-OEUR,N)=9!?
+M,U3W=Y9H8ON,CF[KKYC/GWI7H&quot;2FD%I7[F&#039;D[8X&#039;M:E^W8;$5/W&amp;6K;B4=UW
+M4G!(UB6X2XV&#039;/\S&gt;YLAG:VO[=]1BF_A)K/GQ(T&quot;*T)?6F@:SVGQ6E+5M1FE.
+M]1#XESL.TGQVQ%1I=(=3GT19 P!Z,)_S=2]6]6M&amp;5RH,WEI&#039;]*[1*]2(+0/,
+M0_Y]Z;(#0/,D34_;7E.4)H47T*5;BI1*C);KLGFI&#039;0LC/L=)\&gt;;_ #V.$I*.
+M.&#039;^_Z$5HRACO:4 T=?IT&lt;06SZ;MQ-W&amp;/$Y&quot;:=A0&quot; 1#T83_FZEJMZM: IE8+
+M.[O#W%IACJ2D.Q9=&#039;U&lt;TZ1;&#039;EK3B;IOG]&lt;BRN; @$#1! (R1! T9(C0&quot;,D#1
+M%V3XEKJMM7B3U0&lt;/-2,C].6E56$;/+F^B&lt;PKSYP&amp;]:XGGR-3Y _B%.R$G&gt;&lt;:
+MQA,_7E+YFIMPTV9H-024C&quot; CDK!V0CQ(_ATKV20ZQK/GJ%::&lt;KTPI(/4&#039;K#&gt;
+M6 /\M&#039;EO9F[Q($(YIH0,-.+=YG3&quot;3G;B9?* !86MG&lt;KPVA;WRI%&quot;(UN^&quot;Z,!
+MY1 F::.?KS+ %9:C+&quot;D#(?&lt;2,2%UL1?Y)7:QUR7.ZZAW$G$_8_(8]7!&#039;[&quot;7#
+MF@0FA8^^:5@#W,:HXW:S*&lt;YRP&quot;GW!TTD12O PRU2SF1Q0$6.H7N3F&amp;4CUK6K
+M7E\FI&#039;2] VT#$1$XNC)$C9&amp;MEM*?/H*ZT&gt;?:V4M2?IQQ9*4VITMKNW4\_5&quot;M
+M]K*_JE/GJ/KUYU&quot;ZAQA%*2&amp;\V+#*XX*4%[FWVX.&lt;9I&#039;3] VW%B(&gt;&lt;79HA[8Z
+MKF%*I&gt;@;LNO/=9[?5KH[1DE)%:UJUE?)Z34O0-LG6(B,G=&amp;24A9 MEU*Y&gt;@;
+MJ3\_5MHZD_#CBQ4IE4!;9=GWY_J);[25_=*&gt;QL:^.-.NC&lt;X32PWWBQ,\MC@I
+M,7^;A;8XQFDQ/T#;6&gt;&#039;AZE=V@&#039;UC2F84MGZ NM&#039;GRM%&#039;5;J+-DOG/K^LMY)Y
+MQZ;&lt;S7XII_/I/F2V.T&lt;F?#M/&#039;!&lt;S6X$6&gt;^&gt;!(\^.L**Y3+Z=#ARIDNL*MT2F
+M&gt;.&gt; [^H&quot;&#039;7(N^*B&gt;..^8&quot;Z[]:-N\]__$ &quot;\0  (&quot; @(!  D$ @,!      4&amp;
+M! &lt;&quot; P !&quot;! 1%!8@,3,U-Q(3%1&lt;A03 T-B;_V@ ( 0$  04&quot;U6&#039;;; Q%%N]A
+MPG.UK2U9ID&amp;\7&quot;$WL]QITY:=+?:2#.$O9=&#039;_ -M6=Q;!7NP#F-VM]8(I[)&lt;C
+MG,=8EXIT35:MI[]HY;O:&lt;(+V);@0@CD[I&gt;-KSNNQ&amp;Q&#039;V5;)2;DMWGB$FV;;(
+MZ6C=W&lt;[ZW&lt;Q=&quot;/O#6!;AX@66[V&amp;&quot;&lt;[6M+7FFP+R;H3&lt;T7&amp;G3EITN%I(- 6]E
+ML=_;5G&lt;70%[GAS$\6\LD:;8F8U7%&lt;G(0)[&lt;+)5]RFP3]14Y2UCK72QY%-PIA
+M,4,SC5UHLNRE?%7PD]8S:XLI7[5KT91[$T^.3@)7R=X6*M;%A:(Z!)]5LE8T
+MJ=HF81QJ\;7&lt;(&#039;C^13Z (!$8G$$LV^SEOM:&lt;R44LR^/3^OP@&#039;DB[!3753&#039;8(
+M)L&lt;[(5]JD?G:BAJF;&#039;6NECR);A; 9H5G&#039;+K/9ME*V*OHD]:IU=64K&gt;ZMXLH]
+MB:J%_%&amp;Q&amp;&#039;;5Z93PCJ6\*@D%$#(@#(5 IM:+3EG0*EEV6K]8O:_KX@ 1K08O
+MEHG*_#06)XL,=!CX#X$HK/:T(6O,3WDM=M]05O&amp;&lt;H)Q&#039;@P:^45_&lt;U-$]12!;
+M(RC-P5C7ZVT3*NLZO(Z:KUNM:6QSTIP&quot;)8$C5E&#039;W$Z[C!TFT!0\.5J19&amp;FR,
+MU2#BA&#039;J[[[)5 *&quot;$K&quot;#&quot;Q!6A?Q1M;6@=&#039;]\VK]PVPFF*5&quot;8SL#1BZ-V$\09+
+M )?3.R=;&quot;YLP?F571[4X*LZ#+&amp;3*C6$]R8[VKM51M&lt;*=,&#039;2X#&quot;&gt;%Z^:BQ31J
+MF-K00&#039;*:^1F#12XX 9V6S//N2B%Q9N=6S5&quot;&#039;1ILV#R&quot;X-HN+S6&gt;.:9N41_&lt;\
+M9FDR(QVERV[D??OB2-#&amp;P1I!(D1,3:%_%&quot;&amp;M1&amp;9_&lt;:B6-:D)[G*Y&gt;W-Q629X
+M.B0\Q[#KUZB/ [A:6Q&gt;L?!LZ/5S7TM^E,P V&lt;%?&quot;N-LI8U:K.)ZRD^5JFS.K
+M3+]887(Y8_ BG!X$M.:C,F7*&gt;I.@,-&#039;BYD,D*&amp;Z8%/+J@:&amp;V,KHPU(H7\413
+MTQ&lt;:37D8=*AHAJ(-B/3,+:2G!GVUE^Y\#N4@3 9&amp;:&gt;U25=T.*&#039;)M@%Y@G_D_
+MQSU]&lt;&quot;,MF3!C8=:#$L!]I+?;/&amp;H? (C_ &quot;&quot;%C1R&#039;0F&#039;?=3Q &lt;YC9#/CJQ&quot;PQ
+MO1OP6F54.*$KFD^0T:I&lt;O=.W2A\34!^#&#039;&#039;O+OJ!U^GV&#039;#GL&amp;&#039;/8,.&gt;P8&lt;]@P
+MYOB]Z^O@VV8D0LF&quot;Q!?0CQJ8%&quot;&quot;&quot;\@&quot;2\0;P/VDM]LH?&gt;9&#039;A+AU-A1&#039;H/U_U
+M/7;%#6WMRM98V*0FP]2F8OEO!O+GP%CAF5]EB\[TZN\.HD7]4G_$CT0_KY-^
+M_M.^&#039;?\ 1^+7MV:LN:&quot;Y&amp;+JVF26_4KV,&gt;4!I.W&amp;PR+H7+O\ J@G_ (([Q1.+
+M&#039;,_^3] ;=JCDNI&lt;7*/\ S(KF^;$AY2,L&lt;M_HB?7^+?\ 1_X._DY[RF]:J&gt;AX
+M[&gt;,M^JOZ_D^//X@K03 *V Y(:K%5:A5UTFPO@I8#M&#039;HUF.L!7#!7 GW&#039;T929
+M&#039;NK+X2%;1G(GUP2_@7&#039;QUT85X151^&amp;G:B9=3HBM%D9:U,/IT3&gt;M6/PP-6K)=
+MBZ=/:U^UJ]UMFG3[K]_)O&#039;0\%:G[U@*@NZ+5U/TGQZ_$&#039;12&lt;#8B5W-I 9/(S
+MX:DLORQ 7+7TB-+[&#039;B[Y&gt;?\ &quot;EN28&lt;J&#039;WP3]TZXV?*)]?T899:\B!2&gt;5V&gt;O+
+MU\W_ $&gt;#X$&#039;. S1H\?KD8ICH%ZBF.H3_ &quot;N/\/D4Q[$&lt;),-F3A2ZC,+-J/+A
+M9&lt;D&gt;/N?JJ(8M2&amp;IO8?&amp;?:* L4;=&quot;75:%9.Q9NB;N(V4L?&lt;&gt;-?U&gt;&quot;?NG7&amp;SY1
+M/K_%O^CP;]N;/EQ!CC)38.&quot;*C/KB*JL+T-8V (/&lt;*,9&quot;&#039;7&#039;CX;6(ZUY-%%Z;
+MEX^_B)0:M2D]ME_J\I8;9V1,./#ZSZS:,HU-?%?[CQK^KP3]TZXU_*)]?XM_
+MT&gt;0CP[3#/$HI#T1A&gt;Z5#T#-TF%@+VYCOXK=_&#039;&lt;E64$D0Q9\R%Y/(SRLCQ_V]
+M8U)/QV[RDQ-:!\4Q_P&quot;4]_G?&amp;.:-EF,DO;]$:=_+#&gt;,DJ-)V\T;LX^[WE)\G
+M$Y)&#039;F&amp;&gt;6&amp;7M^//;\&gt;&gt;WX\]OQY[?CSV_&#039;F^5WMZ^ 1UW_   OKOW&lt;T==^ZF/7
+M_P ESW&quot;2\TRAJO 3E_R(K\4L2*#_ !-5FD;M?W0,K1E!XUQ=,&#039;XZ\6([FZ7#
+M6,6MB$JBA\&amp;J*YJ&amp;(S 62FEF2H5]4%;/, _6U&lt;1V S3E,KI&amp;M*F0WA2K&amp;GE&gt;
+MQ=RS6&amp;V?:P&amp;KR#58NNCZP,330&gt;&gt;OENL\^NNMF?6/Z\O5^O/]/ -DI85=KVZ3
+M:/$?[&amp;*ODJ@_5_4TF3+%&#039;IEE-&lt;N&amp;7Z]:IZN&quot;H^J40W@1&gt;&amp;@3&amp;U2R&amp;\ ,PCA!
+MT&lt;CF6!PH,*BORTY@-EEA&amp;\MH+)S&#039;CLV^+/C5^K2&quot;\6_7_9R[^;;A.TU#;J#]
+M?]&gt;T]NW1:&gt;&quot;Z8CPV4IEAW8M.:YO]I&gt;0.6CNV#]51 6]AJ&amp;.+CD:.&quot;B=3ZH;D
+M1J^&quot;A?7_ %0OJO;&gt;\,WC6&#039;&#039;KBIO[6)MFYR\F(#]VD_\ 5 ?=Y7_45?JL/VE%
+M:/&lt;IL4KZE*C4%L_&gt;,1JXN @B06^\&gt;RZQ5K_U6S2-9OX]W(^0&quot;28EU[= !$5A
+M%G0 B_4]SS*QT&quot;;&#039;,+[[GY&amp;A8FS!@AS,6&amp;TQYV6PVZ/(1CMI8FH=A-_3VT_!
+M0OXH -62D[LWDJ)(KJNUPMA*R)(Z4=@2O8I&gt;QHQV:ATKJ#,VM&amp;K9I#$M0W,H
+M=CSH7_-JU;9&amp;T3#W&quot;,CB\&gt; ;AH@H8RC(S;,C0(,LI-T5VW29&lt;M388 VA?Q1.
+MU;&lt;I&gt;$63LQVZMVGO##/9WS3UI[W&#039;8@6&#039;(YUCWEZ(&amp;$/9,,1AD67S=%7OX/FO
+M5MW99Z\]67.]6SK7P&quot;-&amp;E)4C#3KW\EPP&amp;(D!,T#CLFX &amp;K6[LH*4&#039;KAMT)Q2
+M99BQ*C@YVH:9(NZHR=,U@P691H7\452WA%J$7/RH=:W&quot;P=L=B4K-D#&quot;Y#]?M
+MX[][LA&lt;):.2C\K4FBCTSB&#039;-V#&#039;.V-X^4P\;&quot;JA/J?B-NDZVA\:=SHW=&lt;;&amp; 1
+M,IOE1&#039;/X@FZ$1I=O136Q?;=;2 Y_HD[R.D&gt;VB$$M9-2,N( _/G2HE-ZL_P!O
+M;BUYEVAWDQ)KC0OXH6%C)M;6&#039;QJ$#UPG W&quot;B-7&gt;/T)B#6]6G2&quot;2K%%[&gt;3KSX
+MX#!0+]G;^\C^. PJ&quot;LU&amp;[1CE05GT_D;3\?X2V&amp;%C]Q8B \:A$Y&lt;=5GM3.TS4
+M.I\Y&lt;=(QDN&quot;N!&lt;CYG/QF%XKS&quot;&#039;R F*&gt;H^,XC[EJ/4A9(ROVVG63QK#CETE!W
+M&quot;R%8&gt;/D%B&quot;VY6W2&quot;3K!%[&gt;CCUXXC10&#039;&#039;1MRW)/C&gt;+* ;+2,D@[0OXH6678I-
+MK#Y*B2&quot;X3FR&quot;I&quot;K_ &quot; AK8:W+)[?R59/&amp;Q%./&#039;D&gt;.*@OW-W[R/Y&#039;CA0&amp;S&#039;?-
+MX.5%9?N 1M._XC,&amp;%SI DB \E14!&lt;=&amp;7-L.TU;NM&quot;Y&lt;5VQW2&quot;N&amp;&lt;P!G/R:&amp;=
+MKC&quot;7S/&amp;:&gt;N^,F#[DMO6^Y([1FI&#039;63R5$$%TC-WE)]8&gt;0&lt;)=#6Y9/O\3K%Z[1
+M3CWY&#039;CBH+&#039;=MQW)/DB,% ;*=\G@Y0F&amp;SNJ&quot;OW;&#039;T_P&quot;O1W\_1US_ %SOY\_W
+MSKY&lt;[^7?S_WWSKG^NO1WSOG?.OGRA?Q!_\0 31$  0(#!0()!P@(!00# 0  
+M 0(#  01!082(3%!40&lt;3,F%Q@9&#039;!\! 4(C6AL=$6%R!4&lt;I*RX14C)3-&quot;4H+2
+M-$1BPO$P4W.B)$.#P__:  @! P$!/P%RQ;(E)%,S,-BE.LDQ+6_8Y&lt;H[*@)Y
+MJ$]E/=6&amp;KI64L!26DD&#039;HBV[2L&gt;5&gt;++&lt;N%4U.@ZLC6D7;E+&amp;M)!*60E2=1EV]
+M$6]9=CV&gt;UQKK().@H*F++MNQGG0V]+!(.W(]N0\&lt;T?(ZS/\ LCL$6E;=C-.X
+M&amp;98*&amp;_(5Z,CE%@V78UH,\:TR.&lt;4%08O)*6-9R!C9&quot;E&#039;09=IBPK1L:;&gt;XER7&quot;
+M:Z&#039;(CW&gt;.R&#039;KI64VDK6TD :P_&gt;&quot;QPYA;E 4]0/93WD195@V/.,!]EH4/-GT&amp;+
+MR_H6SB&amp;^(&quot;E[MP[/C%VWK&amp;GW.)5+A*]FA!ZZ1/7;LB6:+SK0PCF@7@LCC&lt;/F
+M@P]5&gt;RE/;$G=&gt;R7VPZTT&quot;DYZ1&gt;28L:1=XA,NE2AKL&#039;1I%VDV-:-4&lt;0$K&amp;=,C
+M4&lt;QBU[#L:29+[S0IT:\PB5M^QU.X794!.\4/LI[JPW=&amp;RE#$EI)ZA%M6G8TJ
+M\6&amp;I&lt;+PY$Z=.PUB[DG8UHME2&amp;0%)U&amp;7;T1;]F6-9[7&amp;.L@G8,L_&amp;V++MJQGG
+M0V[+!-=N1[&lt;A&#039;R.LNE&gt;*&#039;8(M*W+&amp;;=P,RP4D;&lt;A7HR/;%A638T^SQS3(YP0,
+MC%Z)!EB?&lt;::%$@]T7ML]V8LALLBN&amp;AIS4(ZZ5K$E*K4Z$MYGFBQ)%;$DU+K.
+M:4@1&gt;6R7I&gt;:4V[O/6*Z^-L&lt;&amp;%E/)4J9(]&amp;E.DUV=$&lt;)UEN.M(&gt;;%0FM&gt;NF?L
+MH&gt;F++LYZ8=#36:CEX[X5+$L&lt;2#G3KBT;.=EW2TZ**&amp;6?=O&amp;Z.#.S&#039;F6%O+R&quot;
+MJ4ZMO1G&#039;&quot;A9;I=3,CDTIT$;^8[XNO93TQ-I0UO&#039;4 0:\W-O,6_(+F))QAL^D
+M1E$S*+2Z4KR//KV1&lt;&quot;SG9&gt;1_6Y8C7GT [HX2K*&gt;3.%\\E=,^JE.;?%Q+)=&gt;G
+MDK3R4FI/;[]T7SL]V9D%(9S5D:;Z&amp;L&quot;55CP_\]FM8NC9[DM9Z&amp;GAGK3I-8OQ
+M9#K$ZM2M%&amp;H.PU^&amp;Z.#6RG537G&#039;\*:Y]WQW1PB6&lt;Z_)A36&gt;$U/10B).36IT)
+M0*GFBQY-;$FVPYJE(&#039;LB\-DO2\RIMW&gt;&gt;NIU\:1P862Z%*FE&lt;FE!SYYTZ-\&lt;)
+MUF.NM(&gt;1R4UKS5I\(LNRWIAX--&quot;JCXZA#LL3+EFN=(M&quot;SG67BTZ**&amp;OC=SQP
+M9V8ZRPMYP4&quot;Z4KS;?AS1?/UF]T]PA-Z76W0S4!*:)S!).5&gt;H9PB^3Z&quot;3Q:&lt;5
+M&quot;&gt;G=XWQ=6\#LXI;3P%4T.7/L]D6G&gt;29XQ&lt;NI&quot;24D[/X:9&gt;T@=L*OQ--HJ0GD
+M_P#MF=^D6[//-21?:-%4KO[Q%FWL4H):0V.-7M&amp;FASUYCX,72MAZ;94I\C$#
+MT&gt;.W2D7QFYAEUA2&quot; DJ TSU&amp;_F[H W1&gt;B&lt;7+R+KK&gt;H$7/G%K+K:CB&quot;3D&lt;AL&amp;
+MZ)Z:2RRIU6P19]NN3##JWW,*D&gt;E6B:T/\(J-]8NT)GS)&#039;GAJLZ^.:+Z7C5+/
+M(:0&lt;N4K+7FZQ[HL&gt;\;CMH&lt;7FE%&lt;( I32N&gt;WLBWK33*2BYC= MF&lt;6QZ&quot;OUB%9
+MF@&quot;L)&#039;. ,HL&gt;:X^5;=%3B UU]D6O&gt;A2;3XO5I- 136O/V=N&gt;R+H7A7-S3J&quot;?
+M1H&quot;!337_ )B]=JF4E%+1RCD.DP;9?5)&gt;&lt;-K(&lt;14*R3VG;INSSB6&gt;JT&#039;##5XR
+M_/.(?51M6( TR&amp;&#039;;4_U1&lt;N&lt;=&gt;:65+Q)KZ-:5]FP[,M*1?&gt;UUL(0RTHA2SLS-
+M!N%#MRZXEK7&gt;7,RCC:@$N:@ :T-?&#039;3#S@2DJAJ]STPE[$K,TPDC0%5,N@4,7
+M0M)Z884&#039;S4I)%8OGZS&gt;Z&gt;X1*6!*.H0^X@8J&quot;#=^1.6 ;NV)*SI&gt;431I(2(=L
+MJ5?)&lt;4D$J%*Q\GI+!@XL4RV;M(F[-9F$&lt;4\FHC]!RE*&lt;6-*:;(D;.9ED\6PF
+M@YHO7?:68FD2^ .834\W1SQ*3C;[8&gt;:-08OI:4Y*,\&lt;PD*;_ (HN+;DY-+P-
+MM)0R-:9&gt;#$Q+H=06W14&amp;&#039;;%E&#039;#5;8/5UP!3(0[9&lt;NX2I: 2&gt;:&amp;;&quot;DVG \AL!
+M0VTB\-L-,N-RSK&gt;/&#039;W=.W:.B)BTY-Y*GURE6Z@ Y9FM/CX,,X4MC *&quot;$WDEE
+ML*6)8$*739F=&lt;^R):]$CQR&quot;PCEZG+T=E#UQ,2C;M.,%:;X?L&amp;2=5B&lt;:!/1%!
+M&quot;[*EBCBRV,(YH1-V7(DH&quot;D-]@AIZ4FB&#039;$$*(T,(LY@4PI&#039;HZ0\VEQ)0L5!AR
+MPI-2&lt;!;% *:;(E)5IA&#039;%LIPI&amp;[*+Y^LWNGN$7LMAV5LQ&#039;$Y%65&gt;TGKRB1M5]
+MMX.-J(5O^._KAQ29UIQY\TQ!&quot;L@5:TV&quot;+B-MH8&lt;0C7%GEAV#0:B#I%[;=GF[
+M4F&amp;VWUA(6&lt;@M5/?&#039;!C-O/V4%OK*SB7F22==YBD3MDV8A];2I514!BU&amp;8[8ND
+MN5+!$BDANN5=O1%[;R)D$I2I&amp;+&#039;%B6NRRZFSY=G#4U_II6O;E]*U[OMSBTJ&lt;
+M4:)V99[&gt;F/D:W@4R&#039;%!)-:94!K7++WQ)RI::#1454WTK[*0;C2Y&amp;:U8JUKU$
+M=\?(.4U22*4IIE3/=OA*:&quot;GEO19SK[/HN%&quot;1F::D;A#&lt;@TA-6Y1(3O&lt;.9ZJ&amp;
+MGC*&amp;+&amp;#CX0VT6&#039;#HI)JGK_,&quot;+YWNM63M)R69?(2,.Q/\H)V&#039;;%T[ZVK,6FPP
+M^^5(4K,43N.X1PCVW-RTRA+#A34;.G/9NBX]OSS]IH;=&gt;*DT5D&gt;KFZ8OGZS&gt;
+MZ&gt;X1-V,W/R 8&lt;RW&#039;&lt;8E&gt;&quot;U27:N.##S U]^4*LE3CTQ*RWH\FFRE*;J1=JQW9
+M-I2&#039;5XR3XWP8OEZVF?MGNC@G]3I^TOW^2T;NIF&#039;5/8RDJ3ARW18]C)D@IML^
+MB3D-T6U=UB&gt;*&gt;-KZ-?;$K=)EIU+X42L&#039;7JI3HV]/_5QC?&amp;-,6I(V/+.%Z&gt;H5
+M+_FS[.:+!D9-M!&lt;D3Z&quot;MQRZMD&lt;)?KM_^C\&quot;8N/ZXEOM=QB^4DT_/H#HKZ&#039;?%
+M@6&gt;RQ:C);32N+W1?57[4&gt;Z&gt;X0Y;34C9R9AW&lt;.LQ*&lt;*=7:.M^CS&#039;/W9Q9$TWY
+M[,/U]&#039;(UZHL&gt;VF)U*E2YJ$FG_&#039;DG^#:RYI]4RZ%8EFI](ZQ8=AL6&gt;QYO+ X:
+MDYFNO3%C7DGG;RO2&quot;UU:3BH*#8$;:5VG;%(K%/)-3;;#1&gt;&gt;5A2,R3$SPNKXQ
+M7$, HV8E$&#039;K &amp;71&#039;SO3&#039;U=/WC\(^=Z8^KI^\?A&#039;SO3&#039;U=/WC\(^=Z8^KI^\?
+MA&#039;SO3&#039;U=/WC\(NGP@-6BX9=Y/%N[!6H/NSYMV8VCZ&quot;ZT]&#039;6/DI:*OWG\1Q9;
+M%?EEV:19]UGN/8?F$#T&lt;6+;F55$&lt;(TH^FT%+7R54IV=QKEUQP72SZ6&#039;%KY*C
+MEWGW1PE&gt;NWOZ?P)BXX_;$M]KN5&#039;&quot;5:+K,ZV6LO1S]_N!BY-L.NVJUQQJ/2]Q
+M[@8OKZT&gt;Z&gt;X1&gt;BR79JR6BR*E-#0=%,N?.)&amp;S&#039;7&#039;@VV*JW&gt;-.N$W97,H&lt;D&lt;6%
+M2 GKH*4C@^LM^3EG&amp;7TT.+Q3R&lt;(CRV[%?6V2DC#F,CRAMC]-SO\ WE_?5\83
+M//!SC0LXSMJ:]NL.6W.X3^O7]]7QBRU$RS9/\H]WEX1O4SO2C\2?IW.];2WV
+M_C ^DXRA8HH5BD6C&lt;BRIMXS$RSB6=M5;!388D+DV-+OI&gt;8: &lt;3F,U?&amp;+&gt;N5*
+MV@\&#039;GR=-F6_XQ9W![)RLPF9:4JHWGF([S%]D_M1[I[A%C_X1L_Z1#-HRKB^+
+M;6DJW5BRC2T9CJ\M^Y!^:LEV7ETXEG#E_4#MARP9U,V)%3?ZX_PY5S%=]-.&gt;
+M/F_MKZL&gt;U/\ =%F7&gt;GI]&quot;_,VRO#K2FW34B+-:4B7;0O4)&#039;N\O&quot;-ZF=_I_$/I
+MW-];RWV_C ^B3Y7:X#2+)0$S2%&lt;8D+Q:YU.^I(]D7KO_ #+&lt;RIB5.%*33G)&amp;
+MN^@V1&lt;:^+LZLR\SFJE0&gt;XQ?7UH]T]PB]LZXU8S26\@J@/833KB7F5XQ0_ET1
+M;=IS 9$TDT&lt;)0&lt;M^&quot;+LSDV]*)7.(PJ\E(FKC\;;2;7XW2GHX=R::U[O)&lt;:YB
+M[(2Z%N!&gt;.FRFE=Y.^+4M!,I+.32Q4(!.7-&#039;SR2&#039;_ &amp;7/_3^Z+J7R8M?C.(0I
+M.&quot;FM-M=Q.Z.$?U,[_3^)/T[F^MY;[?Q@033RWCG&#039;DWKE&amp;DK(20G*II_]FHTB
+MUIY\7LEV XK 0G+$:&lt;ES9I&#039;GKWRQXG&amp;&lt;%-*FG[O=I$O.O_+%;&amp;-6  ^C4T_=
+MIV:0XJB28L:&lt;(G4.$D@JU(_/+7W1&gt;ZXTSYRIZ73B0HUV5%=A&amp;47&quot;N&gt;]*+\YF
+M!3*@&amp;W/:?&#039;Y7T&#039;[4&gt;Z&gt;X0S9C,Y9J&amp;&#039;Q4%(\&quot;);@QE4N8G%%2=V7MB1D&amp;G+0&gt;
+M&quot;T@X2&quot;.R+9NU-*?#C#JZ*US&amp;61[Z1&lt;I;JK/07C4U5MKM.Z+3M&gt;6DF^.FEA&quot;:
+MTJ8-_P&quot;Q?K*&gt;W\HLJW92&gt;&quot;E2;@6$ZT[?=Y+Y^J)G_P :O=&amp;V.!7_ #/]&#039;^^.
+M$;U,[_3^(?3N;ZWEOM_&amp;!I%Z+RVDU:4PVW,+2D+-!B,&lt;$EK34UYQYRXI=,%*
+MFM*XO):ESUS-L,VJ&#039;*!NGHTUIBVURY6Z)VYSCMMMVMQ@ 0!Z-#7(*&amp;M?]6Z/
+MD&lt;K].?ICC,J4PT_TX=:]T-W.6FW56QQF1%,-/](3K7FW0=,XE;.LEM[SI!SJ
+M:9Y5KAR&amp;FL6U?&quot;3D5\4X25;A%BW@EYY)6P=-1M&#039;C9%_75&quot;UW@-X]PAZWDV?9
+M33Q%20 !SQ)\)\WQOZP IW 4[,S^?-%WIE+\Z\\WHK&quot;&gt;T1:ZK-+S@&lt;G&#039; K=7
+M*+B-!%FH&quot;5!69S&#039;28X7?5(^VGOC%&#039; Q^XF/M#\/DOGZHF?\ QK]T#6.!7_-?
+M_G_OCA&amp;]3.]*?Q#Z=S?6\M]OXQLB^&#039;K:9^VJ.!;_ #7]&#039;^_R7S&gt;&gt;19ZS+DA6
+M6FN9&#039;3#]K6C(XQF586P-5#%Z9/\ +K0#3&lt;(FKQ6@^I38&amp;&#039;]T10&#039;*JD5Q&#039;K.6
+MU.W6+N3[TS*I&lt;F,EYC:-&quot;1M@Z1)V6TY:G%N(*1B*MN?=SZ^R+UL.IGG4K&amp;=3
+MV&#039;0]F752.#!AWSS%L -&gt;NE.^.$(_ME_I&#039;N$6Q83D]8[26&gt;4D ].5*1)74GEO
+M! ;(Z10=9^$77E/-YAQC7 $CL$3;J&amp;7W1*NMX5&#039;/&#039;D0&gt;:+GM,HD$)85B&amp;&gt;?/
+M7/VQPO&gt;J1]M/?&amp;V.!?\ &lt;3&#039;VA^&#039;R7S]4S/\ XU&gt;Z-L&lt;&quot;W^:_H_WQPC^IG&gt;E&#039;
+MXDQT_2N=ZWEOM]QC9%X.#6U9F?&gt;F6PC&quot;M1(]+8=-D&lt;&amp;UU)RR^.\[IZ&gt;&amp;E#73
+M%S#?Y+7O=+R&lt;\U9SB5%3M*$4IF:9YU]ABT[VRTM:#5G.)45N4H&lt;J9DC//&gt;-T
+M/7MEFK41910K&amp;K.N6&#039;0G?7^&#039;=&#039;RNEQ:HL?&quot;KC-:Y8&gt;3BWUTYM84FHI&quot;;G/\ 
+M&amp;UX[T,5:=&gt;+?K77?TYQ:5BRDW_B$!42$@Q+M\7+I&quot;4\T7^9K:[QYQ[A%FJ2W
+M*(4K( 1*WLLYYSBFW!B/C6+)]8S&#039;5 NM(54I30)5%GV&gt;U*M&lt;2P*)W1PFV7,S
+M=FAJ505JQI-!UQ\B+8^K*]GQC@KL&gt;;DV7DS;902H:[?1\EH2*)EA&lt;N[R5@@]
+M!CYI[&#039;W*^^8N[=*3LO&#039;YI7TZ5J2=*TUZ8M&quot;SF)IE4O,)JA6H\&gt;S=&quot;^&quot;%&gt;+T)
+M@4V53GU^E&#039;S0N_61]P_W1\T+OUD?&lt;/\ =&#039;S0N_61]P_W1\T#OUD?&lt;/\ =&#039;S0
+M._6!]P_W1=3@_9LYTS#JN,&lt;V94 ZL_2Y]VFV*&gt;4Q?E:?E-(BNN#\&lt;7O6/E5)
+M=&quot;/Q+BTG!\M&amp;,]@_ Y#JT_+9*:YT_P#Y&#039;R&quot;\\\B=4RT.-2#NIU8M,HOC;[\Q
+M-K2LY))%-@IEVG?&#039;!I;KRGO-5FJ2.PCNSB^ZC^E7NGN$7U&lt;&lt;%DLA.AI7L^-(
+M8&lt;659F+FJ6IQ2G.5A17II]&quot;@^A&gt;FUUR$DN9;%2*1&lt;N]+EHI6&#039;DT4GW&amp;&amp;[_OK
+MM3S1*1@K3LB]%]ERTP)*31C=,67?F:1.&quot;3M-K 5&gt;/&amp;L6[?6U)-Y6)D!L&#039;(Q9
+MM[;34PZ^^S0)22(D[[VT^D+98J#%Y;WVE)S880V*+Y//IWF+R7TG9&#039;B4E Q*
+M%3%J7M*;(_24N-:&gt;TTBT+VHE;-1.NCTE 9&lt;Y@7^M1I(F&#039;Y?]48LVT&amp;YIA+[1
+MR,*903B(SA4NA2L9 K&#039;%)Q8J9QQ*,6.F?DG;IS[TP7&amp;UX$D_S*TW_E2+Q&lt;&#039;8
+MFG./850G6N_?XK\;JW.19M7%&#039;$LY&lt;P$7W&#039;[5&gt;RV]PB5E&amp;IB22TZ*I(B5N!9[
+M3O&amp;T)YB&lt;O&#039;3%EJ&quot;9^8)YH2L$5$7TM)Z3LQZ9ES1:1EVB+.X2;8&lt;F6VU+30J2
+M.0-J@(OI:KTE9CTU+GTTTUS_ (@-(LSA,M=V:;:6I-%*2.1L) WQPB7JFK+:
+M;7*TJI1&#039;I G05WB+E\(4_:-HIE9@)PD*.0.P?:,&lt;(_JASJ]\67: LYT.#1QD
+M&#039;K ^$66P43&lt;ECU-3VYQ9J@F]#O&amp;Z[/\ UCA,H9N62CE5[Q^4&lt;)_JM%=XBT/4
+M&quot;OL=T7-D;95*I5*.A+6[KSV1?Q)_2,D#KB[TQ?1K&#039;:TJD[:B+04N2EIJR7-A
+M!3T5&#039;=[:Q?-)\QD?Y:&quot;N[9^&lt;7P6T;&#039;65Z4]NR.#HD62@JTS]\25\GG0J8+/Z
+MA-?2KNYHD;\K6:/LX:IQ)SU^$,&lt;(+[A2$2_+Y.&gt;[7JYXNW;?Z0E$S.&#039;#79]&amp;
+M^:1^DW&gt;GN$6M&gt; V?9:&#039;$&lt;LT B3X0;12Z%%&gt;+F-*&gt;S2+2/G@&lt;?1DDX3LT(VY@
+M&lt;^L7+P^;JXNH34T!V=&#039;OCA&#039;]23&#039;0/Q&quot;+(_QK/VT_B$&lt;)7J28ZOQB+$_QS&#039;VT
+M?B$&lt;-&#039;[AC[2OPQP7&gt;ND?97[HO)8OZ0DU2N+#6F&gt;L6KP&gt;^&lt;R[#/&amp;4+8IIK[8G
+M+F\9.,S*5T2V*4I^&lt;7FN4B?&lt;$RTOBW1MBQ&gt;#_BID3&lt;X[QBAIX]T7NNXJTY8,
+M!6&#039;JK$S8Y79YD&lt;6J:5B7X.9]E.!J&lt;(&#039;-7XQ&gt;&amp;XLU/37G&#039;G%*:9::&lt;^\1-7-=
+M&gt;?EWW&#039;:J:URUB^%R!:BTNH7A4.:OBD3MUFIBSDR+QY(&amp;?.-L(X-)DT:&gt;F26Q
+ML\&amp;&#039;[&amp;&lt;&#039;%(E5X&amp;TZBFHB0N&gt;\R%2W&#039;?\ QS7T:;^&gt;)&quot;XSR%5F&#039;L6%.%.6D2=S
+M%-*EU%?[H$::U&#039;3%VK&amp;,A*B7*L5*Y]9/T;Y^LWNGN$6M8!M&quot;S$-IR4*$?&quot;)+
+M@]M NT4C&quot;-YIW&#039;.+1L-YE&quot;TMMXD)PTKGD.8&#039;Q[(N&gt;V\F75QB:9Y:BO:3%Y;&amp;
+M-H2+DD%8&lt;&gt;VE:9@Z1)\#ZFGT/&gt;&lt;UPD&#039;D;C7^:+T6,JT)%R32K#CVTKM!YMT2
+M/! ZS,-O&gt;&lt; X5)/(.PU_FB_MTWK6::0RL)PDG.NT4V1&lt;_@XF;-GTS;KJ5  B
+M@!VC_HT^C2&#039;74I!6LT BTYE+X1Q$P$8LQIG%FVFQ,&quot;C+@64ZTB&lt;M!IC&quot;7E4Q
+M&amp;@Z3#EZ))*L!7G6G7$U-H9;+KAHD:PN]DFE(42&lt;^8URYHEKPRCKW$-JJK/9N
+MUB^?K-[I[A%GS+:6&amp;PHT)$+G&amp;DG&quot;5&quot;HAF80O-LUAQ]&quot;.4:0(?4H()3K%D3;[
+MJ27P!T&amp;O=Y%+2G6!$ZXXEHJ:IBY](LN:==;Q/  UV&amp;O=Y&amp;9N;\[XE&gt;&#039;#TY]E
+M/(X\E JLT$-NA0JGR)F$%90#GY+:M%V6;&quot;VD8NN)=:E(&quot;E#.&quot;H#,PQ/37&#039;X&#039;
+M4I&quot;#H:]U(M:74[++:1J1&#039;R/FED(.%-*CH!2&gt;_+J$7:L9]M_SEV@ 2$^B&lt;C2N
+M&lt;7MLE&lt;TAI*5!-%5-&gt;C9SPU=.:#@]-..J217M]L6M*K?EUM)I4C;I$I=V9E$H
+MF$.I*TU!Q9BASWQ8UVGY:&lt;,T%@A5:]&amp;SQVQ?/UF]T]PB\=EOO\6IM%0&amp;]WV=
+M/]6Z+-L_&#039;:+@XC$A6N,:::&#039;=S1&lt;&gt;0XBST HPJ.L7^0%-)3Q6-1KG2N&#039;\]T6&gt;
+M &amp;4@;MNL3Y2&amp;5%8J*&#039;*+ARJVUO%2,()UT&#039;4G9Y+UR]H.3S:DMU;2H4^)A)B\
+MS6.1&lt;1GF-F&lt;7&#039;2Z)90&lt;;PBN65*C?3I\EB2L\W;&quot;BM&amp;1K4G=LS[!_Q4Q&gt;9&quot;/,
+MU*+&gt;,C04KGXVQ=NRO,Y-#&amp;W;TG7R6&#039;9[Z+:4X6C3/_GGV9;--GDOU(&lt;:TA8!
+M-#I2M=&gt;SIB[THZS)-M/&lt;H 1&gt;:0$Q)K1KT0;,?_4XFSC*6\)IR:*]+HRI[H0#
+MAHJ)&gt;[]9Z9;(.!0&amp;&gt;&gt;&gt;IUBY+&quot;V[.;2X*&amp;+Z6:7F$.)!*DJ&amp;GVAG2+-8&quot;K92K
+MBBC#78&lt;SO)TIN&#039;Y0XV%@I.V%V&gt;6Y-Y@M&#039;-S+T&lt;6P9_G%VVU(D6DK3A-!E%\_
+M6;W3W&quot;+7MXV?9B&#039;$\HT B5X0[1#H4I=&gt;8@4/9I%G3Z9B71,)T4*Q&gt;+A G/.&quot;
+MB75A0,LJ9TVYQ&lt;6]KL]5F8S6!6N_I\;HOO&gt;9=G,@-&lt;M7L\;(LOA$GD/5=7B3
+MM!IUTH!G&#039;G&quot;&lt;&#039;&amp;;(M3A$GENE32L*=@RTYZUBY-Y5V@P0[RT[=]=L7[O&lt;[(T8
+ME\E:DZ]%/&amp;R+MW_F_.$HF%8D$TZ.&lt;4IU^!%I6@F6EU3&quot;M$BL37&quot;#:)=)QTY@
+M!3VBOC9%U+&gt;,_*AU0](9&#039;=U1?F^C\J]YK*FA&amp;IV] ZL_A%S;]S#LREB9.(*]
+MG9OZ(O!:WF4HJ8I4C3G.R!PA6CQN+C/8*?&amp;G76+&quot;M83LHB9 I7WZ&amp;+X7\F43
+M)8E580G*NT]OC6+BWT&gt;FGO-IDU)T/&lt;&gt;XQ&gt;VWS9\KQJ.4&lt;A$GPA6BEW$5U&amp;X@
+M4/8!2)&quot;&gt;2^PE].BA6+Q&lt;($V9@IEU84 [*9\YK7JBXM[79ZK,QFL9UW]//%]K
+MRKL]E(:Y:_8!X\4BR^$6=;&gt;J\K$G:#33J A4PD-\9LBT^$6?6[C:7A3L&amp;7MJ
+M#%RKRJM!@AWEIUY]QB^?K-[I[A%KV$;0LQ#2310H1T\_4?%(E&gt;#RT2Z 481O
+M-*&gt;S,^R+.D$R[&quot;)=&amp;B12+Q&lt;&#039;TWYP5RR&lt;22=E,JYT-?&amp;^+B71&lt;D:O3&#039;+.5-PV
+M]?NH(OM=A=H,!37+37K!\&quot;+,X.IY3P#R&lt;&quot;=YI[*$YQYNG!Q6R+3X.I]#M&amp;DX
+MD[#E[:D1&lt;J[*K.8)&gt;Y:_8!H/?%^[H.SU&#039;V,U#*F_=3HSB[7!]-^&lt;)&lt;F4X4 U
+MSIGS9&amp;+1D$S$NJ75HH4B9X.[2#M C%SBE/;F.PQ=.[YL^5XI7*.9Z?\ B+\7
+M*&gt;FW?.908B=1WCO]D7.N),M3(F)H80G9M)^$7@L?SV45+UH3MYQG&#039;S&gt;6EQM.
+M+]HIVZTZHL&amp;R1)2J)&lt;9T[S4Q&gt;^X4R[,%^53B2KM!VZ[(N+&lt;M^5=\ZF10[!WF
+MGLUB]EWS:$KQ:.4#4;NCK$2G!W:)&gt;H48&gt;&lt;TI[-8L^03+L(ET:) $7CX/9L3!
+M5+IQ()KELKL-:1&lt;6Z+L@%/3.2CE3=T[*Q?:[&quot;[0926&gt;6BO76+)X.9Y;V%Y.!
+M.TFFG-0F%2R2WQ6R+4X.I]#I2TC$G8&lt;N^GCLBY=V5V&gt;R&gt;-Y:O9N&#039;C;T1?+UF
+M[T]PBS?W2&gt;N&amp;&gt;5&amp;V%[85R3!Y1A7)C;&quot;&gt;5XWP(1RH.OD3J?&amp;V$:PYK&amp;T&gt;-D)A
+M6D+ASE0K408.HC9&#039;\)A7(/C=#FJNN/C!UA,#2+R_XYSQLC__Q !&quot;$0 ! P($
+M 08+!08&#039; 0     !  (#!!$%$B$Q$Q B,T%1L084%2 R-&amp;%Q@:&#039;!(V*1T? &#039;
+M4G*&quot;PN$D,#5#4[+Q0/_:  @! @$!/P&amp;IKWMN2Y/K*EHS/N A5R$7S)M;4/=:
+M.YLHJZ4\TDW4U?(T&gt;EJG5E2RW$N+KQJ3?,HZNIDN8KE05SW#1Q4M?(-&amp;DDE.
+MK:ACLLMPC5R6U&lt;A653F\1M[**MD&lt;+AR=72YLK&quot;2Y&gt;.SAV20D%25KVBY&lt;O&amp;ZG
+M+Q-&lt;O:HZU[A&lt;.0K9R_)&#039;&lt;E1ULM\KB05+72,%RY.K*EH#WW 0JY#KF3:NH&gt;ZT
+M5RH:Z1VER&quot;%+7R,&#039;I&amp;ZDK*EA^TN%XU):^9,K*E]S%&lt;A1U[W#1Q5*XE@)57H[
+M-V&#039;ZJMQB%\)8S4E1-LQ87B$=.UT&lt;NFJDEXM09&amp;[)S^&#039;(R6V@6)8G%-&#039;PXM25
+ME.6RPO$XHHN%)H0HG9WNEVNHIA%.)7;+%*Z.&lt;&quot;.+753QW9E5)C4+(@UVX&amp;RI
+M6FQ]JHZH05!?)L5B%6R&gt;1HCV&quot;JXR6Z(X[!PO;V*EC(8 5AM6R![A+L55U(GG
+MXC-@JG0A_8J[&amp;(7PEK-25$WF66%8A&#039; TQRZ:ITPEG,HV6?ARLE(O98IB&lt;4T?
+M#CU)67F66&amp;8I##$(Y-&quot;%&amp;&lt;SW2=JHNC&quot;\6N+_ )(8&lt;SJ*J(0VQ&quot;;2,(#BA0-O
+MIVJ)@&lt;X-&lt;GT(9=W5\U41&quot;-U@H(F.S9AU(*)@&gt;\-*GC#;6%M$!?0*:D:UXL+W
+M4N7.&lt;FRI:427)3Z1L&lt;&gt;BCCS.#4:6,2;;]Z&gt;VSB%&#039;1!T6;K512MC:+*FBSO#4
+MRE8V7+;DEI/LP0+E530&#039;;65)&quot;&#039;&amp;YZD:=C6OTYPY)&lt;.:&quot;W3W_ (*HB#3S=E1=
+M&amp;$Z5XNVZX[OWE)+F-W&amp;Z:]PV*XC][H.L=&quot;N(3K=.&lt;3JXJGH7O!&lt;B+:*FC:]V
+M5QU5=3M9UDN*]R#W#8H+7M1&gt;ZUB5&#039;&amp;3=P.R$3P&lt;H=K\43HC3N!MFZDZFD -^
+MI ]B$KQL599B-;JSW]I1!&amp;BU.ZNFN=VIVNI5%T85&gt;3Q,@ZS]56X,R*(R1GG!
+M4TA#6D&gt;U5&gt;;,&quot;Y-W6%4,#J6,N8+D=BQZ-K*HM8+&quot;PY&amp;22Y0&lt;ZG#\W/W5/3F3
+M;J4L3B,Y-_.CE++V7C+KYD=5XV]&gt;-OM;S(9,IO:ZSNO8O_!.GL-3F&#039;MW6$83
+M32TX&gt;]ER;]O:L5P:FCIGOC98@&gt;U4,$;[EP!W[M/FL0IV-9=C1U?6_P!%1=&amp;%
+M6Q![G#];J1\\@X;W:)C@T-)UW4T@&lt;ZX%DW=81ZI%[EX1&gt;MGW#D$I M;VJ64N
+M=&lt;J*9S-DZ=Q&amp;7J_S25F&quot;=6\-H;FLN/Q.&lt;5X/^J-^/&gt;5C/JDGN7[6O&quot;&amp;NP^GI
+MS0S.C+G.OE-KV:VUU^R;PIQ+$)JF.NG=*&amp;L:1F-[&#039;.!&lt;?#14?1A8C((Y&#039;^\]
+MZD$\8SR-YJW8U/C&lt;W1W)3XY41QAC&quot;+#V*IK&#039;32&lt;24ZJHH8FX&gt;RH:.&lt;;:_BBX
+M&gt;8 2;!-PDVYSM?8O)&#039;WODO)&#039;WODO)&#039;WODO)&#039;WODO)/WODJJA=$+[CN\PKQF+
+MJ3ZD6&lt;&amp;WL;+#IHHY&#039;&amp;;\4US72.?&#039;Z*\&#039;_5&amp;_&#039;O*QH_X23W+%/ N@QB-K:\$A
+MA-K.R[Y0?HL*\ L,P=LD] UP+@ ;N+M+@]&gt;VI%U1]&amp;%BMQ.7CJ&lt;&gt;]5N,QR1%
+MC+W*I9&gt;&amp;UA59,)&#039;AS&gt;SDP=@=5,#M=^XKQ.+]P?@$8&amp;%N4@63*.*_H#\ I!SB
+M/:&gt;6@Z=OQ[O/K^@?YY8&quot;@H,2J(VY&amp;.L/@IL6J9&amp;F-S[@^[\E%B$D;&lt;K=O_/R
+M4]9(^,QG;3O!^=M3NJ+HPJT_;/OVGO39&amp;7T3_1;\&gt;7&quot;IVQU#7R&amp;P%^XIM?&quot;8
+MN/FYB\O4?[_?^2J&lt;1A@MQG6O[U(X%Q([3W\M!TS?CW&gt;?B&#039;0.]R/F75T&#039;!9N2
+M&lt;\PBR@IY*AQR&amp;P&quot;&lt;U\4G&quot;D5%T86*ZS%IV+CWK$&lt;,@9 YS=&quot;%AC0]HS]BF:T.
+MLPW&#039;*S%,M(:7+OU_&amp;^R=&gt;RQ7%/&amp;7-+6Y;7ZU#$7O;&amp;.M&#039;P7J?WF_/\EB.&amp;24
+MULY!OV7ZE0],/CW&gt;?B&#039;0.]R/F4&lt;+?)LKB-=?Z5!&quot;PX6]Y S:Z]&gt;X1A9Y+S6%
+M[_U*6)ODMK[:W_J**J(OLB+*FJWTQ-A&lt;%/?)-)QGJCZ,*O8&#039;R.]Y[UP7GFN=
+M&lt;(&amp;S!90U# VS@%4VXFFR@A?([)&amp;+E&gt;2:K_C*GIY(CEE:6GDPWUF/^((+PJWC
+M_F^BH.F&#039;Q[O/Q#H&#039;&gt;Y=:PS#:=U-&amp;YS 20.I&gt;$=)%$6&lt;-H%[_ $Y(,2R4KZ8C
+MTNO\/R4&gt;)9:1U+EU/7\0O*G^#\5R]&gt;_QNG8E&gt;C%+EVZ_C?D,K[92GU(:;=:C
+MF#]EAX^R&amp;BJY&lt;A-E-25,3&gt;(Y9KL:5 ),HLP*K-Y3?V+P;]:^!^G)X4]*SW&#039;O
+MY,-]9B_B&quot;&amp;R\*?\ ;_F^BH.F;\&gt;[S\0Z!WN76L(]5C]P7A7Z4?Q^G)3!N&lt;!V
+MR9#%):VVOL[$((QJ3??Z[*9H:ZP13ICP&gt;:5@T\;&#039;/#]&#039;*M&gt;Q]471?%8&gt;?L@J
+MUISYF[@_556,.EC,;6V)319C0HVW:,X.G8J@NS\[=&gt;#7K7\I^G)X4]*SW&#039;OY
+M,-]9B_B&quot;&quot;\*?]O\ F^BP_IA\&gt;[SZ\?8.Y*#&#039;Z&gt;.!D;KW [%CF)QU)9P^J^X]
+MW)!ATDL+YVD6;^5U#ACWPNG%K-O[_P!:IN&amp;O-.:D6L/QW_!-PY_B_C((R[&gt;W
+M=%&gt;-:6RZJ2)I])-8 .:L-@O&quot;#^MU([4DIM2R]@CZ(^*$SQI=.&lt;2&lt;Q6!5$&lt;51
+MFE-A8[_!&gt;6Z3_D&quot;\(:R*:1IB=&lt; ?7DBE+&#039;![=PAX15G:/P59B,TY&#039;%ZDUQ!S
+M-W0QCM;\UY7^Y\UY7^Y\UY7^Y\UY6^XO+&#039;W/FJNM,@RVL._S&lt;(OY/G/O_P&quot;J
+MPW_3)OCW!0?Z3(1VG_L$P&#039;R03[?ZAR&lt;!G##B;+#Z%M0YSI#H%44_ GX8-P5A
+M&#039;J[?UUJLL76=M?ZK%*: 4Q-@.Q-Z-O\ D01YW!JJZ;A&#039;?1&amp;@M#Q&quot;=534F=N=
+MYL%)1-R9XC&lt;*FI(Y&amp;^EJIJ&gt;,.#6NNI*.%FCWJDI6/9F)V5)2&quot;3-JHZ&gt;\W&quot;*B
+MIR^3AM*;0QN.1K]4YI!L&gt;2Y\R.I8&amp;6MW)O$C=FA-KH1NS%[S&lt;K&quot;GM$ O[&gt;]3
+M-!)!0HFH^BWDPZ!LM0R-^Q/T4_@_3-C&lt;X W /6&gt;Q85&quot;V:9D;]C^14_@]3-C&lt;
+MX7N &gt;M8)0,J7D2=E]%BV&quot;0P0F2,F]Q^ME1=*%+%Q1;L&lt;JAUXY+*3U0+#?1&gt;3
+MLL+Z11C[8&gt;]5DD&amp;&lt;AS;N6&#039;G[.2_ZT5 ;0/*:,[VSA4/2R#];JDOQ6K$&quot;.,5+
+M3!IR9N=V)]&#039;^Z;HT  /.V4T&gt;1Y8&gt;2W(0J/HPJJ0@V;N2JC#)H6&lt;7-&gt;VZI)-&amp;
+ME50YVNZP7UN/W_0JKZ%_N/&lt;L ]9B_7456&#039;[!_N/&lt;O!3I&#039;?PCO7A)ZJ?&gt;.]02
+M97!RAKBUSG6W3:JT;F=JIZLQ\TBX4]&lt;7-R-%@J:HX3LUD&#039;V?G^*?B#7:NC5-
+M6B)F3+=,J;!S0/2^2I*TQ=5[J.H+7YPO*0](,U5[WS&quot;]U)5!QS6YRDK+^BVW
+M:I*DNS&quot;VZFESNS&gt;851=&amp;%51DF[=P5/B4TK.%:W:J20-RMO:RJ,N;1455P96R
+MVO93&gt;$X&lt;PLX&gt;_M_LL/J.!(V6U\O_ (IO&quot;8/C&lt;SA[CM_LL&#039;KVTSW.&lt;+W &quot;Q3&#039;
+M&amp;U$/#:TC4=G_ ,#--QWIS&quot;WTA9 &#039;J0B?O9-UV7!=LG1. N51=&amp;$X\XJ_FN O
+MS?,ZT;7TY-,H/7RWUY+\D0NZRNB4;6TW3&#039;6(*\&gt;;NII0X96_-4\X8=MUXXTW
+M%BFG6Y4E4U]VD*6I#V!MME1=&amp;%23-;&lt;&#039;M3Y/L@&lt;UB.Q5,F9Y.ZHS9^Z._)6N
+M!(L&gt;2F=&amp;&amp;.OOR1&amp;SP55D%]P;\DKV&amp;$ &lt;D1.;&gt;REESN+N265IIPV^O)1R97:J
+M5P+R1UJ)^5UUQFD.L&gt;W^RZD^?FMMN%5N!D=94TN5VO6G.M#;-?D$N:1KK]2E
+M-W%471A54I&amp;@W)^JGPR&gt;)G$S7MNHY+BZI:22HU!LT(![)#%)N%(7%PC9N54T
+M$U.SB9KA!_-S*EH)9V\3-8*(NS&amp;-^X5GR2&quot;.-5=))36)-P5))9N9089/)&#039;Q,
+MWP4$A.AW4&lt;;YY.&amp;PVLIX)*=]GFX*GERMNO)51P^)?7L5/+F;=4U/)4.(8; )
+M[&#039;PR&lt;-^JGD(T&amp;Y51AL\3.*77MNHWW;=4M&#039;)4W&lt;#8!#.R0Q/W4A&lt;7&quot;-FY5502
+MT[.)FN%GTS*FP^6H;Q,U@HW.N6/](*BZ,*HC+O1WNJC$IY8^&#039;EM=,CL+*EJI
+M::[6BX*Y\CS+)NI6/#A(S&lt;*KKIIV\/+8+AZ952U\T#&gt;&amp;&amp;Y@HFO+B]^Y1SQR&lt;
+M:/J555RU) (LU/BS-RJ&#039;$YHH^%EVV5/$6C7&lt;ICY(9.+&#039;JIYI*AX&lt;X6:%419F
+MV1Q6?)P\NO;_ &amp;4$&gt;1ME3U$E.\EFH*?(^:3BR:*&gt;,G5NZGQ*:6/A6MVIC+-R
+MJEK)*&gt;[6B[4&quot;][S*_=2!P&lt;)(]PJJODG;PR+!6%LJIJ^6G9PK7&#039;4H[YB]^Y5&#039;
+M?AA3^DBFKJ0Y&quot;@CL$-N1R*;L@@G&lt;@00Y#R=?*U&#039;T&gt;1J8J+HPO__$ %80  (!
+M P($ P,&amp;&quot;0&lt;&#039;&quot; L!  $&quot; P0%$0 2!A,A,10B03)180&lt;0%2-Q@2 S0E)B&lt;X*1
+MM!8D-$-RL;(7,%.AL\&#039;1-D1D=&#039;63E*(()35C=H22H\+A\/&#039;_V@ ( 0$ !C\&quot;
+MJ;?;N..)4F&gt;:4_TQHXX5!.2&lt;=%4#27,?*&#039;QH&lt;CR\YY(D&lt;^@W;CMSZ;@-/&#039;+Q
+MYQ?&#039;(IVLIK&#039;!4^[0KH./^-(D9!(J13/(VP]F;+*%SZ#.3I:6X&lt;?&lt;6/&amp;Q8))X
+MN1?,.ZLIZJPR.GQ&amp;A;[?Q[Q4N!NDD:L?$8SCTZDDG  [Z%&gt;&gt;/N-I3MW&quot;.61X
+MS)TSA#N;S?HG!U_R_P&quot;+/_&amp;OIJ_^7W&amp;T; 9,&lt;3O)R^F&lt;,=R^;J/*,D::WW#C
+MWBECC=&#039;(M8^V1&gt;V&gt;O4=000&gt;H(TU+;^/N+4B4A6D\5(Q+&#039;LJJ.K-T/[M-6S\?
+M\92QJAD=))GC;9ZLN&amp;8,!Z]&lt;C4&lt;$/&#039;7%\LSL%116.2Q/8#3W3_*)QF  =QB&gt;
+M22-?&gt;-V[+8]2H.I[;7\=\5)4)ZK7,5&lt;&#039;J&amp;4^H.CX&#039;C[B^*GW%%(J&#039;=I&amp;&#039;4A5
+MSZ=,DX&#039;71GK./N,):&lt;8W[ZAXWCR&lt; XR05STW ]]4UOH&gt;.&gt;+9ZN5MB+XUO_X:
+M^F?\I/%_*V[N87D$&#039;V[\[MOZ6W&amp;JF@K&gt;..+Z&gt;KB&lt;I(AK6\I&amp;A44O&#039;W&amp;,,#9,
+M82=Y&#039;D .&quot;V,@*N&gt;F2&gt;IT$K^/N+I(&quot;_+W&amp;I=&amp;C;&amp;=KJ&gt;V1U!&amp;0=16VW\&gt;&lt;5&amp;=
+MLDLU&lt;P6-1W9C[AI;D/E#XT8M[(F=XD&lt;^@W;CM)]-P&amp;GCDX\XOCD4X96K&#039;!4_
+M&#039;0KHN/N-(E*&quot;18XYFD8*&gt;Q;+*%SZ#.3I:.X&lt;?&lt;6.C;@DGBI%R1W5E/56&amp;1T^
+M(T+?;^/&gt;*EP-TDC5CXC&amp;&lt;=AU))Z!1U.A7GC[C:4[=W+ED&gt;(R=,G80S#=CKM.
+M#K_E_P 6?^-;35_\ON-HV R8XG&gt;3EG\UCN&#039;F_17)&amp;FMU?Q[Q2S;=\&lt;B5K[95
+M]X]&gt;X(P&gt;Q&amp;N&#039;;E&lt;KY65]9)XC=+,0[MB&gt;0#)/P U//7\@1R.R*93A-PF5]K$]
+M@VS;GXZN:K+*K3T[(W/A,:TP(]IV/3I\&quot;&lt;GMJ\7*!#&#039;!/4R2H#[B?7XZ$4TA
+M@!*N6CC:38VQ5,;!1D$;&gt;GO&amp;-&quot;&quot;@&#039;UW.61A^4BJFT;_&lt;S9[=\*N=?S]4):6*
+M6,&#039; YFW&gt;&quot;HSTW?6;A[RNIE6:1D+1R.\D+1\O:P; W ;G., #WZ2KY*$&quot;7F\O
+MT]K.-4ZF&gt;78ID=&#039;CA:3G;F+?DCRN-V&quot;IT30!!LDFDD&quot;D&#039;EER/(2/RO)D_%M-
+M35X^N$KN !YG5T&quot;DH/4KL[=\,=-3P/S_ &amp;V#21E.8YC9!&amp;H;!/MY/H -6:Y5
+M*EZ&gt;&quot;H1WQWQ[Q\?75L!&gt;8RP4R1JM/$76HVC&amp;Y&#039;&#039;EP&gt;_4C&#039;KJ&gt;&gt;A,+11IRR8C
+ME-V]F(4^H&amp;_;GX:-#6^69$DBDVKEU4R;PX7N5ZX..VT:\#2-S)6A&gt;&amp;+&gt;NUIB
+MY7.%/7:NS.3ZXU0U5&lt;ZQ4I$D+2-VBWH5W&#039;X=&gt;OPSJ2?EOXDTV/#F/ZL&gt;7_2^
+MQR_TL]M7*LHF$M+Y(T?_ $FQ N[[]NO!53\IQ#%%*40L8F3(\RCKM;.X&#039;MDG
+M2T-%UG81(@88&lt;HK,QD*]U&#039;7:,]3YM135_(&quot;2*JJ9#A2RR*X4GT#;,9^S5S02
+M2HT\!1O$0M&amp;M,#^4[&#039;IT]PSDXQJ\7&amp;!3&#039;#45,LJ ]P&quot;Q[Z$&lt;TC0J2)-R1L^Q
+MMBJ8W&quot;Y((V],]QC0@H1B;G&quot;5E_*C58]@W^YF[X] %U_/U1G:6*6-3@&lt;S;O!4
+M9_*^LW &gt;I74H2:1TWQRL\D31\O:V[ W 9&lt;XVX&#039;OU#5F(,JRB79Z&#039;S9QJF1IY
+M=J[WC&gt;*)I.&gt;&amp;8M^2.C]&lt;$&#039;UTQH0@*/-)+M(.QG8&gt;3(Z;AMR?BQUPM]M5_$RZ
+MFNVR[W*^3T%?&gt;%6.JIZ&gt;&amp;E@BFD3V9//.WU3LP3&amp;T%??J.&amp;&amp;^WVIM&#039;C[9;E+%
+M,T]1+.L4\;=,9&quot;R1R)V\L@]QU9;O8Y[FUMK)ZZDY59M,B/32A&amp;8,H 9&amp;W#&#039;3
+MH0P]-6/B:2OOT-JK8**F^JG2-S&lt;)*PPRQAMI\JQQO+C&amp;?,FJ&gt;GHKC?@_T[5T
+ML\3-&amp;SFWQ3B!IE;;^,5VC+=,;7S^2=44%\S]&#039;/T&lt;^-6D53CH6F9)-JY[^4ZO
+MUUDN]SEX8MLT\;I4)BJ&amp;V6 1PYZKNE2I1U?&amp;-N21TQJU&quot;Q232VVKH$JU?Q:U
+M498NZMRIU5-ZC9CJHPVX&gt;F=&lt;&gt;PW.BN-3&lt;X+#6U]*Z51BBA,460Q5&gt;KMN(Z$[
+M&lt;9Z&#039;YN$[&#039;&lt;Y&amp;CH*JOAAEPVTE2W8&#039;T)[??K@^[4MK-AFN5L\3/0&lt;R5_#,*B6/
+M*\TEPK! &lt;$]\ZHK70IS:ZIF2GA7\Z1CM4?O(UPI1\/\ &quot;=+&gt;K=&lt;II[&amp;*.&gt;YS
+M&amp;*6KCF4+5.\$F5WQLK;&quot;&gt;@W=-7]&gt;#Z1:/AE*@Q4BB5I ZKY=X9B3AB&quot;WWZOE
+M;74-3,6F2V4$R5(A%)4O&amp;[\\]1O&quot;E81LZYYOPU2W6-*&quot;OXA-MI;S7S3551XB
+M&quot;*6H,(6-,&lt;K (&quot;G&lt;2^=QZ8U8.&#039;(-ZM65&lt;&lt;#,O]6A/F?]E=S?=I&amp;K+-%1&lt;-W.
+MUA[71RU-564E/7&quot;J$15I*1V8Y4;N_0RX]-7^SU$%)3STM;-3M&#039; [/&amp;A5R,(S
+M&gt;8K]O7WZJ;ZE,O\ *R&gt;&quot;IN=%,*WER)3P21IRN3NRW, JVWXP.6.NN#JN*D=[
+M@]15TUQKS.&#039;6ME C93&amp;-QQ&amp;,RJ#@$[&lt;GVAJS6FL7-LR]36&gt;?8/#Q*7&lt;%^FW(
+M7;G/3=J#AV[&lt;/44EAND-&#039;56Z*6MJI#!S4\U-320L8S)S-ZB20[/J^^IH9%,;
+M(S*RDYVX.N&#039;*Z@LD=?Q-2?1U3=(8*X^)KDJV;^;O#&amp;W,CV[J1 &lt;#/,.,ZM5%
+M3V2DL-V6CQ&lt;X*0RFFCJM[&gt;2)I&quot;Q8JNQ7()7&gt;#C5[NU]MU%&lt;[&#039;;:4/)#4U:TL
+M,LLDBHBO*S*%Z&lt;UQUZ\O7RRVBYVZX5W$5C&gt;/PE=/4MM2%JJ-$,&lt;7;S(VXDD]
+MUQCKK&quot;J6;T&#039;OUPA&quot;;;&lt;!1QBJI;PL-&gt;3]*5$-!XD$;23&amp;&#039;=)XMO0XC^.K1+9Z
+M8T%%7VBANGA&gt;87%(TT6XQAFZE&lt;]L]&lt;&#039;7&quot;WVU7\3+J]&lt;.T=^NM+9II9TEI5E.
+MPAB=XQZ!O4#OZZJ9?Y177F35,-9(&gt;&lt;?//&#039;CER?VEP,&#039;X#0KN(+O7W&gt;K&quot;[%DJ
+M)2Y5&lt;YP,]ADDX^.J*GH+S&lt;*:FIZKQL&quot;1RG;#48QS5&#039;H^/75/=$XEO27&amp;)YI8
+MYQ4&#039;&gt;C2_C&quot;#[VP,^_0N%DN==::T*4YM/(4;:&gt;XR/34LWT_&gt;&gt;&lt;]8MP=_$MEJE
+M?9F)S[8_.UX^]W2ON]=M$?-J)2[;1V&#039;7T^&amp;N(&gt;)J.[57#O.II*:W!7*&quot;X_Z1
+M9/\ W)QL^)Z]EZU=NN%-+1U\$C1312##1N.A!TG#_$=^O&#039;#ERF*_1T].4V22
+M#\@EAT&lt;]-I^[OC,-1&lt;&gt;-^+^+.-JP#DQU&lt;J2,(@&lt;&lt;R5B-VWN /4_8=4]?;ZJH
+MHJZ)@\4T3;7C;W@^AT(;;&gt;KK;XA*U0%AG9,2E#&amp;7Z?E%&amp;*Y]Q^:@@AN%9%#2
+MU&#039;BJ95D($$W3ZQ/&lt;WE7K\!J2SUW$5ZJ[4\[534TE2QC:5F+%MO;)8EOM.=&lt;2
+M&lt;44=_P#Y/16N(!Y42=I#S5&lt;;?J5)1&quot;%92[87S &gt;NK5PQ:OE)DL/$;122RVRF
+MFJXS;T:F-2=S*HC)*QID*3YBONR&amp;E=F=SYB2&gt;I/?1IZWY1?!SVJQ^*DK.35E
+M*2D++&amp;$@8#,D)\2W6/RD;]&lt;44ESN%)&#039;&#039;896$-)SBRU1*++*]+Z8Y7+E8],KM
+MU5&quot;CJZJDYT34\W+D*\V,]T;&#039;=3CMKP-MXHXBMU#R^3R8*V1$V9)V[0&gt;V68_M
+M&#039;WZ^&amp;I[E%&gt;KO%&lt;9 !+4+4N)),8(W/G)]E?W#W:AJVIN,^+4C7;&#039;*4GJA&amp;/&lt;&amp;
+MZXU/:;A#=;6DC*\E+.KQ;V7.&quot;R&#039;&amp;2,G]^JSG72Y2^(1(Y]T[&#039;GHF-JO^&lt;!M7
+M /; U!54TLE/4Q.)(W0X*,#D$:JJNFO5U@JIJE:V:1)V#RU )(E8^K@NWF^)
+MU47*[5]9&lt;KA*&lt;R3SR%W?TZD_=KA;[:K^)EU74E:L,D*5#D))[#.TX1=P]5!?
+M./7&amp;JX[7J?#PF1TFV[)5&#039;&lt;  ?5GW%&lt;8.N&amp;::SK%/4127JB+M7143E-VS&gt;M1)
+MY4D Z@G/7IC5AJKHZR%[4G)8W%*^1HQ-*OUM1&amp;!&amp;[[@_L= -J]P?FH7&gt;CI&#039;8
+MQC),8R=%8HXXDV+T48&#039;;YN&#039;;C2_+)9+3;:FK2TP0/3M&amp;*64*GD;^;[%55=/-
+MG;@_#44G&#039;-PBK&gt;*I*6-ZI-JB6F[[8YMH YFW:?7 *ZN&lt;5)&lt;S;):58&amp;#&quot;F&gt;8E
+MI)1&amp;OL=54$@E_P D9/IJO^4?B#BREO.YO!R3&gt;T\E&gt;K[/#*!Z&lt;H&lt;W?[.SXG\*
+MX^!MEGGK:B&amp;2 54RR&amp;2!&#039;C:-PN&#039;&quot;D$-V&lt;,,X/IJTWV2P\,5=]IH^3)621S&lt;R
+MNC\.U/MFQ+CV&amp;[J%/E&#039;74U53VZAM43$;:&gt;GW\N+IZ;V9OWD]]+2?0/&quot;7T,**
+M6A6W^%?PZI).D[G&amp;_.2\:&#039;&amp;=O3H!J02/;:J&amp;:6KEK8Y(?+&lt;#4)RVYO7L$&quot;HH
+M7;@*/P&#039;J:KABS&lt;35[H(J 7&quot;7;3TM06&amp;))%]EE[]&amp;P!WSJ2FNORX&lt;7U]VCZ2T
+MG&quot;5M9Z:DQZ&quot;16C5@/@,?$ZJ)J[C6P_+&#039;PE&amp;RI6V&gt;_4_A+C#N.,Q;LL3^DC-C
+MW:CJ3;XEWLYV[V.T;C@=_3MJLEBI(TD5,@Y/35?-Q)16VI&gt;.YTZDSLX/ARC[
+M]NWX[/CJOK;;:K-17=9(Q&amp;],\I?&lt;9SY&lt;%F7E\OKGOG&#039;77&quot;_VU7\3+JON=&#039;L=
+MA43(Z-[,J%SD&#039;_C\-+;&gt;56RM@=)Y$*9&#039;8OM4-)CW&#039;&#039;QSK@6]7JE6\0AKG))%
+M)!%-XEB_9A*&quot;HR3[6&quot;1W SJDK+1P_2&lt;.4D=/RN1$D:C=O=STC55P-^T=,D+D
+MY)/S4&#039;ZH:/ZM/[OFLMM&gt;TVFZ4=#=&#039;NZ1U(8K+*8T3;( 1E!RU./7UZ:I+A=D
+M@DNRTZP3U0&#039;UE&lt;5[22^]]N%SZA1JN^@Y8()*AJ=V=DW,.3*)5Q\,C!&#039;J,C57
+MP_X&amp;RTG#\L7+6BBA814[\XR\Z,%B5ERQ7=^;Y&gt;W^=[Z&amp;J2S&lt;+7*]VZUT:XV6
+MQ_&quot;(6/Y4K)MWN?&gt;QSTU30\6R3U%UI$Y/,J(0*AE[CF28W2? MGIJD_:_Q&#039;5=
+M^K_WC7%JUU)3U:I-3E1(,[?*VD&gt;AH*6D9JZ)6,:XR.NN%CT[U7\3+JKMU&amp;4$
+MK32N\C^S&amp;NXY8Z6Y&lt;RM1L#\?&quot;JH3Z!L,6CSV\P^W&amp;N#:9XI5J1)71E,&gt;8-SE
+M&amp;,&gt;_5&#039;0&lt;049MU?-2I5\ACYXT?. X_);R^SZ?-&#039;!&amp;8-BC:,H-&lt;^?;S, =!C5+
+M6)#BI;;EMQ^/_#\$*O4Z!+-WQVZ9]VO;;7MMKVVU[;:]MM;ERR^OP_ [X^.H
+MI[/!&lt;)&#039;M]OJK+2Q5&lt;&quot;NE?1E8=H; &amp;Q6*5.5;)&#039;/)W&gt;[COA[AJ]&lt;0K9JI;1!0
+M1R IOAAIN5.) #@$A8P?S]NIHKBU-%&lt;H\@LR;MC%F)S[MR[/-Z[&lt;&gt;FE^@$B1
+M$#[@HQL4XP,&gt;G7F-M]-WW:I/VO\ $=5_ZO\ WC7$57;):&quot;&quot;-ZE5=J@J!A(]Q
+M/7L!O&#039;[QJN%U@IUCIY!4[&lt;*K#8V&amp;[?VL_8&quot;=&lt;+=/6K_BI=5-57&amp;&amp;.)Y2%&gt;0X
+M1768. Q]%.S&amp;?CJX#?+3^(A*.TZ;4@![G=V&lt;^X+G)QKA/C&lt;6*AO$+U-TDY%0
+MOFB5ZA3NC;\B4&gt;_[??JBXCX?JFJ:&quot;:UTXPRX&gt;%P7RCCT8?-2JZ(Z^;H1G\DZ
+M_HM)_P!TNA&amp;8HC&#039;^;M&amp;/W:7^:4O?_1+J&lt;#H-[?W_ #K]^DX/^CJ;DA\\_&gt;&gt;W
+M,W^Q^?GINSV_&quot;D^S\/?&amp;[QO[U.#\R005)2)&gt;PVC3PRU1:-^A&amp;T==5%MM$5J*
+M23&amp;9FJ*&lt;2]TVLNUO+@X7T_)U&lt;[3&lt;OHV&gt;&quot;ICD5F6&#039;:P9V4O)D=V(7;U]#KA?R
+M^M5_%2ZN&#039;Z^3_$=)55-MN%-2&#039;V9)(&amp;5#]A[:X+^VN_VH^&gt;FFF&lt;1QC.3]QT:L
+M3*:;\_7].B_&lt;W_#47BIUASVSGKJ=E.06)&#039;SK^&#039;)]G^9;TZ:OL*&lt;/&lt;93&lt;)_1&lt;
+MI\&#039;.M(*:T,.5X9X4CD8JJ8FS)W?=U&amp;A&lt;KGL;&lt;JR&#039;F,P2(,,JH52&quot;S8P3U &amp;1
+MI9*?RP;E5DW%UPV=KH3UQY6!![$&gt;N=&lt;)?;5_Q4NJL7!HD6*5F0N,B,F=4W]?
+MS0Y/VZNDT5&amp;D$L,);&gt;[%O$?H29/GW=OOZ:J^&amp;+Q14]PX&gt;%LO4)28]-BU\&amp;#N
+M]&quot;/SAU&amp;KI;^#;W)Q%8$?ZJI*8^U0WY8&#039;YXP#\[VSPV&lt;@^??\&lt;]L?-3[(6AV9
+M[MG.H:=&quot;%9V&quot;@GTU_2J/_P W_#4/-EBDWYQMSZ?_ .Z7[]729FVU9S!0#G*G
+M-G$;2$;3^,Z!%VC_ $F?30AME)&lt;*&gt;MFM%/64@:JY@:IF?;&amp;A\@\OI]K#W:NM
+M?07)XK?3TT,B&lt;U#(92T!D+$K[&quot;&#039;:&lt;&#039;&#039;K\-5]!%&lt;IW-/3\QY6I,*LGUI52-^&lt;
+M$0EMP[9 /7IJT2267B%::6DDGJPLC[Z7:RC=L,.]V.X*% VLQZ,0&amp;Q;:FX^-
+MIX3;GJJIGJ-JHX%,&gt;X1NGU[^P&amp;7V!G=N&amp;JQ:=Y)*&lt;,PC9QAF3/0D&gt;AQC\&amp;OD
+M:*)I 6PQ49&#039;L^NJN4PQ&amp;7)\VT9[KZZYO*BYN[VMHS[?OU#+R8&gt;;N]K:,^T?7
+M3&#039;X:XAX=H;?P799Z&quot;B,]1;;7Q&#039;(&amp;4ILS)-!X&lt;&lt;]QN&#039;XQSW[Z6U77DJ518V64
+MLJR;1M5U&lt;!L&#039;;@$$&gt;@(TL-$5&gt;&#039;&lt;I9U!&quot;*J[MJ+GJWM,2W3TUPE]M7_%2ZJKA
+M02&lt;FJCJ)&gt;XR&quot;-Q!5AZ@^[4=NR(=@\C&amp;&gt;201?%$8X!]W?&amp;N&amp;A2U=1 *J.OIZC
+M:WX^/Q&quot;-L;WC*@_=JZTEUX ^3FKNE)0)]&#039;RU%!*\E?/S4!YK!OS#(WY/4?=J
+M]1V*W1VBU[*5HZ=*=X%C)IHBV(V (\Q8_P&quot;O1CIHFFDQG ]VOZ#/I14PO&quot;3U
+M&amp;?FH/UJ_W_-;_P!O_=I?F]?WZ#QLT;#&amp;&quot;#[NHTDM?4M4,H*KT&quot;  MN/1&lt;#JQ
+M+?;K=O?=[]QSH?N&#039;P&amp;I/L^:B=Z*F9C&amp;&quot;24[ZH?#P10YWYVC&amp;&gt;WS5-NY#,TF?
+M-N[=O3[M3VTP,78GS;NW;T^[7T7R#G.=^[XY[:2U\EMP.=^[XD]OO^9^%J\U
+M\M(*2)Y5%&#039;&#039;SI*9(A,G-F5&gt;8R+&#039;M?#-V ]VO$6^GC2ER5625L&quot;0COM R6^X:
+M2&quot;Z4X0/DQR(VY)&lt;=\&#039;X&gt;[OKA0=&gt;]7_%2ZN%KIW,2^(F&gt;1PNXJO,QT&#039;JQ)  ]
+MYTUQ62&gt;FD5&lt;LQJ!+ROUB!1T]Y4G&#039;QUPI1U*&lt;NIBDN$4B_FL)P&quot;-68VOY!OD\
+MXBMYIEY-=4VA)):I?1W;FC)/V:XCK:BTUUCG9:4-25**KPD4T0QA68 =,CKV
+MQI_U3?-0_P!@_P!_S4&#039;ZY?[_ )K?^W_NTOX&lt;GV?-0?JEU;_V_P#=\UIAO$=)
+M+;?K3(L_L&#039;$3D9ZCU Z9&amp;=6&gt;7_U=1T9JKA+,8RE#*\(\(JX3,F,;Y&amp;VDXP&#039;.
+M&gt;AU!73NM&gt;O*N\4HGJHASS&#039;!4&lt;MH$P&gt;GDCP^&lt;AS[)\NJZ@M&lt;SSV]&gt;6\1:17(#
+M1J^TLO0D;L?=\T=PH+]9&gt;(*B2DAHYY*6BIE\&amp;SP\@F8N_B.?R1R0XC5=N&gt;I/
+M75,&#039;J:*CJ6IX4C&gt;1@N0JX&gt;,&#039;WA]Q(]=P.E-M&gt;GFDDFBPZ=I9%#[W7WC#1KGW
+M_9KA3[:O^*EU7W&quot;H;EP-42 OMW&lt;IA-O5B/497K\#JK@2&gt;CC&gt;&gt;(QR[*E)CM/&lt;
+M1JOF)/;S!&lt;&gt;NN&#039;+FT8B&gt;HJ+C.5S[):&lt;&#039;&amp;N$7XOX!^5^JGI;8D5&#039;5&lt;-HLM/&lt;*
+M/&lt;[1\WH&gt;6XW$=.N.X[:X@JN(;1] 71S$QHB^\TL7)3E(3ZD1\O/QSVT_ZIOF
+MH?[!_O\ FH/UJ_W_ #6_]O\ W:7\.3[/FI89&amp;J-Z(%.$_P#WJD\,9#LW9W+C
+MW?-4UJ20K&#039;&#039;G(.&lt;GIG517J\(BCSD&#039;N?_ .SJ2Y!X!$I]G\KN/^.FN6^&#039;DCIM
+MZ[N^-8U.?Y%0_3LMO-(]:]7NPQI%I.B[/Q01-XCSTDZYQTU)]%W*JHE?VE5O
+M*_VKV.FK+C65%=4D8WR/N./=]GPUPHN/6K]?^E2ZK517EF&gt;I&lt;  9+$N=25M7
+M9:R*G4;I#T)C&#039;Z8&#039;5?OUP7_\]_MAJAHX.+&gt;(:.DIH%IH(J:K&gt;%(XU[#:A ]&gt;
+M_?4]XOE;+&lt;KI*$629\;GVH$7/W*.NGDJ)4A3ED9.OZ?3?O.J0T\T&lt;P&quot;&#039;.WTZ
+M_-%/&#039;CF(=PSK_FW_ &#039;8U%XCE^3.,+C09&gt;^NL9_?K\6W[]?BV_?K\6W[]?BV_
+M?K\6W[];5&amp;P?@W8X./-_AU=&gt;A[M_&lt;-59P&lt;;C_B74AP&lt;9_P#S&#039;S62^7BZU7 M
+MWFI7EVU%5#4)5!579(M.,3@2Y;&amp; P7&#039;N(TERJP&gt;:T&lt;32-&amp;0))&#039;= _M]PH! P
+M/7)TM=0;1+F(EL -(C[QA\=V!C]KN0&gt;O;7&quot;WVU7\5+JM:XORU7&gt;0WJB\X&quot;1A
+M\0A?_7JIEAHK;2&amp;.,&gt;!&gt;%%!,A]D*1WW=C[P=6:&amp;AV&quot;A2LNBP[&gt;VSQ&#039;3&#039;^8L&#039;
+M#%553T5/62F-I8@&quot;R^1FZ _V=6)+=&lt;ZJZVNMIW=99E4,)$?#+Y&gt;GJNFX\J[U
+M&lt;DO8MB7$T8C3EJ&#039;(V@GVNS#_ %ZN/&amp;O%_$(X4X-IF9.?M!:8C .,] ,L%]26
+MZ :N&#039;&amp;_R8&lt;82\56RBRU7!/&#039;ME11U8@X7JH\VUE&amp;5R0&gt;FK3##\H=&lt;&gt;*I:7Q%1
+M;X($)@/Y0RWNR-&lt;)&lt;/\ #&#039;&#039;]3Q!6UMW2W5L?)4-2*6VEOMSTU-:+[\K5=:KG
+M&amp;%9X9*5=RAAD=@?0C59?J[C*\VVOH$:2Z0QTJE*-?.P;)]H%(R&gt;F&gt;QUQA-%Q
+M)&gt;8+50UJP4DJP)NJ(FW;78-V/E&#039;3XZ_R9WZJJ+?(DU1%)-&quot;@)(2)G5E!]&amp; 4
+M_8VKSP+9JK93T=541S5DR9Y4$&lt;FS&gt;5&#039;=CY0%&#039;&lt;M]^JWACAOY5&amp;JN,85;,,D*
+MF,LOM#IWQ@YVLQ&#039;W:N5DNL/AKC23-!,F&lt;X8&#039;T/J/CHJ&amp;8+[M% [!3Z9UMW-M
+M]VMFYMGN^:FM57P_].W%*4$SM:*!%DDY3+X&lt;G9S-@)1C/N+L4[ &#039;2T*^)DC5
+M.6LD3+G9Z*RL&quot;K8R&lt;&#039;N-&quot;2K$D=/OYAWMN&gt;5\8RQP!T&#039;0*!@==&lt;+=N]5Z_P#2
+MI=5=315,E-60U4FR1#@@ACKP9JJ:F&amp;TJ9(80CX]&lt;&#039;\G]G&amp;N&quot;5&#039;?^&gt;C_[PT1Z
+MZIH)@6B8]&gt;N/34[K!(&amp;$;,/K/AJGIY@3$V&lt;X./351(L4P98V8?6?#52M090%
+M4$;3\=25$+5)D# &gt;9A_PUP3_ -9?_8R:N5DCR;A9^/9J#([I25$O4_8.8/\ 
+MZ-?^D3X,CP%%)!:X%&#039;9%A2,$#]HR:X.&gt;W[^1%6IXK;^3]?4@[OVV3]XU\K%5
+M6&gt;6SBBC$A;V=PBJ&quot;?_+_ &#039;C2?]ES_P!\&gt;K-_\4K_ !6KW1\5\&amp;&lt;077BOPT6:
+MN&amp;H*QG,(Y?3FKV&amp;WT]/77RX_]FC^%JM?+954\CP5,,5/-$Z]XW5692/L(!U\
+MDGRRVN!(Y9XZBW79$_JI?#RA?W/N3/YK1:^7B*(J+FU1-X?\[^D3=OVC&#039;_JU
+MP+&#039;3&quot;1*A;@A&lt;&gt;H0 \S/[(?.N*3#W&quot;THE_MBGCSJU\.&#039;B^DK/E$J9*2,V=**0
+M+&amp;9\;1XGV&lt;C()Z&gt;NI)[-QC0\1^$NT5FNP2D&gt;(T%0YP&quot;,GZQ,Y&amp;&gt;G77$DU=\I
+MMJCCLE6D%X(MLQ\*DGXLIC\9(?+E!T&amp;3YO+UN7#$]=!&lt;S!RV6&gt;-=HE1T#J=O
+MH&lt;-V_!X6Z^M5_$RZN-L)E$ J96?E^T_UNT(ON)9@,^FIJV-:6.:*/?*:&lt;R;X
+M1^&lt;&quot;S$28[D$#(]VN%:2JY7C$%TH@R5,D,BR&gt;(0?4R1Q2N&#039;;:R=%SAVP5/74*
+MW*LM-QNJ4&lt;,=544M7XCG2#/XUBJGF@;58&#039;KY1GKG5%]I_NU5?JG_ ,.J/]K_
+M  G55^J?_&quot;=5O]@?WZF_MIJR\4BA%R\&#039;(9.1S.7S,HR^U@X]K7&#039;?$:&lt;.+707
+MJI%7X4UFWPL@9B/-M\WMD=AKCKA&quot;IM7TC4WR;GR5IJ-O*8[&lt;^3;YO9SW&#039;?5P
+ML%=9J#BOA2J)&gt;6AJ3C#&#039;HVTX88.!E2&quot;.@/34_!W!W&quot;-KX#L$^?$I3N&amp;&gt;93C*
+M^55 !P,]R&gt;V&lt;:_E(;0;W_-I*?D\_E&gt;T5Z[MK?F^[5%QCX&#039;G&lt;JZ&quot;Y&gt;&#039;YF-WUO
+M,V;\?=G&amp;I+A=_D2X&gt;NU&gt;X :&gt;IJ(Y&#039;; P,L8,]!J3AW_)U376&gt;H5EN-2:[;](
+M [L!T,;&gt;4*^W&amp;??[]?*;PY;N%O#6^_L&gt;0HK/_9J&gt;;&quot;=5^LQN^&#039;;5WH7L[7VV
+MU,B3K%XGD\B4=&quot;P.UO:&amp;T&#039;^RNKGQW8XHJ:&gt;JJJB:2FD.Y&#039;BE?&lt;8F(QD=NO3J
+M =5UYX?^2FP6KBZI4B6N:56W$]RVV-6;/J,C/KG7%E5Q):7XAO\ &lt;5W0US5+
+M1FDG+Y:3:.C9]VK7Q2G&quot;&quot;47RBP24DKW05SM#(T&amp;,&#039;PV,&gt;;:H/7TU44]BX.CX
+M?\==XKW=F\&lt;TWC)D;=M3*CEINR?7OKY4Z3Z&quot;:F_E+6TM6&amp;\3N\%RFW8]GSY^
+M[5;Q*+&lt;;5SHH(^29&gt;9MV1JGM8&#039;?;G\&#039;A;[:K^)EU&lt;;I]8T!J)5&lt;Q^TOUNX,O
+MO(90=342-32RRIME6G27?,/S?, (P&gt;Q.3T[:X?JZJ_26BXLEU,SPU(I@LLK[
+ME1IFCD&quot;(_;.T^F&lt;:IFM]P:X%:*)9SXF.H2.7+$HDL&lt;&lt;2N &quot;O4+WW=3C.H:KE
+M\W8&gt;V&lt;9U+%X%AN0K^-[=/LU#5%#(%STSCTU-&#039;X*0%D*YYGP^S50TL&lt;D@=0/+
+MZ==/31P3(Q8&#039;)(_S\4$$&lt;D\[L$1$&amp;2[&#039;L /?J\2WS@6JO5+2R)3U?.-1!X&quot;0
+MD^4LF-CDC&#039;FSZ]-1+?;!=&gt;&#039;VF!DACJJ=XMR_H[N^-5BVNWU=P:GIWJYQ$F[E
+M0K[3GX#.DK(+#7-2M1-&lt;0YVJ#2J&lt;&amp;49/LCWZI+=;Z:6KKIY%BAB0&gt;:1R&lt; #5
+M?14]MII9*41F=Q74_*3?[ YN_86.#Y0&lt;]#HWBMMK4UMV4T@E:1,,)U+18Z]2
+M54M@=0.IQKA?[:K^)EU&lt;9$CD:-9GW$+T7S&#039;2/&#039;3SNC-L4A&quot;0S&gt;X?&#039;2B:*6(D
+M9&amp;Y2.FB$5I#C/09Z?-$*F1X:?&lt;-[*NXJOJ0,C)^&amp;=1I9:Z\5D17&gt;PK:(4SQ^
+MX8#OGIZ_,&lt; G S\U*EPDJX:(N.:T$0DDV_HJ2 3]^N7::RXUM+L!WU5**=\^
+M[8&#039;?]^?FCJZ2?B-[L&quot;J2J])&#039;X;&gt;&gt;^)0^&gt;WH5Z]^GS;(HY)6[X49T4D1XW]S#
+M&#039;S),8Y!&quot;Q(5L=&amp;(^/S24URN[V&lt;;,QL*-ZC&lt;WQ5.H7&amp;23U^S4\=//XJ .0DFW
+M;S%ST;![9]WS15%%&lt;;Y-=UV+4P2T&quot;I%&amp;3G)$HD/3TP5!.K)&lt;*G?X&gt;GK()Y-H
+MZ[5D!./W:N%;345UJJBHKZ2Z3&quot;6,+&#039;5U=/5PGJ?3,$ /KYY6U_)^R27ZX[[U
+M5WJ:HN=.L4T)E51R1AVW=LLW3)QTU&gt;:^2EJZR:&gt;W24T*1#\KFQ.=WZ.V-P?M
+MT].;7Q+#95M%SL=&quot;&gt;5&amp;VV*0Q&quot;#J6QE$B!;](_?JUW&amp;=[E%&#039;!.DI&gt;CE$&lt;Z8.&lt;
+MQL00&amp;]W35VLE;PIQ#%9:BHI[E3_1I@BGFJHX&amp;BDEDC$?*Q)[1V !2#C.3JR&lt;
+M-3VF:*2V4U)&#039;0SJZC:ZQ\N?&gt;/RD&lt;+&amp;1GS*4[X.-&lt;+?;5?Q,NKU3W*]&amp;V5,_$
+M&lt;7+7Q7+C(Y%0H:I3O)2[S&amp;&#039;&#039;3N#Z=&gt;&#039;%CXW@M-_MIAIZ&amp;GLEY++4)NE+M-3K
+MCDS)N_&#039;9^L#&gt;O0ZXGK8KU)?+8*IDHI.&gt;98UA[@1GL$R3T&#039;35PN@XQH&gt;&#039;*6FY
+M,[4&lt;MR2B^F)5),&lt;+2-_4YR9._EZ8.[I7&lt;PTCR&lt;Y]QIR.43N/L8Z;?=\-4(IZ
+MN.WU&#039;.3ESO)L6!MW1RWH!WSK@B+Z&gt;IKO&lt;:&gt;DJ(ZF-+B+D\&amp;9MP+UW]9NR3L_
+MJP,&gt;OS&lt;:45=?OHKB&amp;NM-=%.9:/.Y?((HH7WC))W,5[MY?S.NN&amp;+E$UL66GK8
+MYU\94&lt;B#*G/GD_)&#039;3OJWST=]J+[5-;XO&amp;EKHUQ2FJ,MF*.I;VU VGUP6(S\U
+MDI:*]&quot;*HIZ.W)34$-P?)K!O\5SJ/V5&#039;=Q,&gt;K%O:QY1JTQ4_$]3P=#-((:FX1
+M51IS!!WD\X(]!V]3C5]XDEYJI43?4H_M1P+Y8U/Q&quot;*N?CGYK&#039;9HN);9/5PT]
+MM&quot;PI+N&gt;H=&gt;=OB-+_ ,V,7,ZS?UV!\U\I_&amp;4EH%32(IKVNPM\M($GC?ZN4J^[
+M.W#1@99&lt;XUQ1=;/%R;347&quot;&gt;:G7;M^K9R1T]/?CTSJPW..:DIMM5$&amp;FFC1Q I
+M&lt;!G&amp;[(4@9\WIKCB2/B:TP63Z:XDFN-&#039;XG#7F*&gt;&#039;;2&amp;-/Z\;^WYOM?&#039;0U\F&lt;M
+M-76B2^6RNK^73^&amp;A(I(]D(C8P[&lt;&gt;C-N(ZMD]]&lt;97&amp;V5E/&lt;+?+6EXIHGW)(NT
+M=0=7&quot;&amp;IKK?;;;5VZMBGEF1,G^;2[$$AZKERG0&#039;S$+[M06M^,K&#039;Q#)4^%E&gt;B&gt;
+MYHSVB&amp;,G9#3TWM&lt;TF3,C],*-O7J=1R81L,#AAD&#039;[1K@&amp;^0\4VB.&gt;&#039;A&gt;FAN*&quot;
+M^BSAW\3*Q@YD:X7;]6&gt;4![.,:XIK:&amp;X1W6DFKYY8ZE8N4)P7)W!?3OKA;[:K
+M^)EU/:]TJPB61Y-GM,.9M&quot;KZ9+,HU/6JE,DT4?,EY#2[XAZL&quot;S$28[X(&amp;&gt;N-
+M5UMJ=IGIY6B&lt;CL&lt;&#039;N-+&lt;;KR6D(&amp;]IMY&quot;N5#;$167L&amp;&amp;6)[]M**?R4Y?ELF\L
+MJG;E60GKM(ST/4%3H43;S3H478K;3([9P-WH/*Q)]PT:RA\+&#039;,,+S(3(.4QZ
+M#&lt;&#039;9MR9P/0]&lt;Z\/RSS]VS;^EVQH5E=X668Y3F3&amp;0\UAT.T(R[$SD#N3C.C1)
+MO%.Y&lt;;&amp;;&lt;8G4]5W&gt;H\RD&#039;W&#039;3&gt;(\].&#039;Y:IO*AB!EF&lt;CKM (Z#N6&#039;;37*U&lt;E9 
+MK;&amp;AW@,P4ML=&amp;+=PK88&#039;OW[ZH+;3%1/42K$I/9&lt;^I^&amp;H*QHZ9YY8A)%XAY.9
+M*/0DJ&lt;1Y[XP&lt;&gt;N=36O=*\..9&#039;O\ ;49(*MCU!5A]VO&amp;5VV2([BJLQ&quot;(BG&amp;YM
+MO5B3T&quot;Y&#039;8Z-RMO+154R?5EMDR@@-Y6)*L-P/?!&amp;=4=KYO(1\M))C.Q%&amp;6./?
+M@:Y_A(?&#039;&lt;K?R&gt;;)SNW;F9V[_ (;=N=5MJ:7GK&amp;04DQC&gt;A&amp;5/[B-&quot;YW/EON19
+M?K&quot;VR)3G: JD%F.-W? &amp;-+54.V.&#039;R[E5B4=&amp;) ==W5&gt;HP5Z]QJ*V9E$ &amp;^3E
+M^TW4*%7XDL!GTU/6HM,DL4&gt;^4T[2[XAZL&quot;S$28]V!D:KK;4[&gt;?3RM&quot;^.V0&lt;:
+M%PNO)&gt;7 WM-O(5RH;8B*R]@1EB&gt;^@M/Y*&lt;ORVCW[@K8W*R$]=I&amp;&gt;_4$&#039;7@WW
+MFG0HNQ6V\QVS@%O1&lt;*Q)^&amp;C6V_PT&lt;PPO,A,@Y;GHNX.S;D)P,]&quot;,YT*=4//+
+M;-OZ6&lt;:6MK32RRME1),9#SF!P&lt;!&amp;78F0&lt;=STSIJ%=XIW+@*S;C$ZGS+N]1U4
+M@^XZX6^VJ_B9=5%SV3/%S)(Y.7[:_69#+\054_=J&gt;B0P//+&amp;4EY&quot;2B24&gt;H 9
+M=J9[$Y;&#039;IG5=&lt;JD?73RM*V.P)/I\-+;KMRUD&quot;C&gt;LH&lt;!G&quot;A=ZNBMW&quot;C*D=^QT
+M#&quot;&quot;U,&#039;YC2;&quot;H8XVJ$!Z[5&amp;&gt;IZDL&gt;VA7,LHIV*-N5=QB=&gt;QV^JX9@1[CHT5O6
+MGEE.&amp;,&lt;(D/,8=5W%U7:F&lt;&#039;&#039;4G&amp;O$;GY^[?N]=W?.A17!:&gt;*49;ES&quot;0&lt;ICU;:
+M45MR9R0.A&amp;&lt;:-:%D\.I&lt;AV3:978]6QZ#HH ]RZ;Q *4Q?F*^PL%)&amp;UE&lt;#KM(
+M ZCJ&quot;HTUMM/+=R&amp;VK$&#039;*HQ4KO9W5&gt;P9L*!W/75#&lt;J9&lt;S4\JRJ&quot;.AQZ&#039;4%$[0
+M)/%&amp;(XN?&#039;*9(AZ A1MDQ[\KGUQJ:Z&lt;N9(&lt;;(]_MD9)+-\268_?KPE=Y(!N&quot;L
+MRL4=&amp;.2K;&gt;JG/4-@]SHVVV!&#039;5D,?U8;9$A(W&gt;9@&quot;S&#039;:!VP!G5&#039;=1$9U3*R)G
+M&amp;]&quot;,,,^G0Z--XF/Q_*V&lt;T0R&lt;_M_H\;-_QW[?[M5MU:&#039;PXD8;(\YY: 849^P#
+M0MMSV(JH(OK VR95SM(902K#..V&quot;,:%+18&gt;#R[F52$5%R0B[NK=3DL0.PU%&lt;
+M]LK08V2&lt;OVEZA@R^F0RJ&lt;:GHD-/)-+&#039;LE$&quot;RAYAZJ P CSZG+8U77&amp;I Y\\K
+M2OCMDG/30M]UY*R #&gt;LN\!G&quot;A=ZNBMW&quot;C*D=^V@T&amp;7IP_,:39M#MC:H0&#039;J% 
+MSWZDL=&gt;-?&gt;*=RC;U7&lt;8G7.#M]5PS*1[C\-&gt;#MPII)CM;EQ&quot;0\QQU&amp;XNJ[4!P
+M&lt;=2&lt;8TM0&#039;(G#;PWZ7?.A1UHIHI5RPBF$@Y3&#039;J=I16WIDDCL?31KEYAIU+D.R
+MX,KL?,V/0=% &#039;N4:X6*HQ&amp;:K^*EU=/\ K4W^,_.?MT-&#039;\)OM_ &amp;A]FAK[_G/
+MX)T?P!K@7_JA_P!HVO_$ &quot;@0 0$  @(! P0&quot; P$!      $1 &quot;$Q05$087&amp;!
+MD;&#039;P(-&amp;AP?$PX?_:  @! 0 !/R%=(V(J^B / %ADX+0HN%(DA%5-F,T:# Q0
+MND3#D!-=+01%H#&lt;B8&quot;1&quot;)5.\ *Z04;BT&lt;&amp;]H#*  E3\Q?)4*B0&quot;8%W@,KKT$
+M,!:K6@/+5&#039;?-QUCE?SG3 A !&quot;!FT@CB-=32$ 2H8&#039;3@#$Y @@@;)O&amp;O@6&quot;@.
+MU68I&amp;&lt;DIT1H(&#039;$8LQ%XC#EM&amp;DB/X;@Y)5_@$-!2@C=9FJC. V=SY$&lt;&amp;:HQ)C
+M.ONV VJZ 7#*X&gt;R$]BWY^;C&gt;4(V0JB:=_)I^,)\.RP@&#039;:C00&amp;.4 8:71)JB 
+M!CI,/8NT[NB+=YX&quot;J&quot;$P&quot;Q+A2&lt;&quot;*J%+CH&quot;$ ,0733&quot;UJ2ZKX+N@-R3%),!:P
+M[B0^D%&amp;Y)G&quot;ZT#D6 %&#039;Q4H#0&amp;(0(@#M0,KK.W]7YSJYPKK2.J79-[UB0QR#*
+M;((@ H&#039;%J$2!FE6&quot;^F2G30QS1&lt;B:HNKA/N.4)+]X&amp; %6X$L4(CT^0V^ZY#?!
+M W6+;DCH&lt;F(27ON/,-Z:BS*)M9I*M&amp;F%30M3!MH0&gt;&lt;\4;?)4!R&amp;!/)/\/K _
+M0/8FMN@EIV.+&amp;@1(&#039;001B@YM&#039; L(-&#039;NDF%/+ Q,9[!*.X];2&#039;)-3((J=078=
+M@T]PP5Z$.$&quot;&lt;#RA(CFTO?HQEK3!IXZF(&quot;F!I43?J154C&lt;VZ0%9:*$DB!1.\&amp;
+M5\%@&#039;L$?)B.UC=LC?^D&gt;&#039;6-?2&quot;28?V23N3 S L7R&quot;L@&quot;,%CEU;:,:7)(S129
+M)(A;KOJA;0M:SM1@Z0#OR%0&quot;K&lt;Y&amp;O%&amp;$&gt;8[QZF33433;@&quot;L&lt;V]Y4D$&#039;F-=UI
+M9C566:0K0:TIH&lt;IDRD,DP-CR+\E@8FV=U ?3ZQ-SB&#039;[!I&lt;70/3@#A@5@*B 1
+M4&quot;6CGOL8?[R!O8(FS]0N+PK8 2=&#039;8J@&lt;#.U-F26YJ%#=LXWG=L^TD6BBC4MG
+M!H8(B&quot;U:;D3^%5(&quot;A(HJW1MQII&lt;DDDQ[M+8L)+9 @&quot;CE%810)?\ VFY)]&lt;P=
+MJ)/QC1CUML%WP*;,/NZXXREX(.G3B&quot;R/ZO -H[0+9!;@&quot;:88&quot;)248F2/BZ&quot;=
+M9+5K832S3%;)B&gt;8X0=IG_IX$&quot;QP;%0=7@,)5VFA^&#039;]C *,8P!%9PU D&#039;&gt;!RN
+M3IUU&quot;!(O9*:X1I&gt;(J&#039;B&quot;ATX9-)V=FL(.Y@0:&lt;Y:OKS0%T#F&quot;V%P#/TTD$4TI
+M.3G-V9\*:EY8-O0N&#039;E4,9:C#G*7-VV#YGE202H&amp;[FJB(9M 4ZF$.Q\,,.U=!
+ME;Y=Q&gt;L[$*@-8$)Q#0Z)*4V&quot;WTW&#039;P9&amp;/O&quot;&amp;I#S9K3[A6Z/\ 1GL&amp;!]W9C=-J
+M!&quot;IY&lt;@T]U*Z&quot; .^&quot; B1&quot; S9M/@7 M=9R3R@-G&amp;L$G&gt;H_Y V9R,T+3#W$J8*P
+M:V^&lt;W]=&lt;=B3&lt;UVI0PS&gt;E!0L/I$QSU1FDW#(@=H\F2%+BQ26 RL/!J:;%HE&lt;&#039;
+MV&#039;DP=:0P,Q$8N:A9AJ31B@\,![P^/[^+$M]HZ.W8;WN3&lt;N,3K3QHB^%[D#J^
+MT)$&amp;WA1:PLFMTJV5=KMWG/( Q.G%&quot;VY-[E![C6&quot;:&quot;H)++H.#&gt;,3]YP%&gt;F&amp;;3
+MY &gt;W@8:-Y\K-&lt;3X8$I0/J0@%RK%NF*5-8YVH(IP.#,022.IKJ:J2Y1&gt;XO\(^
+M6 TN#(AP:/)=(@C[8,7ZB+EJB&lt;OF&lt;&amp;XYTX K5@ \ &#039;7INW+D*]TJ!\ X&lt;FMZ
+MZAI9IO5&#039;)FX5J;%X#&amp;)*69N=([UGBX ].)R!2M-\LRW=&lt;]O89SK&amp;?#86+E.T
+M(:%HSWCF96O&gt;ZAUU!&quot;&lt;FI(B-CL&quot;N&quot;I%#)49D&quot;2&quot;1K1_(U,&#039;Y(;=]&gt; @UGB Q
+MYT1\50JJ-&lt;XY7D&quot;&gt;-5Y2ZSAN*4@1\;B($N6F)ZG1(8^$&amp;;R0#;#UGHTLD400
+M[&amp;A&quot;7*&lt;7ZOCB-JVF2+GX)C&gt;-0O%5.T&lt;-C@7-+3$IVS&gt;1(L^]3W]\TE^&gt;NE&quot;N
+MYXBQYR6,)Q%1B)%=*JRN&#039;.!FXOP FG @V(3C.NHCFY%0!H%# @BGH6%&lt;*SJJ
+M!@1G[[F#3BVDKZ!^U]\CT 8WO&gt;8 NI]42IC/O7% W8-1FQKO!W3EI&amp;[RC4(Z
+M&lt;X-1$.T_. (UT0!_&amp;Y?2_P +X+FP*?&amp;;0:(06G[D$:&lt;97.DZG1)$LA:8^IG$
+M1Z62:S[&#039;VRX)P&amp;3C]=Y07R&lt;F5)Z@]5%FS054 J82V(+[UL&lt;(&amp;%0P4J*7\F6V
+MIS&lt;/_?I6)7E*MT6-# \M]3/G&#039;;I:.(&amp;L:,[:+7K9TS[9^?4NJYYHJG4NWF;F
+M?\W/^*9_Q3/^*9_Q&lt;NOV+^ +H#XKKWP0?TS.X?&#039;$P&amp;/BH*H@D&amp;^+P&amp;(L&quot;W&amp;3
+M M!(E;L(\+FUAKY2*B#HL:XQF0,!\TKH8 J__*&gt;T$&quot;&lt;&amp;FH:.^@F&gt;3&gt;UAY4E,
+M@&gt;S7@0NAS4$/0.;&amp;BN[^HR#[[NXJ :)=)\L:D ^=K]%BFQ%$?1USV$&#039;V&#039;!_V
+M/\8&quot;/\)C^&#039;;FZ+I^DP@PX(X-O7E_K6(@1&lt;HC;I/Z$R?Q^#_+&lt;!#A!H?4Q55=
+MKEH&#039;;V5O9[X&gt;%F1ZLH?&amp;6+KD0VT1/NA&#039;OCT;MC&lt;AOM7%DUG-SF ]EMRE/G&gt;1
+MQ4Y8M+![,_SZ;D?T4*71[X1&lt;5881GSS[&gt;C38E[):2\#YRS#9Y%]?\5_&amp;=N7T
+MN7+_ #+S;FL\Y6IJM^-9L%([N0V\=*)N,N&amp;\-@%MI(*+&lt;D-460&#039;:6WMY Q7-
+MGE% HGDZ:C=$/6&gt;QYZ&#039;S://NAAF? ^LX7LU&amp;$*.)QD;LU@:XH&#039;)&quot;;4BGIQO#
+MXJ?\#SZ/D&gt;6&amp;^&gt;QXSB2R0EF\_P&quot;A@,O@U:&lt;T,?XOX8X=FG#ML\A1&#039;#&amp;K?0[5
+M/E#YJM&lt;I+R=J).#6 [,3C&gt;F7&#039;&gt;YA\&lt;,K&quot;5,R](!:&quot;+0QXV&quot;R(C6]!S%TQ+$X
+MK*DOEHG2OI,GI6[6+VG+ &amp;6;E^Z[&lt;_4V7NP 0F?WNZ,4H2)OC6$(,T-&quot;^R%&lt;
+M!,2GKT*8\M_6-I@Q6.Z=/-S0I0$,\;/B)CK60.A*.!$,!#Y!6#L^U,L=R&lt;JA
+M&gt;UH[Y80-&#039;@BG+S&#039;1WC5[-D6R;L#8\A&#039;&quot;J12[CO.K_&#039;@A_P!/D]/T_AG ]#_X
+M[^,F[O[\?NLXX1\+7C$TU1$H#X$&amp;.M8$H&lt;&#039;;F6P&amp;M[&gt;,CJ9#H#@MX.CK)PW 
+MY&#039;R0\%W.+Z.8$#\RJ=Y]&quot;&#039;N=ON^BT6,U%&gt;Q^&gt;.ELZJ7T_/-KZ&#039;_TG^\G[\&lt;/
+MM&#039;Y9YLF&quot;$:Z*Z*BLC$TE!@@&gt;)&quot;17:@=N&#039;L4,,I&#039;VH*@I3-Q&gt;R&lt;]&#039;CV&lt;7+ZCE
+M#JN#%M6_BD]TT;N &lt;VS2 =M!SL&lt;6-&lt;FHVJ=QCXRE+4#E,#1&#039;O6]9W?VF37!G
+MZOS]2N!Z&#039;_QW\9V_^!_JO&#039;J= FO YE*\#80N\&lt;2VYH&amp;@:ZT:*&amp;4V!\)(EVG1
+MMR1MI!F80JV@&gt;PXSSJGYQO5LIENJZT6XP15Z)2#HXFO(&amp;\NF(9-V=3)T@-^@
+MWL=*O0P[$P&amp;Z39B]GQX$?1J$%7A,%,/:-B.Y0R# GV&quot;[ =/,% V4?#2)^Z$&gt;
+M05#]-[9UG[OS_B&lt;G^?\ ASW_ )G,&#039;8*:E,$?&lt;1&amp;DV^/3&lt;6-]#@A,&lt;UFUU ZU
+M/NQ9!AVJ!XG)[P4M[DZ/&quot;3E\Y*.VR9V&amp;YB6Y&lt;AUM$L(ZN\R=*5/&gt;8&gt;/#=!P&#039;
+MKV-8N+3(Z&amp;K+G !M5&gt;,U5_&#039;RM2&#039;N&quot;9\_:Q+&gt;=QP@J=MQ7:YK.AN6DA4/V955
+M7% $U9=9^H?ZP%;BK:_/IK[&amp;*E&#039;QGN8MTOHW.7\&amp;(]&quot;X0-C]^,_&lt;?UG[G^L_
+M&lt;?UG[G^L_&lt;_UE;&gt;W=O\ %@O(SVXR$#&gt;=9^] IKY&lt;3PALUZ7+CX&gt;1Y[V)7D:7
+MLL AV#=RAKG1+X R(&amp;T@AUMGO&lt;RT+F\Y1Y&amp;E-A76*C&quot;]A*Q4#8BX;Y!/4D^*
+M!/XWUBNC&quot;X&#039;0Y!OSGLXM:[, _G;FPQKB%FE9\^R9)TQ,]*U96FK$PV3%H&gt;(0
+M;4 0T3F6&amp;LF@!/([P$I,+P! 1YICXHC!+LFT&lt;]X#1E@81WD#4)8(@W=A7#6/
+M,X2ZS@*!82VII&lt;#);&amp;!?;YT!%&quot;CI]V]N:^ 5%C6)UTN$Y\AR#D1[Q&amp;:Y#ISD
+MT4-&#039;-O&gt;&lt;UK/S$:^V&#039;)@.XY&quot;*MMU(4.6$EJE%0X+@ 4J:PD*B&#039;4! %!0/);C&#039;
+MW?@4Y/&amp;)4_IY&amp;.4]*2*( [7&lt;88&#039;4D&#039;?&quot;!BA0@8G9C?TA*.W&gt;*4L*Y&amp;F)+R%#
+M$\_3+XJ!.QOCVR=#2S&gt;FZ. 6%4$5Z!XSH9  H,;JX&#039;%+X&gt;1TY&lt;KY@T3?M$(Z
+M[??MX:;R FP75&amp;WVPU*V=O&amp;#4JS&amp;(UDL2M?-![UVWS7/WG!8[91O+S]&quot;9YI%
+M7;)XWCZ#$)FQSUU_]^+]$(15EU/8-W A:U;^:\&#039;SFQ2C0X5HZUH3 %^YW3,$
+M8^#CE+36X:=T\5 H/)@WHKMY@K(M,1V\^M?.7&#039;I(SBD0:-UHZI9P5W)C[!1N
+M&lt;@AT#&amp;*F6+#DTR20#UX 3A4Y0[K&quot;XG94L_5&gt;6?N/+/\ ,]08W_8&gt;7*L-9+4/
+MD&#039;#QAA!JCH!&lt;Q/(3%3,TU2&gt;[96()T,LTHR=+$%59A7I&quot;(N7I@PAHS6+_ #Q[
+M1T\O;!50\;W&lt;)_:F$JHST&amp;D  WP9R=B[X[8%QN7*S:]):3&amp;Y0 5;QQ#G/KE$
+M&quot;&quot;=G6(T8.\WQLTT&quot;29S7&amp;?I@&quot;@&gt;&quot;[8J.!HY/U#*@0#3FNAB@#P&quot;+CAIS&lt;1_K
+M:8@P&lt;+VO@;(2.Q(U)Y)&gt;/O@UKR-MY?LM7^6Z*)7B9N^H2=)3NXAXI!V@&lt;Z X
+MG9F#VZDFFICK&quot;T%&lt;&#039;LAH&lt;&#039;1U@U A$\@C[0G._.6Y;?D1?OQ;ZT=E1S]&lt;+H1Q
+M947[L/NAH-*[S3(Y)KX^?3V]*Y?_  OH]&gt;8+B ;4H!AF&lt;UDD*Z$AX IIN&lt;Z@
+MG&gt;FB@\FKBAJ1*&#039;3XDK[F;@&gt;?&quot;&amp;*MI]QY,K&gt;&gt;D&quot;&amp;\JYS&gt;&gt;0^^&#039;D2^#3DVES!*
+M.^Z4&amp; F)QZ[DM&#039;S&quot;:/KB?.AX%4#8-S(I.;+PI9K6!/K8R!RLZ/.&gt;^-LIGW-B
+M %D+Y.&lt;W&#039;)IMX&gt;XE,-Z/3D/BA8&gt;7T/K0$&gt;WC9!!E_&#039;&amp;0ZLA#7D;J3T88MT*4
+M(&amp;!&quot;SP-&gt;FL.[-SX.L*O^6H^CZ/\ 5.SF X*4H&lt;9XRU%_9WMFA1@:?0$!O42[
+M*$:V7)[9RH%-.&amp;(0*Q77&amp;=K&gt;BU6:W%K(R3 (&gt;[&quot;;D=!S3[2 ]&quot;EOWV!AKBM-
+M?(3&gt;&gt;NN,N%;4T6IH!$54CO,&quot;*&gt;DX\:&quot;E%,4#Y(26(5KG8&lt;#U3#8A[5Y-C P[
+MJ! -)?!CTV&gt;.%[#,GL=%$1!@X#&quot;IKIF@G*7*%F5-;1!0[)0./,&lt;0; OL]-:8
+M$?3TDO)V+I+@.7A$08%R.(1Z5T1VHG!XG L4,W;9[LZQ0WN:31Q&#039;8LAK%&quot;YZ
+M(6P7&gt;&lt; E-&#039;)QE.:T6&quot;4+$U+!+T6^K!2B&gt;0Y?#R@1[: .;H!=T=N&lt;C!*PG^F4
+M9[\6GIM+J3*J(;ISN$2W=UP3[X_1.L25S9&quot;2HJ)O,1,(HU#Q&#039;_H#HO=!,%@\
+MR/S,*&#039;.&#039;9S94:G:NP&lt;+5TICTFDOMA&lt;4$7)[EKMM[&amp;/2OS\E0PFEQ% =)&lt;S8F
+MD]GG &quot;@B+I$;4&amp;@$P5+0XL&#039;0&gt;&#039;GGO 8&lt;IM&amp;+W :7%T5=R8PC:./\C(AC0S.[
+M$F!CX&amp;4]G&quot;XL:\L&quot;20J0:P$(]Y?*(+F *DRF:2HE&lt;.L=6H;2-?7[!Z5,U2,;
+M;,_W#^WY-8]\FL6J( J?&quot;+,E0EC&quot;E!K7%C=F!6QOX,8XG0D4#@4,&quot;J&gt;)C2!I
+M!,&lt;]1%13X!M]C)[Q K*/\0&amp;9-ER]A.GX-)&gt;4T[:LREIHNZ[!BD#&gt;O!D+PNL8
+MO#NUP@F&amp;U.*W:3M1#M3%NON)^4;_ .*&lt;;P?&#039;%D6TZ6PZ:8VIH-GQ&#039;9I0C17&quot;
+M( []P 6+9Y(RF+[CF369T7IH*[DQ3/HAN ER5,9&amp;&amp;+@D1[.2&gt;S,L!*):&amp;A&quot;U
+M+0&amp;LN)MX&gt;YA..H&amp;KK-[DM#C$4AX62;:/+S&#039;&amp;Z,,J-1L4Q/H)^P??6!#!VTE,
+M0E5*31BH0 Z!I&#039;744;L?3=TEV4.5ZG(\T:MPANVX^$NT)%A3!,A^41,]BP^,
+M.$QT1HP\2!=B9K&#039;;Q_$HS@()IBLAEX&amp;]%@]%5-A=WKX[Z,$4&#039;&amp;:%&lt;_\ J[GW
+M+O(X/[YZ,,T/, &#039;&amp;[8TDN:Z[=0+M&lt;9J#[YJ$Y2H(E,&amp; F:#%P]TH6@P3BE57
+M?@&gt;&#039;V&lt;*:TD,VOT 2!&quot;N2DL\\.G5Y#1IN7+ADLYV62:P-2&lt;.%P([6CZUV.P7%
+MQN3L\G92/2&amp;(&amp;R]@:W@?&gt;-\8&#039;($#0?FD O;&lt;,==%51%9L6+83+DI+OD*&amp;&gt;N 
+M&quot;91;&lt;1.3NUQ:8E+&lt;0_167@-&lt;$D6&quot;QR9#L8%(&#039;C&lt;S5^V^R!A(D&quot;K&gt;=LCX9XE&#039;
+M.P4-&amp;&#039;@4E *:+!2.TV*FYCNCIP2HTFA7 Q1[A7Y-YLO=7=,1&quot;#.^ Y Y11@Q
+MKJI5*-KG(Q^%]#QR^V&gt;/K^,&gt;/D]#OY9X^3/]F&#039;)\.&#039;&#039;U_K.#\8^@_3ZX\_;#
+M\./H#QCD^,_W8X&lt;_M_O.7U]/]L/U],YY_P!L_P!,YL/P/2+_ /_:  P# 0 &quot;
+M  ,    00.J&#039;O7DB2B,RV&quot;&#039;ZGPK+PKS[(CP N0MUE9V?&amp;DI&#039;!2SR*RG_ !:P
+M&gt;9Z2&#039;PD/7&amp;J?3C]4 E\^X* (EVT&amp;]7O;(;B =U  )Y_5)=05(C.V&amp;KL5MLP 
+M]Y+_ #HQJ&gt;C .6VV8 &gt;_3OG&quot;)2[8!0000@2;[ JX\C_*&gt;F&quot;2&quot;&#039;\R&amp; #TC7B+
+M )&quot;  ;?1B9TV_P -B(X2   !K[^,&amp;F?OMX&amp;PX  +6TK0L:BBA8@60R23ML/[
+ME!F. 7&amp;##YJ?E(]RR&#039;R=)&#039;&quot;HIK./;++J$H[L7;&lt;MP%*%Z&lt;,77E &quot;MY(EM-NV
+MKUVL\GT^=9*M\3JHQP-ZR.X&gt;TL&lt;AVG [&lt;GA$Z]KN4%U&#039;OIS2?U6D\_J9#*L+
+M,TKU\_+[&quot;+PB&amp;#&lt;\LUW&gt;_P ,PP$IE2&amp;K!__$ &quot;@1 0$  P &quot; 0,% 0$! 0$ 
+M  $1 &quot;$Q05%A&lt;:&#039;P$(&amp;1L&lt;$@T&gt;&#039;Q,/_:  @! P$!/Q!JN&#039;@&gt; %ZJ@5DVNEPW
+M[I0#VPOMI!X&gt;8;8*(0T\&gt;SY&amp;&lt;WC]]HB4-)M&gt;!U+JVR8&lt;JB[P((];\1T854$&quot;
+MA+YU\K0#ZXL3)&quot;!6#X5TI9JIMB@KI\?_  ^&lt;0!ZE.A:C]@L\I1&#039;!!$8@=$YY
+MHB:DGK&quot;3F8#1*B0/&#039;EJ$=X,?L-@?2PBZ&quot;D75J$&quot;QJD(!UYGS-!4&#039;A*!&gt;Q$EF
+M&gt;H&gt;D ?.@V.GPO*.)2D6 #P*\5&amp;!3O1E1,:&lt; J$$0W$&amp;%+&amp;%&gt;C5AYXT55X;KX
+MR/V/&gt;OWY$Z7_ #K!_3&quot;#=^)K]]CT,5&quot;8\ I2J5XP&amp;&quot;5V9(0BE&quot;DL&quot;AYXU*1%
+MFRD  J= 3:O[!MA7&quot;&#039;LL0/;#1UJ&quot;X3,((]+S823UI]XT&amp;5&quot;&quot;C ;D.G4NK2$V
+M:4%*:&quot;&amp;UN.N.KHNT&amp; 4OWT!M2P/-0PF&gt;I&quot;(K#J#&lt;I08NMYZ#_#QS$2LEO1T;
+M&quot;FE/92.$A$4H C&#039;3=(B*)-[@9@&quot; &amp;M&#039;%D506M1#R\ 5!.N#9OT;*^B?==!M@
+M9O30;2@#&#039;UKXA@*QH+H1(.&quot;1C-@1WUSPXNXE+IL&amp;J:506.-DB1X*$&amp;X;!9M(
+M+AE\@-])6+ M3]#:8A34WVG?&amp;\Z@((.:M2G4=/G -8]4H&#039;00:X?(#(CA9UE.
+MXA3X4TM&quot; NRFI8BFQ 2:T(+4(:9N\,VZ^!^&#039; RFM- ^1JVZT;Z4Z]A49P&quot;!2
+M:I4Z78-,#Y21X&quot;42]:BNZQ43&quot;CT!;  !35H]H+ PW$$!V&quot;/K#7S@2^WGM&gt;?(
+MU);K7B)PBM-5!Z)8S5&amp;4PI=[P&quot;&amp;#RJGD$9&#039;(P(5&gt;&quot;L(?+JQ&gt;!VS X=,*JJ .
+MRV&gt;LV;&#039;0A5] ;_?0%63&#039;&quot;W+O2/MXUAA1(+H&quot;(;I&amp;[]J,PN$=2:6RJ4@&#039;A5!8
+MN _88%Z!AXX=ZMX+C-J !O=5G&quot;[6&lt;AM,!#IEYX\9IR8&quot;APEZ52@TG,?I  10
+M/$T*]= \3/MF#:7$(&quot;7SQ K2\3(S I!T[Q^X_#Z5Z J0$24;B*ZV198!5&#039;U3
+M 51&gt;T$=R*YWA:00@X&lt;((/A(E3#=!T(-5)]RPZCA+4((;HH0Z0BG@7I3@A(.D
+M&#039;97HT1&quot;E=Z1V?(502U!K@[-AW@ XZ1Q-6,=SFL@-LB&quot;+N@%%C ^1:X[^F5Z$
+M+YQ8)@Z &amp;EL@1JL&quot;VY2QU2 FZ#(7B^9&lt;CK!#:!-CP(M]PW#UZ,MH_8K%$!):
+MN,9V670O@_?A\]QVZ0&amp;XENHI#A 585-514 J#4T/F&gt;;@EBZ,1;?0W7Y7R1+0
+M. B(OM)#?7AK\R7G&gt;!#=EJ;UE]TD&quot;Q)?@V0F@#!:W56:Y5Q%-I%F@ !\G::*
+M^E4=SA@U@B5H-&lt;-!JP*B 6[&quot;@6DG1@#&#039;]83*[I9&quot;%T7PB&gt;!&lt;,B69$+=,M+I*
+MSDI@/&#039;J@LI OA@;\:A]LP74-&amp;&amp;T.OR=/7[X*&gt;&amp;Z!9T?/_N)6)W /$VZ+(?QE
+MKZ,#3U&gt;SV6?&amp;+)V 2-G#G#P8$&amp;&lt;8@R;)3Q_6:1UN8ZE)Z0YS&amp;XF:@E?;[&lt;A,
+M J&quot;KQ?IV_2=&#039;)L&#039;1E\7P]_.1SN3@)6&gt;TWJ6SQ7F5&gt;G&lt;=)P@=2^O/;AX31&#039;8G
+MIRP=)L&lt;$CGL&#039;]L,&amp;@/VPC0Q4-&quot;PW]7^7#)1  0&quot;!?I_GK-@XJ,@,;M$4 51.
+MIL&amp;Q(1@&lt;&quot;TBKD1^%IHIH-:EPFP(E -FB)/TT!1,UFIA =@0F[D//TP,&amp;52!C
+M-(9O$EJ+8%ON 7T8RDU@U6B$0HB_N+&lt;5,,U:?X^^_P#TBV)H=/=ON93B$NA1
+M55/55OU&lt;G443V8(IHD!4ISX/X/&amp;#S&lt;! W\&amp;?;,!5+Z&amp;D) ^VEZ523&#039;A-T%M?
+MDL+TJEQ[ A##1&#039;&lt;FX\H[3N6)A]15-NB/GKO0F=C&quot;D8  &quot;0 @#P!,F&lt;MI(&lt;*+
+MKQO1K$)&#039;SC&gt;I)&amp;:.S9VCW?\ (I&gt;3&quot;5%*M/!IKSVT64#0EFMKZ]:V [UW&amp;QO0
+M;I[-+\&amp;S2D*X?/\ Q&lt;&#039;609TA!M$;#B7#2,P[@52;3V#P36.;=+L?6 3X,F5(
+M;2L 2217533GG,-4;8EV796UZN?2 ?;ROS^BX#+W&#039;1#PJ+XT_1,M*.4IYJ5/
+MBH[XU;0.WV&gt;H@#X$/OE+Z,Q&quot;KFV*EV_;(P0(-*RBFPXC@.\61-2G;R/#],0)
+MJ)J&amp;J:;W=D?V&#039;[9@HC&amp;PZ&#039;$_I/(IYS6.^@CR&amp;VQJE3A&#039;&amp;4UE&quot;PZ&#039;1 Y2\QTZ
+M:*K-3JK87OG.7&#039;GD6/S?Z#,@&gt;FJ511:W]O&amp;)3;$D4*  &amp;ZZUN&lt; $1@@ R@3O
+M=5RL&amp;5)4-HDX%\*;6SW_ ,_&amp;(/?TFIB#W(9,&#039;W]&#039;Y\XLQ3SZ_/&amp;\\8-&quot;N&#039;JU
+M!YD.:+4]&quot;MV)[06/6CPW=Q/[6!Y\0($[/&gt;_]8=9 K 7?(!\,-PI &quot;5#A87SM
+MDP9(?;(/8(/;49P763 V;FHC=_+J;RL0$O%)OV/P4F/,&lt;R8@8KL#G-&amp;\$D&#039;8
+M-E7&gt;VW^/&amp;./&#039;J\4&amp;@&lt;&gt;WE\:-/_F%[NOYR,EPI U&quot; &amp;]]?B JZ,,!!V0GA0$]
+MV9Q:/_+=NW;QRY)-B4$-@H@[5&amp;]A@7]66^!GU\8K$$!TEJ_(NBZ]T91@UVH3
+M-2NE2[VY:LV#(@*&quot;ZH)ZWHVX!:$:XH:#R.E-*,7N&#039;.)GE8HFB]4_&lt;?$WXS2&amp;
+M $-6_1\\&gt;M?(X&quot;GPPYP+E46@&gt;05[0@+,3/;0&amp;WY)IY6 +9FB]-.+:&lt;T]G+O1
+MO(@A?1(;]A]]O0C^FI*1$*; B448\UBWSXDQO0D[VEJZM=PO#-?XO\.7]555
+M;5+7YOG]3L_0IDR9,F$2?3^L)E]_\3(9,(?)&lt;&quot;&lt;,)Y&#039;8K : ( :/OC,QH,C$
+M&amp;++MZ0?I@,: B!H%LNQB?SO&amp;8&#039;64&amp;E&amp;!P8.%0U@!?#!U?X&#039;^8]*.@*3V&amp;SU]
+ML0;JZ_QS\]9-SS^CBM$$%BMH- NX/!QD1 *IH;]!&lt;%9BJAHE#$+7D1-?OO&quot;:
+MA*/1 )I^/D_7[_\ [_V[^L&lt;G_#977]9T^/S_ /,V[\?&amp;_&gt;5\ZPPJ,8[TSNMX
+MYH9BQ;J%6$X-IPEH05!0G0 = %459D@DT *#L#5*1.CP1N_TF%Y:0:I]8V U
+MT4\F&amp;9A&#039;2:5[CD[_ &#039;CRZ?ILE)Q-I.34[E%GX]DTIXO@_9YL?&#039;&lt;EU+\9S7?E
+M6GQ[;_#?&lt;(-F\HG;(XU;H5^B8]!5(J!4*A4-5&quot;]&lt;]O\ !A&amp;=#\_*:$JV=)GW
+M/_&gt;C]E_6%K.9UBEF&amp;7QT$G6HM6%H\/6#R6C7:6ZL%IT&#039;P8Q?Z7?GY;YW?&lt;4I
+MI6EV&gt;?DKSJO7-^R&quot;WU#N*?0 5;6$T0+ -IZ.+&gt;(:4BJAK;1-S3P5&#039;?V2/!84
+M&#039;0 +JKN8_B&amp;&#039;N$(V($5X2=^,^3&gt; 7X0&quot;D[)?.%] B$$0)ZTI],&gt;&quot;9&gt;$C#S1 
+MK&gt;OK(D?9&#039; !=+&quot;8560$@K4*#M#U@M_?8:A@)4%-+#?7Z G^-YW?\\8,WW_\ 
+MW_M7]84K +2@ !J /#U_N=?O9:%RNK&quot;SL_0C1@IK3P@K0VYW&gt;$8D;2X&lt; W4J
+M3;O&#039;3E\CO\7W&lt;Y/.,X+MFENY&gt;_U3Q@/@R46L%M6E&amp;%TH5YNM#];1J#[:!9H4
+M64IE&gt;[%!*&lt;H^&#039;R*,U8Q%&amp;&amp;%O[+$J+MW !5#QYR ^?(4^3N^$],)!2!]@)]*&lt;
+ML=_3%J):-;.?3PF]7 RE:+WS0W^QED/S,T/&lt;:V_/_P&quot;/T_*&gt;^?C^[_\ Q#O]
+MN_K&#039;X^^#3^5R[]7]&lt;/,9H4B/!(:@BUC.QQ&lt;?&amp; Z[ ]@*K 4&lt;:%#ZG90*[-2.
+MDR111H [@*0905[UZD4)&lt;C&lt;@5W&quot;.M6+[&#039;@@)BT(:=5++=-!X/@P+%C?&quot;D%]N
+MP.POO%(81&amp;4D:/*#P8LNJ;U&lt;?#7J%/*0DWLK-7&#039;7&gt;GY8A3WK[]RK](M8WXW6
+MQ ;QR2W&gt;4&amp;@B^&amp;DETT4CGX/UE_4M^=]\]C.5D)B2(S_DX936GX_G^Y-/IFQD
+MN8T-BX]4&#039; &amp;&quot;_0=5X&lt;3MS?CN:[;A.I*.B5FA/-P&quot;)H!F!L4:.E!U\3*,!)48
+MO:(UY$UCO&quot;&#039;#577J)X^TWEKVPH?QET;O06B  -*P87#BF_H-OU\.&quot;O5 FWR[
+MVO/]S^CC_;%I!=N@ [? &#039;=_S@5I(&#039;!?0@&amp;^(M^F:7/R&#039;/KB6 56J_-77?$S5
+M)*FTVU[?*_3Q,T)F L KM.7&#039;N_QYNX4&quot;-&quot;%(NA\W]&quot;R61,81B;&amp;&lt;?&amp;&amp;&quot;,(C[
+M1)^Y];], @2)\(D?&quot;(*-HIO+W5=E!X$ 6=0*[#8?\Z-&amp;A0XX(,&amp;GH9T32V4Z
+M4%5@ AB#W)G&amp; &lt;!4&quot;@]^.Y+J5Z&gt;&gt;7G_,F8%&gt;7Z6N_AE&amp;$&#039;5/X&gt;_3#N&#039;LBD4J
+MI4.N,HO.V,0&quot;+X.E&quot;5!5&lt;-&amp;K5K5$%6@LNZZ.&quot;$&quot;X8!\,N\&gt;-M.Z#XCR=+#SF
+MTD&gt;U?K?B=O1YO*BK2O8VG:&lt;_G]$NG$O3/BPIS]%PX$J+VL9^V5?4YZ&quot;.SZS3
+MHS:BLMW1O&lt;COY\GLNK %^.Z9]&amp;C)VSH#E01)7G+I=:5SF:E@(]W#WW\F#B=7
+MA2SGT_.X+7F3C&amp;/KT_QBL3!OM2C[&amp;\XKJ7CJG/\ \\LP6)&gt;#P01]2]Y_&amp;7&amp;*
+M!\A97QVKP+FV&lt;=LFYO6MZ++RBB4&quot;&amp;)[W^&lt;Z&gt;0PV-&#039;%!3SI2F_6&#039;5CQ0IYTRG
+M[?.+U&quot;?,+Q.]\O\ ./+_ #A?Y[\?37Z(W=T/U6:%=P WU-8V#$D*,1&quot;-%E31
+M[!%PU)902BP%7;U574X&amp;(H+C &amp;YXCQ__ #IZ=F\X142BCFO/TK$] .[S1YY_
+M[XRZQ&#039;UO_?C!* *009;&#039;21=94^YIT@4V:79OUO 1 PB*HOEI8903K -)&#039;ACW
+MQW 5:B $4F^][Z##@=4[02+H]TR/W?ZL[+&quot;-R&gt;7WY?5U#63[I5?/)_B?O]@)
+M%$KMD!^PQ]#BCWQ&gt;+&#039;_Q^\P/L?4]9I\+_ME_&lt;=@NGU78O[ZPVUT:W7?-87!!
+M+R)Q_P!]FL6)E%Z,_7R@A&#039;3B$FECQ31^4_&lt;4Q2JB#1XD&gt;]R[O@WG#LS#&lt;$_U
+M_),12$_(C=T%_;&gt;EAH7C-Y1J3OLT9N&#039;6X_AE&gt;%9;O 6&quot;W4*Z .E#5B*:?J?&#039;
+MZ)&lt;0[@&amp;&lt;GX8&#039;L(T;#2JR* *[&#039;A=XU&lt;7A3XT&#039;T&amp;L91YFYNB[&quot;%$.MP,4\[%W#
+M1@$=X41O[$C$/T0G1G;L^OTN[\][8VW?_)CATMIX-=:R&lt;BD=H@:/+6MN&amp;/%=
+M5U.\&gt;4,2E!IQF[!%3E$[O6&quot;Y;M&#039;W=MGHP&gt;1WE08;?\!)@^A35[)9;]\. ?@$
+MZO-&gt;J_5SC3,K=3&lt;0;:7X/!A&#039;03Z+;I 7YN!4,BL$Z&lt;1VYY:VY=X@ 1@&lt;&gt;/WN
+MKC[3D(GG4VD\:UXF#\&gt;B%A.O&#039;YW,WF&quot;=%&quot;WV]MT.^Z(01=I$LGEN@/&#039;.;RC&amp;
+MESI&#039;T2;]YO&amp;&#039;&quot;6\%?&lt;[/^?MF#G@Z.+$KK$4IQ1B$PON&#039;1AJV(QX(5@I@N)*%
+MP&quot;P+)\.J&quot;[2+*F! =40;LYJ*#K*2 #U&#039; 2\G2=P8#1Z+&quot;+&lt;LEC,LP@*0)R#5
+M]&#039;YYC5-)A0D6Y9V,]8^#&lt;E4@/D.\A0+&quot;Z&quot;BZGNX&amp;)2/Z/K])D_1&#039;Z3)DR&gt;87
+M8%5T![7T8(.A@L,-EM ;I&#039;9[SE8&quot;0S7=:W/COJ86 0MQX&amp;0Y82;VC/X_]\9&#039;
+M\:GP9#^N&amp;X=.EGVYN)15:B&quot;U42R!?/\ \S[9@38&amp;5#QW\?.*P-D78.O[RB4&amp;
+MM-G_ )W)&quot;0YME\8A:1^GY_6&#039;F)&amp;&quot;P4-&quot;[@^6/T&lt;?#&amp;A&gt;T[X0M_R_HH7*SI]&lt;
+M&amp;PP!4#51/REG\8V $%@AY:$N/-94$NI&amp;R:\&#039;5]_WDR&gt;GL7&quot;ST?X_-8X.9/BE
+M#Y^_\8\P8F^R&quot;&#039;-&gt;U9.&amp;]ID_R!2V/U_/LX8Z \O,JW$DZ\FPV[\ZU+,[\8,&amp;
+M%#H=W#X-+T)ZMF(]2GT  5T1\^]$P&amp;3T4&gt;&#039;MK8[HDQ14(;X7^=3X.:F :G$&quot;
+MJ\I1GSFJU200 +5#7S3&gt;B+B.84I5&quot;NHW1VW8S[9@\Q;6E(U?&quot;!=/&quot;SR;(!JV
+ML.BBO39&quot;S@!E Z K#;Y&lt;/+  H#R@?:XQV:RQL!_!YO,[Z8!:1U/-Y/.+%$D+
+M?&quot;&lt; &amp;S3L-!EQ=VHU08T(?$^C&#039;R,A3Q^%\_7#&lt;%0TK8EAZ^,%@3(YAM^X75(P
+MN.,Z4G7NL:_ &quot;^:#@,4;)?V)HYN?#N#XB7Y)4?%K/&#039;,)YPWU-JH!3KA8C1JM
+M8OK(&amp;/+.@;V&#039;P6A&quot;]HB^F?XY^W\MWO),5*&quot;=IXTEOKCFG&gt;&#039;Q;5NJU2;-+$P 
+MZ&gt;?K-X&#039;*[D59;5.$Y-28ETC8Z]9!&amp;B5-UV2P=IK&lt;E&lt;&quot;)X4#447&quot;1/*-UBI&lt;$
+M8S6.B]*HEANJ@G0U%VY/H;C4UQ?9ZYGVS *Z=-0454[ %TF]&amp;2HZ?L :#]0L
+M&gt;W&gt;&lt;\A] EC\G)F]NHA;)2&#039;J: H=[#6: X0,0&amp;J*;-(Z#&lt; 4VQ=@#;/+4!RM=
+M&quot;(::V&quot;IY) &quot;H-&amp;&gt;&amp;.+S&gt;;?$EO^8K&gt;V@^A02I%D&quot;S&lt;J8HQHT :CPT1&quot;E*,0$&amp;
+MBE!06 -*MVT!:V04E2$-%E!PI#=5&#039;2MNZ(\L+#Y?&amp;#6(L0&amp;^;%/+2W0$ NPS
+M#5$;58B)ZXV8DF@ZVG&gt;P0&quot;$QZ$VRM=P4*HHT G#:J*[P^0 &#039;R,&#039;P676C&lt;S1]
+M;S^#)&#039;AZ/*Y8 .RV!0NK$8^=4.91&lt;U %=5H8&quot;P@JBH:S5-%D#0*!!$W XCD0
+M&quot;NW@Q:A&amp; +\NJ8*WK@=-;&quot;\#6/;G#^;&gt;*6/I^,M\@ )A2@B[0&amp;B5WKFXQQ%B
+M T#V2B0TX&lt;9LB[@*SRU &amp;%:T0E&#039;WH [51@3:&amp;QYIWE!&gt;+\27^L9^@!H&gt;*0LV
+M\#1X7!E!01P)8&gt;%1H:$70Y]LPC*5&#039;-$2!8H*&amp;K98S:ENR&#039;SL_ 2F5&quot;X(&quot;D&#039;*
+MPF_?O\&lt;V%\E!&quot;T$:JQ%U.BO P0-[%2FJUHIT*Y!7F&#039;0 I08T0[! 2-/?E$4/
+M(*$&gt;=!W?,=4&lt;R?$G/OGQ&amp;PTAR(&amp;:4H]UL&amp;D-&quot;@T!TU7:4#;-@+!L55(M2=5(
+MB@B[-71G2JH1 )V15-:!8YWU&quot;ULI*?)TQE.5V!_.WU#1N72AMS*!K@ H, &#039;M
+M[&quot;S-,@&quot;@-.402:&quot;G!36V?M1(P(&lt;H&quot;KVK(!T&amp;H@G42+LTH79ZI@WC7NKONU?R
+M_&#039;G&#039;:TM9*HDG%6&amp;Y[Q+&quot;:A#@T0*0;:*Z1N:&lt;HE:UZB0U #TJY:0;STQ*TL1-
+M&amp;EK9,+1KT0GG9?@0W*F4 2%Z@3?CZSSE1]&quot;@0E@JBL1=02E=(#!U%K6TE\&quot;$
+M(JKFJ+0%D I8HT$=E@D:&quot;D^44&gt;0+%/+ [OF($&lt;R?$F*0Y@BAHHH0[*,I%A46
+M\H; #LU4JK.D&quot;#(5GAA]Q_;.7[8]?M_6?WO]9^+Z9]R?[G#ZF&gt;?YXSIC_1_9
+MG#Z/]N=?K_N/G/N/\9S_ #RYR^A_F/V&lt;&gt;6?U?^9P_3_&lt;[_G@S^I_3G^3^G/O
+M/],.OSWG^&amp;?=G]8_$^&lt;.?L_S.OYXSH^I_6?W&#039;^Y]X?TS_\0 )Q$!  $# P,$
+M P$!         1$ (3%!46%Q@;&amp;1H=&#039;P$,&#039;Q(.&#039;_V@ ( 0(! 3\0E6 7]T;)
+ML7;9\=Z !12C?4?./6^U(H0R/W- KE8.&gt;(_53R+9=?U8[U$78J$(F68O^W[I
+M67#G-OOS4&#039;BD:T#D68ES]S&amp;_K1DK%. 6&lt;S;MTUC2C2[\TTL5X-M&gt;GS1Q&gt;:_O
+M7[VDGHCHEW:=,WWYH*UDFD3BV^=.NM2YAHNGW7IN5.+ZT7#=5^OK%$04=:&lt;%
+M&#039;F&#039;7K^F_6FIV@C]^]JG&quot;BP&amp;M#F*VSKV_=ZP2BHT&quot;U-^^&gt;WB]38&#039;7[Z_VEXO?
+MRT$B221TI.Z.(1(G,K:W&quot;WQO3D.U(&#039;F1A9DX^M 6A;ZQ:&gt;O6]2K)&amp;?GXTJ^Y
+MA&gt;$B&amp;9EO+BT]8I+&gt;H/=+HPE\0.^M+&amp;05A]O7/6A66&quot;=)UZF.E.K9)82((M(.
+MM)&amp;S4U(8LS&amp;R2=;U*&amp;TEZ3IT*+&quot;WDO&#039;;-_6KRLMXWTO#%0O*F.1MBW6(C:.\
+MQ6;KYJVY#?.-+7H?=&quot;)WAF&gt;FW-!+)D,=&amp;:D6&#039;$(D3:6T6ZM_6E),Q3K:PPLS
+MTF.\&lt;XHETM.=I&gt;7U@]%P@=][V_[0&amp;=!&gt;$ &amp;=0NX@GK4R;-2ER=&amp;$S)!;O3OD
+M#D-O[KSZUY7EH*D59&lt;B+N9F&lt;:5)E,AIESIWJ9+#.=(UTM&gt;EY80UB\W)B\0YI
+M$91T3!VR&gt;Y5V ;.GZ:OQ9ZKEMB9+Q0C&quot;DWOO,;\[&gt;]&amp;&quot;:$G8_P&quot;?;P*QDJ33
+M3N;CF?W2HS-J8X5FL+.9&amp;TZZ43!ML&gt;/- #=CKF?N]$4WLK+A?3LR^]-O#5]8
+M+3,71%F9M[TD#A36+=;^M29$Y2\8Q;4;J](I5-YAYP^U_3FD0N-WH5+!A&quot;+N
+MN8C7KK4I9M_:$&quot;!&quot;W99S)IH4/#!&lt;,3BT[&amp;&gt;&gt;U(QD&#039;0EM?9S0&#039;P5P7/MZ=RDM
+MD$Y3*2]T2HT(0,;37E&gt;6D 8*],LTW+O7;%(LA]XQTHP(HTO$[^:C0.28OOGU
+MIYF&#039;%O&gt;] KLK/&lt;U&gt;1I6X&gt;:,K#$ 8=^VE.UERI[#1&#039;SO3*ND%FW/&amp;U&quot;D*AJ(%
+MMSQ&#039;B@&amp;*$ED;7I\ZF;NM&amp;Q0-KL]-.=Z&#039;1=@V6G/,4MRRY?7&gt;I2 G)B\&gt;E_G2
+ME)VQO(\G8F](,JB(&lt;-IYF@!%&quot;H*=YZ/ZHN@T=6FE&quot;3DO=TG&gt;ER%]?GS0B^WZ
+MH&gt;&#039;/7WZE3:TN[&gt;O*\M(2PH3I&gt;%Z&gt;S#-V1C-O$:T0\J2ECN+^Z: LF\ZNN%Z5
+M@ITD,J);NL30V)&amp;  N;$4@D.*4$ L8B&amp;&quot;V(L- *YU1IPT@RB%)3:)Y&#039;&#039;I?K^
+M)_,3:EK))&amp;L^DQZZT&quot;&amp;$A$PS$1&gt;]7EL3M/[O046(&quot;(AB[._\IE*(9FV9MV@Q
+M2_@S1G$H,V!G+BW6I)==B&gt;;3Z4ZHXTL&#039;3Y*-_D)T,,(8-J&quot;8HC-C)NQ0EP93
+M,X;RUTWZP4! 9E&amp;2&gt;;&gt;WA&lt;YKRO+2@LR^7M4O;MMINEWO040.%_6B6+B+=\&gt;E
+M8**-Q_=#[NE):U&#039;24&amp; \VJUOMK_*4=\&gt;U,K)&lt;&lt;S_ *&amp;@C%-\U!4?AJ&amp;MS[YS
+M6(0^WC/M^J4AABTVGNZT/7K&gt;_&gt;2@[+N0%#&lt;&quot;J=:!G00$P AU-K:UYWEHNT#.
+MRH*TLVMU&quot;YM&lt;/U0(0S/FE0(6\&gt;N&gt;=SO0Q&gt;H-O MP;LYI,!&lt;$@&amp;,:U%H:4G5#
+M:8BQ@WHMY*(P?@ *.G*L1O\ &gt;M.#&quot;MA&#039;NR];=*AO]%0W^BH;_14-_HJ.K]&#039;S
+M0HKB; K=!;.CIK6/R[4E8.$N3)@]_-6Q+&quot;V@ SZ5$^+$(DQ&lt;X5OS100FUHM;
+M326:G&gt;WI%W_DI6_4ZX*4(&lt;D%RWM6B6-&lt;ZP%&amp;&amp;DF&amp;TP_&gt;\M$,F1&#039;1M%&lt;CB(B)
+MM=ETQ$_NFB)LYZT\,F7%+%%,#0DG2;4_=O%%&amp;A@00Z&quot;14/N_:U &amp;+&#039;D?S=)]
+M/^VDV?U27Z?X32N:*A*$6*-K/!&quot;RKE%RM(3%&quot;0!]GLU,D)+&gt;6[-@F)DLV=)@
+MJ ,L6+@) ER&amp;HU:\KRT(EGSJ3%$U&quot;;ZO4%/-9/R.U@\E( (9;Z,-H&amp;SPTGI&gt;
+MU#;&#039;,65B-CDK$8H=%1[?GZG+_?N7ZK)^[?X#,*33R)^]Z4Q)/6@+ D]&gt;E(1&gt;
+MI9%(Q:#$1&quot;QS1;@TN\&lt;:_9J&lt;(L2)J7!^:\KRTU] &quot;[&quot;[]J$$&#039;(RS)@[X\4-&quot;
+MTO)K32@#-)--&lt;%V&gt;XT)TS/-!0F\11LD(N%91R!B.?-9L6%\2L7UH0T2.&lt;8T+
+M)F0WK[W+_;]5^JE+&#039;W%:P4.C^$C46*&quot;D$(&lt;E0!1A ASQ.KK4CSF&quot;=.8G%LXJ
+M&amp;#,7@G!F)Q0R%8 (&quot;PZ&lt;VOC5XIOETQ,7WF^G%0!BUCCR]&lt;&lt;5YWEHY&lt;:?5246
+M.BL?=MJ0LX9.TTPDB(@;WOKF+T2DQ ]RI&lt;XU@)8,N3&gt;OYY\T&lt;4+@[3%1&gt;:%G
+M?R5A.Y5R-/UN7^QZK]5&#039;UVI\\2H58G;&gt;M898 Q9CJUTO1NJRR )V1+T4(JE6
+MZ E,1-HWUI#J+KB(V\\9H&quot;5*&amp;\C+&quot;)O-/-+TT8@F(&#039;(7.*\$G]1C&gt;BIT9W^[
+MVQ62&amp;N^[4*$JH&#039;=&quot;H#B$2#*&gt;T=87TO4-VGS1U41F+TT)#%G8K[?-(*^FV_C[
+M#&gt;L73YK.C]3E_OW+]4&gt;?Q3^]I6!6-ZTROAY-0UJ30)-PHGFO/28H\-JREX((
+MQ:,YF&gt;*&gt;W3UT$\Q-&quot;2H(!L&amp;EIMU-KV[WID!&amp;TVDZU&#039;B@ BTNO6UJU;?RT=YR
+MG:13DP0K$0YB\MNG&gt;CV:?-(V?AD)-*&lt;8LMQ!&#039;_&gt;]?0YH5]-M_&#039;W&amp;]8G3&gt;LNF
+MF2\6^3_:*Z1\4+,]*MXT,3) +,WUI(D1E8S9KQV_  $\C,L8($UU=Z1X7@S*
+M ;6C ,Q:ELOQ&amp;&lt; 6MJ;$S3G$&amp;RY(!M$*R7F.:*B%)8!9$R;0:8C3&gt;^*OX)YJ
+M+@JXQKH[N:/G&#039;RT^=&gt;E]6]&amp; 4&amp;(M2)9;7Z6*A5C)65L&quot;.E?UWXH)S INR_%K
+M]1-;F+:T*(]&#039;\TJL;H@#,3KP4&#039;2!C^:U:&quot;Z9@7&gt;D2%=;T?%=;T?%=;T?%=;U
+M_P&quot;5 O+T?%!CN;S+J1 :&amp;=W\11KS5M:$@6SMPH,OSK*G6V+=7[:I2&amp;)]-[UH
+M)M0T@Q-T9[62&gt;EJ4%+ #%]?Y0,P0DY)8A^ZTWUO*HAX=[QE[4:(!+ F=+F9]
+MS-!O[/X0UJ&quot;II/P$T2K$OZH1R1^Z8L%,&lt;4*0/_O\IBBF=XHY&amp;.Y!4OHL8IQ@
+M)P?%2ICE8MKXO2ZG P8ZSZ133,9]OFE6XN[&quot;WK&quot;EZ5J,*!,*3RTH)+#DEAZF
+M&amp;DTEC:6/3% D@L.DL&gt;F.&gt;M_QF6Q9@7QU&gt;LT&#039;2619/&gt;2FR9U_Y@H[4?\ 2L*$
+MOEHZ-X,&amp;G:B&#039;&lt;\T7LV?NE$)+!O%I.2Y&gt;I:P#&gt;$ENM&lt;YK#&amp;I9TN5&gt;+@7MP4M$
+M/2DV0#&lt;&quot;ZQJ-OW3=$&quot;Z)&quot;PX#/&gt;CZ_P&quot;FF890[+]]*/9+&gt;D4%A&lt;)/JS-0V1?6
+M8&#039;[-&amp;.WXH&lt;&gt;ORU-T&amp;7QK5PV9[HI-ICP412\(^GS40&amp;;QZJ&quot;(S/\ : IQZF2@
+M &quot;T.$[._6U(88,/&amp;?&#039;O3 F83;$X&gt;M-?48Y/Q#[]SSFHH(J&gt;;?RTWR .JH4M8
+MR $MPZQT+;T-M*CK&amp;NEFD#; )=YY@J%V@#%_92(JF^GE38]J#N-9323[\T?9
+M3F-J9PF&lt;S-!,AFUO-*9=G=](I,X1%.&quot;,/\4E 7E/BLHVK/W2U#%Y#6D]$&amp;!C
+M&#039;7&gt;DUM5MU;W^Q4#&quot;&#039;K)^KTQ735,7F&lt;:[4)QHEO#&#039;!%&amp;,A9Y4%8VZEH[7FD=D
+M+%NG^,*\KRT[2$)V:?0SLC;6VD]XQF]&#039;)(&amp;8Q[S9IJ:DCA\!2+P.8Q-DSI=V
+MJ90BF+$B3OSO6%C1B;(Z9UJ&gt; D)A:2*.AQ!&quot;XSJXIHD4E80,Z,S3Q30LS05%
+M%JB@_$4@YHMBN:C2@T+U)*Z&amp;9A#VU:#N=4^UM*4L)&lt;VV*004!.(M4D&amp;3BKZC
+M&amp;;GS$\&gt;U-0@MMKC7:O*\M9C1&lt;#NTX$=+&gt;NE&quot;3&#039;V/;M47M?H&gt;:$;FE-M8]Z%!
+M+.9(QWT\_A8M47FI(#CBB(23DAQM2TD0LND:ZTTNA/I/BG!CM&#039;X-6E=*&amp;8Q;
+M46\\;%:O;DT]:(MK6J.X0@SK+VM- K@1K2&quot;R[06==,%^6CLBRK9:=,^O%Z4L
+ME#]Z4B&quot;!$&amp;#M?I0 P#TI)N%DC-K,VB&#039;32K&quot;&amp;AG:S-&gt;5Y:F?=?37/$TH*8M+2
+M=0^M1ZP,34PL8TG/7C&lt;I*IW9_P&quot;5&quot;H#&#039;-&quot;\B%]8[_@24(&gt;_3\7BPG&amp;M2%67O
+M,.OM]UI:1:Y%N=;&gt;K&lt;_XE1,.Z[QK3.Z^#%1-JBU@F#._3KQ3&amp;N*=2R3,Q%]]
+M&gt;F7&gt;L&gt;28IA-,-8F9O)&quot;._P TD65$:)&#039;0]8B.^:5+A9_5$I@&#039;V&#039;TI+$V+26OI
+MSO24,#W QVOVL4:!F5XDWXO7E&gt;6D4;@/&quot;E+$$@(MPZQ[\8HC%OLU+C9%Y6;8
+MT^VJ-)N283.N&quot;CUEHO\ =KM&amp;%AS!&amp;=&lt;W)[\4-[%1N+T$3,,3P6&gt;^:&amp;=#P[3Q
+MQ&amp;*;4EO.QOV\TE+Z,1?I+M:@F4*(%)(3FY?2:)1L8&gt;V&gt;]*8P2KUM;6?%&amp;B8S
+M$0AC/-MZZDK2+$;&#039;TEXX[U!&#039;-64FNWODMO\ =JE,2N):W3&lt;B]Z-!FP=Z4@R&quot;
+M$MK#K&#039;0D]*$JP!.C$JFW9O\ VA&lt;,:FS?6L_M%\#\!&gt;ABA1-D2&gt;[)/!3!Z*MD
+M:8(F0MN1BV;U&#039;^[#&amp;\?7I7E&gt;6GEP)&#039;F9\U( @A9FS=@TG69XBH_C3V5V&lt;/I4
+M!5VD6 QI60TD^SKC&gt;*LNMRS*HSM:]%N#2#,(9B)FV+E\$5E$YZ4PW$1&#039;&amp;I1C
+MR9S,M]8-VU6A1V!;$L,&amp;Y%^/&gt;E&amp;23ZTZ &quot;0C1,\0S&gt;QF&quot;&lt;=JDQ28!;%VD1-F
+M?;BH6-!EK1MCGI14 ! ?&lt;^6@1(#)VQ4\&amp;0BW-8-)UGVHR7WWJ]A,WD1Z]L:]
+MYI6[M-BD,)Y-MKW[-%BVYAF4[0&#039;OS1D)GWI0&quot;4RF(F\0%[O:BEK\NWW]4M%K
+MY:RUHZOFLJ:9-&amp;#I63TK#\;)THS]XK(K&quot;OOVK&amp;LOP?RZJU*^5&amp;?P,E.2L*P5
+MM6-9UY7EK__$ &quot;&lt;0 0$  @(! @&lt;! 0$!      $1 &quot;$Q05%A&lt;1&quot;!D:&amp;QP?#1
+M(.&#039;Q_]H &quot; $!  $_$#XUA!\2&amp;LU LD9W-:)!!&lt;(X&amp;LQJEJXU4(!&amp;1UYP/IF 
+M4PL6&quot;@*$9_@H1N;=(@TPWD85#)&amp;-%@ + MV161,IZ3J6(&quot;LH+2USVW\YP^&lt;+
+M^!I002S$T(K[Y4 8 #A7Y?@H*9+3!_A472#)KT?EF)T TW7.D&#039;0 =J8H8&quot;&#039;J
+M)1P!3I.202@]&quot;@TM&amp;,0 $ I3\EUC@M4 :BA:Z0S)(:#;A6]R,[M8(5&quot;@@9?)
+M%E0)R9P+,;@P &amp;;? @.$9!$5#FE-#7X0 .Z!0*4![M3*!)8&gt;0 (.&gt;-]&gt;8 50
+M8 \R&amp;-_76);M*,0.K$@E&quot;&quot;&quot;.Q&amp;XC&lt;U&lt;X.8%NBRJ7&quot;LJAFG5L@!,$R;P^74#P
+M$ # DA&#039;D$J&quot;91HAA,8]7T?0Z?_,@=Q:L&quot;K@\T BB=%&quot; R&gt;L@X1J&amp;6\Q?(_7 
+MJK =9W6=5B-&amp;+0TU&quot;#2VUY0Y76J0!ZO6+M!P@# #&gt;#*JM=9;=1, ^8L)NBTW
+M50$0*&lt;KPD @DP,C$&quot;CNUG; *Y6&quot;+#\)T&lt;&#039;T_3A5=ME(DJT6N(&#039;#\.82VJPK(
+MFCB+2N-8D=VU95RFI?5!M)4JK 8#X*C&gt;=X2&#039;&gt;)@2S&lt;@D1M0Z),F&quot;:S?#I^\!
+MII&#039;)U%A655VY@BH:FOF47:*:T*FG\D+&amp;]R&amp;Q&amp;Y,?]:GZVQKJI:W$MI+/B6,&amp;
+M)&lt;W)6[FY7T[QC=GA@F.RI$&amp;B HZ26 OYUNML(K$L(2BM &amp;&amp;B%3?!H&amp;* F03-
+M$K&amp;JNV9NVKP7(O!!Q; EJA(&quot;DTVE:E1#  $#;0B^40E,-35X&amp;P&gt;(P?6H-(CR
+M(!Y SXR17MR,-*W:BXG&#039;&quot;UV-#0&amp;K&#039;R\KE]UG&amp;M9NCN&lt;;&quot;T5Q]O!;FY%CD9; 
+M&lt;,\F!/404XZBK #&quot;*A*E &amp;8!_ W3K\20@!D)B#NX2]=H&amp; &quot;#N=]M?&amp;@W/LQ^
+M Z?%-GN9EXO%^7@T EJBC&quot;AH D^G,P0A6AQ&amp;0Q(0HB&amp;&amp;;KF6!$_%&quot;4 :&quot;XS0
+MX@K32/I&lt; _HH0I)H&gt;&lt;&#039;IZPXW= O;GRLM.G*(B+&amp;[&quot;*HB+O%=Y\6 ]97&lt;7Q9V
+M1X%XPV[RLA$7*D6 ;K&#039;N&gt;\&lt;7O@&lt;+$$73V2+&quot;0AJ3$JL 4II02A:QWF\BU&#039;%0
+MF1LBS#*.N&lt;:9,W&amp;&quot;W2&#039;(^((0B%&quot;(99Y,K3,P#K I&quot;K+S4]02(RCPS]$0ES0N
+M$S2,&gt;1&amp;GDD(8Z,+&quot;*/L!4]&quot;-JJ &#039;G*F8*M+0G =3RFP;\T][TPLBN$ZP_HJ=
+M;B* &quot;,7*3M$47O5D&gt;UJ#Z-&lt;6T.&quot;RB111&#039;+*(*=D!! :3&#039;W_&quot;^0@#N*J3#\.I
+MQD(* )M&amp;M&amp;;%P&lt;O):G9U9TZ)RPR [?E_ %@J6^ZV!-K FR%H.=.NS6&gt;VH&#039;IY
+M*(JC(AO(Q&lt;*C728+&gt;7(,J:+ TW&amp;$8C;CK48V()UD#4Z?46!D;TDQ2(  #HS4
+M0ALA2*]5W-,JXL;Y.30D85D$5YTI!KR7!6&amp;;J=&gt;(. ,FN&amp;D_:CHRA13555=M
+M=L:?+NA59T$92@D!&lt;%#=@VAQ$0DVDY:[?=P,PX=+90H+.@4&lt;UC-9$CB&gt;,-*N
+M&lt;.&quot;39$&#039;1@I,&lt;,[&lt;)!1%,CAV[&gt;? #&lt;9U6J+M%0C=]&amp;A &amp;IL=93 O8\.$.#X/I
+M&#039;M&amp;#%+OU*SDEV28AI8$  83LU ],P([;@JU1#;&quot;!0(O$M %W#79A*/&gt;&lt;@&lt;H&amp;
+MGM(K42JR2&lt;I2FOG.^ 3/!6KKO-8P&lt;Q!6 5\X&#039;(P=/MB7,!&amp;BK^[!4*%^050-
+M% AI;HS?,BBI,31@HBS;?9\H,M5H,N6O7*^7XBTWC=HQOQ1W0IE 59DX8#+3
+M;?&lt;P)@8$;?\ HKM.00 B?6!?6:+N0I-DY9:;8 N[$JE#0!&gt;] 5]?A\KD&amp;S=&lt;
+M?IN5!V,-:FVR04P-&amp;!L%.:[G;M.$MN-P1(B)&quot;A(QK %*N7*Y)9]!9PN3&quot;!N*
+MC1H 3(!&amp;1C5 01B&lt;I4)@EB(@F.J(FQ3D5JP+:Q@P* &lt;@&quot;:B5&quot;:M[0PC&lt;VJ-L
+M$Q;7EKH&lt;6&#039;9(6F&amp;T,*D?*WWCS:_JX:=:&lt;6QE&quot;?AFZY.&#039;+M-*(I%/!20(JIXK
+M4:!(%*\H\#P$Z@ B],-N&lt;=U[_P&quot;:\XI:N_.*LWQQZ8IY;BJUE]LJZU/;&quot;4O&amp;
+M1-AP]GC&amp;0:[%R_7&#039;[\JHWHR&amp;MF(G&amp;1L2; =XA\5A6_-R#A-WE(L$&amp;*R\*6?1
+MAQ#6A%;=((\X:%&#039;GA^&gt;X@&quot;%!XN2@(?06,M\;1*68KKR](E&#039;&gt; B=T==6D\@6!
+MMRR2!ID)&#039;$:1LPE(H*&quot;P45:O./*J0&lt; A.CG *,U4EWC3A-3UP&gt;&quot;(O[RQY8^I
+ME?O&lt;MYQ6*8 ?/ MRI,\X.,JJLK)O+Z&amp;^6_G/X;]Y_#?O/X;]YX*^W_&lt;%G&amp;JA
+M7E]-G]+\4=&quot;(HC&gt;$ J&#039;.L9NMT4$0;0\HQ,IFXA,56!10Q&quot;:@3E0G:(@@C@&#039;1
+M16FTB]@ ZO#=N_3K+8GOGNK M&gt;7AA2I U&lt;0N9_4MH][(I=Y   %2XE!3!(U$
+ML*5C(R/1RH%&quot;@8N$(*&quot;6M%:H/1&#039;:H$&amp;-#XO/.2 3$_32.3 !CDY01WO&gt;;XT=
+M96&quot;:+P[D1&#039;L=N2H2:+#LR,&amp;@$ $ #0&gt;A\4@N9IYWP.HNAL+DM59;-U@/5]\A
+MX,AX,AX,AX, &amp; +-&gt;YCR_$8TRL&quot;NN/3* +JW$IH (\@@@]G&gt;*A0JNU7M&gt;W-=
+MK &quot;Q;5:IV]XU+K  H NDJ--7G$TAPGO&quot;=Q)!!*,!C//,2(7,00(:ZJ:W[.&quot;(
+MP%7$_EG[R&#039;I/))A_0CO.; H(V\/KQ_;QNQ;&#039;&#039;C-=Z,X4CZE*([0&lt;8;IX60O4
+MK8-&gt;S6//3T+.&amp;)-V.#&quot;.M&#039;,&lt; .: [%$&amp;,CV?&#039;;^G?*&quot;.PV[DW,]E\]3^IEC&amp;
+MGOWB!G&gt;;&lt;1?&#039;ZPK8/Y^^.Z4WT];,Y^)R7C(:-CQ]O_&lt;0( 3QDBK?(&lt;F)PFS[
+M9JABBNU1UO&quot;.\2)1OY)1VKRT9&lt;ML]&amp;CQ,2QVKQ)&gt;- Z =&quot;D&quot;;3T,VN8QJ#9L
+M&amp;P/EFXY6PH 0Z%$ 8?&gt;B%(PT),A.H. 4XT&gt; 0X:J6(9J@(FW*L(.Z$X&lt;!H9.
+MGE&#039;=T^K!:.ASF3A$-TD)KW;C*&lt;A9 ,&quot;PO1AI5KO#V2&gt;46ORD&lt;7-T9ZGORH?Y
+MC9MYYY_J&quot;&#039;WF@@Z31HJ.G PI,-L:K7&amp; 6&quot;.8M!% 3&amp; ,V:8/+MG.,&quot;]MNRLA
+M00JXHPZ# - 2JQ5$#&#039;H!=9]?I&lt;8JB&#039;[F&lt;&#039;]DGPU4&lt;%0D0CEX&gt;W*KO\&#039;J!D&#039;1
+M&gt;W&amp;U)HZ72:=-&lt;\8H (),C&amp;=($O6-PA)S&quot;;EE(F?&quot;Q1*E )#HX+JB8$&amp;09%QA
+ML*$().!]C%O)L2X87B\%-9H3:1TT$/+U&gt;.Y&#039;_+:M@0PD2N1PU;;&amp;-C6&amp;!70#
+M8U7:&quot;$VIT5.J0%+Z4H4B]8ME&amp;^7&amp;S./1]O\ N.\&amp;4$F,^8Y7T\&lt;8F%RA?Z\8
+MFE50_?+2*G^O&amp;M@;J(Z-/#14\&#039;@P&amp;(X 00-!. 00Z02.+S!30H;B66&quot;&amp;:PN-
+M1Y&amp;&#039;+SLGA &quot;1 D@4#&lt;42DI@7! &quot;7EJ94=E3&quot;)+*W- K*_)BB);&lt;4/V@6RNW&quot;
+M0$:&#039;8FCF?&lt;PVASAZTN0GFK972T\;&quot;YJD:D:J[&#039;N]-L ZX!CC\O7U&gt;F#4D&lt;DB
+M#2^%\,9(*&amp;WB=WTP=26&lt;!P$NEC9TD&gt;; -JJ!1L!U@XNR@!TJ Z8-+IYG*3Z&amp;
+M:*K&quot;&amp;P(0&lt;.QH 0Q-E9!K)&quot;1&#039;*F[KBU $2!4YQM9&quot;2D$DU4=:8FOA/N]!:@]0
+ME$&quot;&lt;,]&lt;FITSQA&quot; %^&#039;?P/#/ROUG\_KG^#YX?$XDU\?OWY/A.JX@4[GY8.3(N
+M13.0B(])$6V:/\5)Q%*T:T93/*U[B36M5,QP.=5W0(-*U&gt;C4#0(GX8 &gt;!,H 
+M==G03(J5&amp;_5,V5!0I%;:_P &lt;ZRJ)4E&gt;/A /#@UB(H.\]9S4(#0NPD$ 5M#N+
+M3?9^2O(.R:LO&gt;*D]RZH@/OP!@-6U3&quot;ST%&quot;&#039;#9B_C^&lt;GXOQ/=&#039;;^KBA$3QKVP
+MN\^OUR-(-FO&gt;1RAT_P#+PXQCO;]/^8H[/?!15Y DTQ3Y&amp;$A9,TKX%.&gt; J!IP
+M4-F4B4*M)RF_K@YY][MH&amp;M&#039;D;&#039;CMYE&amp;+44#Q&amp;Z1XDPJ]J@4IZ47V8AJ!$G)=
+M:]&lt;EQ&quot;@+8A=?+0S2WA7A:&amp;@\#2;B&amp;&quot;3&lt;)[4%E6 &quot;Z#$9V#!:W#[XC;2P(&#039;0@
+M *J3QD&gt;B0*%2Z]B=ICW&quot;$!Q]&#039;]_R;&amp;VB0,#VU&#039;A&amp;&quot;)G4*\$=:%TY#40;&quot;;)H
+M?#A&amp;9EDN&gt;(1 8.D^&quot;&quot;%.$B)5I*&lt;9&gt;QOD8%K &gt;_).&lt;M^&gt;C7/I@$X&lt;4 7O6V.F
+M7R\+X&gt;YY&gt;0L&quot;A,P2X][?/#6=!UZY7BGSRNS6]NN&lt;.3CYXNF!H6B5?OB0@%&quot;D
+M&lt;[B@N%E0\?3^&lt;CBE[,/GXOSXPY)5R7\AZ(TYR#-*,7@&gt;R]3@?HM-@&#039;4\). F
+MV.8 G!_&quot;&lt;:6SI N^ES8A[@ 3.* &lt;KR*DV5*X\%&#039;PJT@5V!ESQEVNOI\%/+?A
+M9U&lt;*.[V=X&amp;OH1(*8ZY9 ,PU#&gt;T)NPFS?/E^RBI0T!R&#039;-&lt;*0@J,@^+#@]/UH 
+M&quot;R:T%Q:!8Q#TF(*M=BY&lt;/P8VI^0*;Y-XB+EU&#039;RH?E0V.L#H#G*W&#039;6P)C M C
+M?\SG20KD(-KP&#039;L=V&#039;])YR?!&gt;BU[:ZS2GAD?6$Y3 E[.+,&lt;WF2^&quot;;01&amp;L/:&amp;&lt;
+MSRY.G9PYR0^P]T-/!],!(#6FG7)QT?3-O?&gt;?O?1R#BB*@-OC&amp;2DYXO3&gt;BMW8
+M&lt;*GHC!^I^.I#EM!0I]7R&quot;JU#+[4&#039;V7$Y&quot;&lt;OM^$HT$ BF*V,9S4(FA)12Q3&amp;-
+M#O528&amp;U70&#039;+QC-$$&amp;P9$Z1$?&amp;,&#039;-* 21LV&#039;&amp;)H%3@X)-[#6 WEUJ:;38Q&gt;A*
+M &amp;E.90S*IQF:&quot;K3B]&amp;!9;I]%4+!WWE;411XF!E0= 4QO=0%MEPU&lt;?IUG0&#039;$U
+M .LL[:K!1#0M^HM&#039;852A,&amp;K&amp;WBG28TKEI3V^/7_W$XNJ&gt;-^/JX@N@3: &#039;-II
+MDP(TR1CPTGYQ%1#.K!&quot;I.\&#039;WUI2-(L!\JJ1@(BIR/&#039;&lt;&quot;U$*WI1VDIG% H$KA
+MT7%J#AL)%J V%-$EN/6JY/9-@A&quot;N]P9I\$=GD:IB(&lt;(7M4H$RK;!TU@L@/D:
+M8H&lt;B $7&amp;Q1Q5TR&gt;V*2KS@C8Q],@ N &lt;QN#\:_-EDI![&amp;KP8*T\74&#039;1PR \]&amp;
+MAS+0R)M5;R?SY*CVEPUW.7R&lt;U,+K( &lt;?MX6[U?+Z,XNWJN*GZM&#039; &#039;T^?Q)NC
+MTX^S^:,Y4F))E5MN&amp;)VSYT,351]#K&amp;8\Z^^PX:*R+  3Y7C;,A*B +ORL&#039;L[
+M&#039;)L-HV&#039;K*TW9\G#XA&quot;/L  SH 0#&amp;&quot;&#039;:S&#039;2!\U$PQ!6+\!UQW6AL%UMA/&amp;T$5
+MD)J1V&amp;(BCFFIRH(E(F6X#EL /R2X;C6E;5N5JU)QP(&#039;%$KL.3:05#L UQ ,,
+M E$ 01#&quot;L6&quot;&gt;&quot;+R[;OLB,R!4+AEPB)X*R_\ 0,EMZ&amp;@&lt;PIV!.FI1&amp;U&amp;3QN$$
+M*C%9#2@G8+ H0L#ZMQB5&lt;RAXB#]@).SJ(^3.. %-:E%FTQ&amp;=E9)Q&quot;&#039;;CK$#[
+M@3NB:&amp;TIE^$#B#:(\=8*:VX1JB;7%;SE8],KYRFJF5O?.W*\76=2&amp;5\Y4U=9
+M62W*^&lt;5;5;E5;SSZY&lt;%*:TB7(H JH&#039;.%LV1!6ZS+IU&amp;+H@!I.T]K&lt;*[&amp;0H/2
+M;MOKQZV#*0S@RA@#B\EJ3#&gt;7#2C!8%V@*5ZE&gt;1&quot;&lt;[AL,-G (-WI?B58D@PQX
+MU?7WJSPW8RQ/%0&amp;@,4%0:ASE=&gt;#*6(U2*4HG3ALK&lt;)TP4 KP WEM#;&amp;])[_/
+M$0R&lt;.1$I2&quot;@&amp;D+=6JEVY.RG0,5P6CWG-(&quot;T.V!H*;=&#039;G9FZ&quot;1[]&lt;J3DMKE=S
+M8YJ@;!3=Z^@@&amp;9G5 22EXN-PL489YH(^0.9N;^F;6WT]&lt;L5CMX,,6(A,E* \
+M1PYWQD&amp;6=Y+P;0&quot;T7DP*@Y&lt;3J(7A%B+$Z=EP).^N(!-9PA#L&lt;-@IO&#039;K_ #K%
+M+CL3!#\-Q7#-/Q#V4[6OHK&quot;EN2S8GH&quot;)WH1I!!SI0$7E :IE(5BO.J\0M&gt;8?
+M(VAU_O(H[H&quot;Z0/$G-%[ +$6 $BX72RJF5AT0U NJE+&amp;$M:!()1EF$#PYT&lt;N=
+M0)LRH =G#I6E, FEDR9Q#L9MR#:P0&quot;PJJ+M&gt;I5(C8)RJEVC/MDD22OF,IC6X
+M#.1@74BR^F(M&quot;!/^YW16FV&#039;)SSE/?Z+#P091HYD.B+R+TX&gt;]ZR _=2#K0L(U
+MJXJZOOGU&gt;H*^-A@R@O*4/?&amp;7X7Q:550,R8(5/7O.41OR^,;E!15( -4EK&amp;4X
+MEMTJXHU&quot;(XHB_P&quot;V@ T8&quot;VLEW&quot;.\+3UU: =;;DCD%GOF2S(,30=#&quot;PK+GRF,
+MJNF&quot;4PZY@%*JJZE*23I$&#039;P5OOE2UF\*5/W&gt;HW!NNH6&amp;5:I&quot;E76&quot;F*=I+;Z9H
+MB?+% 4&amp;4&quot;(?4)I KDPXP:N1) HZ7#B$.H&quot;EEXZB##!-W($JN0!$BZ,U8?2&quot;(
+M_%S!2U:&quot;QVS4DV&amp;&quot;,;9,,1:PA6E&quot;N[(4,GA?$F(B&quot;SB$;BKQGX(LKHJ:&lt;L[@
+M&lt;6WN#)0B:L5N[5FOJ&quot;MJ(,#CSD?_ $GWL.DK-36N#*) &amp;-)?/+-C&lt;A&amp;&lt;T430
+MB1K= V6J(XH&lt;R#73CB.&lt;HC/HJ8.HW4L;IF[Q&quot;E=O&quot;P/R 8&#039;N\3AH!6$B((5T
+M2;8&#039;R]42? &#039;&amp;&gt;@K*&quot;(Z\;*TJ^&amp;IL2$J JEQWA7(1=$0O##NR-/L.NYYBJ\HR
+MNC8 NHH.G;M(^S0&#039;&lt;U&lt;H&gt;;. EK 1.Q4WQ4,VD3EG#42#7VCR&#039;#8.784%W2@Q
+M.,(&lt;MV)B2&quot;T4L;AG:LE&#039;0&gt;D.%76&quot;+AU&gt;HB[6CC&#039;&quot;TE&lt;4#5&lt;9EF&quot;PHLD0*@+8
+M#?LP2!+P2S38:I&#039; L&amp;%NCT,B XL&lt;)JM\C01SF_$+*(# P,##2FI6W (!L^&quot;2
+M:@ %L%N&amp;T%/P5&quot;E.&quot;:9&quot;_&gt;WK\MF&lt;4V4XPG5_*]&quot;&quot; S%@U-34V3U6P;R&quot;9!&lt;*
+M?Q7W8&amp;^K0H0)&#039;(DD!5LK*&quot;9V?B 4PT7T!RKV[J-.);-[PZ(5A1&quot;7(BZ*@S$-
+M2$C:F3$;)!/, 7HZ!)X2&gt;A5C-OZDH&quot;19E,8*&#039;-TZ^.&quot;;58ZC87S3X;1O?+7.
+MT:KVBJ(3$P(&lt;]Q#UG?EDT2&quot;P=6V0,G)L0L$QQZH#O.PSY5-+&gt;+6FT5ECRJD.
+MMX=R0!(BW1&quot;U4N&quot; N&amp;M6EH,L7[T&gt;(-!X#WQDVFOR4@H**1A7[1@@TJ20B)PY
+M(=&lt;YF#D158,+,Q!ICD0#MN;!J&lt;!DDN$LZ?+&quot;&#039;TX#)&quot;R0#=0#N\UR5I&amp;E1A *
+M845AY8AOX$&gt;#V_&#039;/T_)G];P8_9_S&#039;^/HX\?TT9^/]L_J^7.;W_C&#039;V[\N?8_R
+MX&lt;_)SD_NF&lt;&#039;M^+\._G[&amp;?&lt;/ZPQ^R?G./W_ S[3]F&lt;_MAR&gt;W\X&lt;?=SF&gt;^./R?
+6AGV?^9Q/9G+Y?WGW#^,Y?PY^&#039;#__V0  
+</UUENCODE>
+		</IMAGE>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>Moteino</NAME>
+			<REF type='0'>U?</REF>
+			<DESCRIPTION>Moteino</DESCRIPTION>
+			<PPP>1</PPP>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>package name for PCB layout</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='92.00000,72.00000'/>
+			<TinyCAD>
+				<METAFILE a='40.00000,30.00000' b='91.80000,65.40000' id='1'/>
+				<PIN pos='42.00000,64.00000' which='0' elec='0' direction='1' part='0' number='1' show='3' length='15' number_pos='0' centre_name='0'>RST</PIN>
+				<PIN pos='46.00000,64.00000' which='0' elec='0' direction='1' part='0' number='2' show='3' length='15' number_pos='0' centre_name='0'>2</PIN>
+				<PIN pos='50.00000,64.00000' which='0' elec='0' direction='1' part='0' number='3' show='3' length='15' number_pos='0' centre_name='0'>3</PIN>
+				<PIN pos='54.00000,64.00000' which='0' elec='0' direction='1' part='0' number='4' show='3' length='15' number_pos='0' centre_name='0'>4</PIN>
+				<PIN pos='58.00000,64.00000' which='0' elec='0' direction='1' part='0' number='5' show='3' length='15' number_pos='0' centre_name='0'>5</PIN>
+				<PIN pos='62.00000,64.00000' which='0' elec='0' direction='1' part='0' number='6' show='3' length='15' number_pos='0' centre_name='0'>6</PIN>
+				<PIN pos='66.00000,64.00000' which='0' elec='0' direction='1' part='0' number='7' show='3' length='15' number_pos='0' centre_name='0'>7</PIN>
+				<PIN pos='70.00000,64.00000' which='0' elec='0' direction='1' part='0' number='8' show='3' length='15' number_pos='0' centre_name='0'>8</PIN>
+				<PIN pos='74.00000,64.00000' which='0' elec='0' direction='1' part='0' number='9' show='3' length='15' number_pos='0' centre_name='0'>9</PIN>
+				<PIN pos='78.00000,64.00000' which='0' elec='0' direction='1' part='0' number='10' show='3' length='15' number_pos='0' centre_name='0'>10</PIN>
+				<PIN pos='82.00000,64.00000' which='0' elec='0' direction='1' part='0' number='11' show='3' length='15' number_pos='0' centre_name='0'>11</PIN>
+				<PIN pos='86.00000,64.00000' which='0' elec='0' direction='1' part='0' number='12' show='3' length='15' number_pos='0' centre_name='0'>12</PIN>
+				<PIN pos='90.00000,64.00000' which='0' elec='0' direction='1' part='0' number='13' show='3' length='15' number_pos='0' centre_name='0'>13</PIN>
+				<PIN pos='90.00000,32.00000' which='0' elec='0' direction='0' part='0' number='14' show='3' length='15' number_pos='0' centre_name='0'>A0</PIN>
+				<PIN pos='86.00000,32.00000' which='0' elec='0' direction='0' part='0' number='15' show='3' length='15' number_pos='0' centre_name='0'>A1</PIN>
+				<PIN pos='82.00000,32.00000' which='0' elec='0' direction='0' part='0' number='16' show='3' length='15' number_pos='0' centre_name='0'>A2</PIN>
+				<PIN pos='78.00000,32.00000' which='0' elec='0' direction='0' part='0' number='17' show='3' length='15' number_pos='0' centre_name='0'>A3</PIN>
+				<PIN pos='74.00000,32.00000' which='0' elec='0' direction='0' part='0' number='18' show='3' length='15' number_pos='0' centre_name='0'>A4</PIN>
+				<PIN pos='70.00000,32.00000' which='0' elec='0' direction='0' part='0' number='19' show='3' length='15' number_pos='0' centre_name='0'>A5</PIN>
+				<PIN pos='66.00000,32.00000' which='0' elec='0' direction='0' part='0' number='20' show='3' length='15' number_pos='0' centre_name='0'>A6</PIN>
+				<PIN pos='62.00000,32.00000' which='0' elec='0' direction='0' part='0' number='21' show='3' length='15' number_pos='0' centre_name='0'>A7</PIN>
+				<PIN pos='58.00000,32.00000' which='0' elec='0' direction='0' part='0' number='22' show='3' length='15' number_pos='0' centre_name='0'>RX</PIN>
+				<PIN pos='54.00000,32.00000' which='0' elec='0' direction='0' part='0' number='23' show='3' length='15' number_pos='0' centre_name='0'>TX</PIN>
+				<PIN pos='50.00000,32.00000' which='0' elec='0' direction='0' part='0' number='24' show='3' length='15' number_pos='0' centre_name='0'>3.3</PIN>
+				<PIN pos='46.00000,32.00000' which='0' elec='0' direction='0' part='0' number='25' show='3' length='15' number_pos='0' centre_name='0'>VIN</PIN>
+				<PIN pos='42.00000,32.00000' which='0' elec='0' direction='0' part='0' number='26' show='3' length='15' number_pos='0' centre_name='0'>GND</PIN>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='2'>
+			<NAME type='0'>R</NAME>
+			<REF type='1'>R?</REF>
+			<DESCRIPTION>Resistor</DESCRIPTION>
+			<PPP>1</PPP>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>AX2_1</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Value</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Tol.</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>P_Max</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Manufacturer</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Manufacturer Part</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Digi-Key Part</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Newark Part</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Mouser Part</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Cost</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='72.00000,51.00000'/>
+			<TinyCAD>
+				<PIN pos='70.00000,37.00000' which='0' elec='4' direction='1' part='0' number='2' show='0' length='15' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='70.00000,51.00000' which='0' elec='4' direction='0' part='0' number='1' show='0' length='15' number_pos='0' centre_name='0'></PIN>
+				<POLYGON pos='69.00000,40.60000' style='2' fill='0'>
+					<POINT pos='0.00000,1.00000' arc='0'/>
+					<POINT pos='1.00000,0.00000' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='69.00000,41.60000' style='2' fill='0'>
+					<POINT pos='2.00000,1.00000' arc='0'/>
+					<POINT pos='0.00000,0.00000' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='69.00000,42.60000' style='2' fill='0'>
+					<POINT pos='0.00000,1.00000' arc='0'/>
+					<POINT pos='2.00000,0.00000' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='69.00000,43.60000' style='2' fill='0'>
+					<POINT pos='2.00000,1.00000' arc='0'/>
+					<POINT pos='0.00000,0.00000' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='69.00000,44.60000' style='2' fill='0'>
+					<POINT pos='0.00000,1.00000' arc='0'/>
+					<POINT pos='2.00000,0.00000' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='69.00000,45.60000' style='2' fill='0'>
+					<POINT pos='2.00000,1.00000' arc='0'/>
+					<POINT pos='0.00000,0.00000' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='70.00000,46.60000' style='2' fill='0'>
+					<POINT pos='0.00000,1.00000' arc='0'/>
+					<POINT pos='1.00000,0.00000' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='70.00000,47.60000' style='2' fill='0'>
+					<POINT pos='0.00000,0.00000' arc='0'/>
+					<POINT pos='0.00000,0.40000' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='70.00000,40.00000' style='2' fill='0'>
+					<POINT pos='0.00000,0.60000' arc='0'/>
+					<POINT pos='0.00000,0.00000' arc='0'/>
+				</POLYGON>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='3'>
+			<NAME type='0'>HDR_4_1</NAME>
+			<REF type='0'>Z?</REF>
+			<DESCRIPTION>I can haz description?</DESCRIPTION>
+			<PPP>25</PPP>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT></DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>None</NAME>
+				<DEFAULT>None</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='37.00000,34.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='28.00000,29.00000' b='30.00000,31.00000' style='2' fill='1'/>
+				<ELLIPSE a='30.00000,29.00000' b='32.00000,31.00000' style='2' fill='0'/>
+				<PIN pos='29.00000,34.00000' which='0' elec='4' direction='0' part='0' number='1' show='3' length='15' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='1' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='1' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='2' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='2' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='3' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='3' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='4' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='4' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='5' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='5' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='6' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='6' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='7' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='7' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='8' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='8' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='9' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='9' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='10' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='10' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='11' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='11' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='12' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='12' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='13' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='13' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='14' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='14' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='15' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='15' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='16' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='16' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='17' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='17' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='18' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='18' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='19' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='19' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='20' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='20' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='21' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='21' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='22' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='22' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='23' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='23' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,38.00000' which='0' elec='4' direction='0' part='24' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='28.00000,20.00000' which='0' elec='4' direction='1' part='24' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='31.00000,34.00000' which='0' elec='0' direction='0' part='0' number='2' show='1' length='15' number_pos='0' centre_name='0'></PIN>
+				<ELLIPSE a='32.00000,29.00000' b='34.00000,31.00000' style='2' fill='0'/>
+				<PIN pos='33.00000,34.00000' which='0' elec='0' direction='0' part='0' number='3' show='1' length='15' number_pos='0' centre_name='0'></PIN>
+				<RECTANGLE a='28.00000,29.00000' b='36.00000,31.00000' style='2' fill='0'/>
+				<ELLIPSE a='34.00000,29.00000' b='36.00000,31.00000' style='2' fill='0'/>
+				<PIN pos='35.00000,34.00000' which='0' elec='0' direction='0' part='0' number='4' show='1' length='15' number_pos='0' centre_name='0'></PIN>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='4'>
+			<NAME type='0'>DC_JACK_PJ102AH</NAME>
+			<REF type='1'>K?</REF>
+			<DESCRIPTION>DC Power Jack 2.1x5.5mm High Current</DESCRIPTION>
+			<PPP>1</PPP>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>PJ102A</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Usage</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Datasheet</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Manufacturer</NAME>
+				<DEFAULT>CUI Inc</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Manufacturer Part</NAME>
+				<DEFAULT>PJ-102AH </DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Digi-Key Part</NAME>
+				<DEFAULT>CP-102AH-ND</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Newark Part</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Mouser Part</NAME>
+				<DEFAULT>..</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Cost</NAME>
+				<DEFAULT>0.42</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='97.00000,80.00000'/>
+			<REF_POINT power='1' part='0' pos='97.00000,80.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='83.00000,71.00000' b='86.00000,79.00000' style='2' fill='0'/>
+				<PIN pos='97.00000,80.00000' which='0' elec='4' direction='2' part='0' number='1' show='1' length='15' number_pos='0' centre_name='1'>V+</PIN>
+				<PIN pos='97.00000,71.00000' which='0' elec='4' direction='2' part='0' number='2' show='1' length='15' number_pos='0' centre_name='1'>Wall V-</PIN>
+				<RECTANGLE a='83.00000,71.00000' b='86.00000,72.00000' style='2' fill='1'/>
+				<RECTANGLE a='83.00000,79.00000' b='86.00000,80.00000' style='2' fill='1'/>
+				<PIN pos='97.00000,76.00000' which='0' elec='4' direction='2' part='0' number='2' show='1' length='15' number_pos='0' centre_name='1'>Batt V-</PIN>
+				<POLYGON pos='89.20000,71.00000' style='2' fill='1'>
+					<POINT pos='0.80000,0.00000' arc='0'/>
+					<POINT pos='0.12000,1.00000' arc='0'/>
+					<POINT pos='1.52000,1.00000' arc='0'/>
+					<POINT pos='0.80000,0.00000' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='87.00000,71.00000' style='2' fill='0'>
+					<POINT pos='7.00000,0.00000' arc='0'/>
+					<POINT pos='2.00000,0.00000' arc='0'/>
+					<POINT pos='1.00000,1.00000' arc='0'/>
+					<POINT pos='0.00000,0.00000' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='90.00000,72.00000' style='2' fill='0'>
+					<POINT pos='4.00000,4.00000' arc='0'/>
+					<POINT pos='0.00000,4.00000' arc='0'/>
+					<POINT pos='0.00000,0.00000' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='86.00000,80.00000' style='2' fill='0'>
+					<POINT pos='8.00000,0.00000' arc='0'/>
+					<POINT pos='0.00000,0.00000' arc='0'/>
+				</POLYGON>
+				<RECTANGLE a='86.00000,75.00000' b='84.00000,76.00000' style='2' fill='2'/>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<COLOR_WIRE>FF0000</COLOR_WIRE>
+			<COLOR_BUS>0000FF</COLOR_BUS>
+			<COLOR_JUNCTION>000000</COLOR_JUNCTION>
+			<COLOR_NOCONNECT>000000</COLOR_NOCONNECT>
+			<COLOR_LABEL>208000</COLOR_LABEL>
+			<COLOR_POWER>000000</COLOR_POWER>
+			<COLOR_PIN>4040C0</COLOR_PIN>
+			<COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
+			<COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
+			<COLOR_NOTETEXT_FILL>AFFFFF</COLOR_NOTETEXT_FILL>
+			<COLOR_NOTETEXT_LINE>FF0000</COLOR_NOTETEXT_LINE>
+			<COLOR_NOTETEXT_TEXT>FF0000</COLOR_NOTETEXT_TEXT>
+		</OPTIONS>
+		<SYMBOL id='1' pos='116.00000,102.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='U1' show='1' pos='1.00000,-43.60000'/>
+			<FIELD type='0' description='Name' value='Moteino' show='1' pos='1.00000,-46.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='moteino' show='0' pos='1.00000,-41.20000'/>
+		</SYMBOL>
+		<SYMBOL id='2' pos='124.00000,34.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='R2' show='0' pos='1.00000,-9.60000'/>
+			<FIELD type='0' description='Name' value='R2' show='1' pos='1.00000,-12.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='AX2_1' show='0' pos='1.00000,-7.20000'/>
+			<FIELD type='1' description='Value' value='1M' show='0' pos='1.00000,-4.80000'/>
+			<FIELD type='1' description='Tol.' value='..' show='0' pos='1.00000,-2.40000'/>
+			<FIELD type='1' description='P_Max' value='..' show='0' pos='1.00000,0.00000'/>
+			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,2.40000'/>
+			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,4.80000'/>
+			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,7.20000'/>
+			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,9.60000'/>
+			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,12.00000'/>
+			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,14.40000'/>
+		</SYMBOL>
+		<SYMBOL id='2' pos='124.00000,48.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='R1' show='0' pos='1.00000,-9.60000'/>
+			<FIELD type='0' description='Name' value='R1' show='1' pos='1.00000,-12.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='AX2_1' show='0' pos='1.00000,-7.20000'/>
+			<FIELD type='1' description='Value' value='1M' show='0' pos='1.00000,-4.80000'/>
+			<FIELD type='1' description='Tol.' value='..' show='0' pos='1.00000,-2.40000'/>
+			<FIELD type='1' description='P_Max' value='..' show='0' pos='1.00000,0.00000'/>
+			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,2.40000'/>
+			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,4.80000'/>
+			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,7.20000'/>
+			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,9.60000'/>
+			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,12.00000'/>
+			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,14.40000'/>
+		</SYMBOL>
+		<JUNCTION pos='122.00000,34.00000'/>
+		<WIRE a='66.00000,31.00000' b='66.00000,62.00000'/>
+		<SYMBOL id='3' pos='160.00000,70.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='Z1' show='1' pos='-6.00000,2.00000'/>
+			<FIELD type='0' description='Name' value='To HX711 Scale' show='1' pos='-6.00000,-10.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='SIP4' show='0' pos='-6.00000,4.40000'/>
+			<FIELD type='1' description='None' value='None' show='0' pos='-6.00000,6.80000'/>
+		</SYMBOL>
+		<WIRE a='102.00000,62.00000' b='102.00000,34.00000'/>
+		<WIRE a='102.00000,34.00000' b='122.00000,34.00000'/>
+		<WIRE a='154.00000,62.00000' b='150.00000,62.00000'/>
+		<WIRE a='150.00000,62.00000' b='150.00000,20.00000'/>
+		<WIRE a='122.00000,20.00000' b='66.00000,20.00000'/>
+		<JUNCTION pos='122.00000,20.00000'/>
+		<WIRE a='154.00000,64.00000' b='146.00000,64.00000'/>
+		<WIRE a='146.00000,64.00000' b='146.00000,48.00000'/>
+		<WIRE a='122.00000,48.00000' b='70.00000,48.00000'/>
+		<JUNCTION pos='122.00000,48.00000'/>
+		<WIRE a='154.00000,66.00000' b='142.00000,66.00000'/>
+		<WIRE a='142.00000,66.00000' b='142.00000,52.00000'/>
+		<WIRE a='142.00000,52.00000' b='110.00000,52.00000'/>
+		<WIRE a='110.00000,52.00000' b='110.00000,62.00000'/>
+		<WIRE a='154.00000,68.00000' b='138.00000,68.00000'/>
+		<WIRE a='138.00000,68.00000' b='138.00000,56.00000'/>
+		<WIRE a='138.00000,56.00000' b='114.00000,56.00000'/>
+		<WIRE a='114.00000,56.00000' b='114.00000,62.00000'/>
+		<SYMBOL id='3' pos='198.00000,112.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='Z2' show='1' pos='-6.00000,2.00000'/>
+			<FIELD type='0' description='Name' value='To DB18B20 thermometer' show='1' pos='-6.00000,-10.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='SIP4' show='0' pos='-6.00000,4.40000'/>
+			<FIELD type='1' description='None' value='None' show='0' pos='-6.00000,6.80000'/>
+		</SYMBOL>
+		<WIRE a='192.00000,104.00000' b='192.00000,20.00000'/>
+		<WIRE a='150.00000,20.00000' b='122.00000,20.00000'/>
+		<JUNCTION pos='150.00000,20.00000'/>
+		<WIRE a='192.00000,106.00000' b='188.00000,106.00000'/>
+		<WIRE a='188.00000,106.00000' b='188.00000,48.00000'/>
+		<WIRE a='146.00000,48.00000' b='122.00000,48.00000'/>
+		<JUNCTION pos='146.00000,48.00000'/>
+		<WIRE a='174.00000,48.00000' b='146.00000,48.00000'/>
+		<WIRE a='86.00000,108.00000' b='86.00000,94.00000'/>
+		<WIRE a='192.00000,108.00000' b='86.00000,108.00000'/>
+		<SYMBOL id='2' pos='176.00000,108.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='R3' show='0' pos='1.00000,-9.60000'/>
+			<FIELD type='0' description='Name' value='R3' show='1' pos='1.00000,-12.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='AX2_1' show='0' pos='1.00000,-7.20000'/>
+			<FIELD type='1' description='Value' value='4K7' show='0' pos='1.00000,-4.80000'/>
+			<FIELD type='1' description='Tol.' value='..' show='0' pos='1.00000,-2.40000'/>
+			<FIELD type='1' description='P_Max' value='..' show='0' pos='1.00000,0.00000'/>
+			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,2.40000'/>
+			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,4.80000'/>
+			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,7.20000'/>
+			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,9.60000'/>
+			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,12.00000'/>
+			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,14.40000'/>
+		</SYMBOL>
+		<JUNCTION pos='174.00000,108.00000'/>
+		<WIRE a='174.00000,94.00000' b='174.00000,48.00000'/>
+		<JUNCTION pos='174.00000,48.00000'/>
+		<SYMBOL id='3' pos='226.00000,134.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='Z3' show='1' pos='-6.00000,2.00000'/>
+			<FIELD type='0' description='Name' value='To DHT22 thermometer' show='1' pos='-6.00000,-10.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='SIP4' show='0' pos='-6.00000,4.40000'/>
+			<FIELD type='1' description='None' value='None' show='0' pos='-6.00000,6.80000'/>
+		</SYMBOL>
+		<WIRE a='220.00000,126.00000' b='214.00000,126.00000'/>
+		<WIRE a='214.00000,126.00000' b='214.00000,20.00000'/>
+		<WIRE a='192.00000,20.00000' b='150.00000,20.00000'/>
+		<JUNCTION pos='192.00000,20.00000'/>
+		<WIRE a='214.00000,20.00000' b='192.00000,20.00000'/>
+		<WIRE a='220.00000,128.00000' b='210.00000,128.00000'/>
+		<WIRE a='210.00000,128.00000' b='210.00000,48.00000'/>
+		<WIRE a='188.00000,48.00000' b='174.00000,48.00000'/>
+		<JUNCTION pos='188.00000,48.00000'/>
+		<WIRE a='210.00000,48.00000' b='188.00000,48.00000'/>
+		<WIRE a='220.00000,130.00000' b='90.00000,130.00000'/>
+		<WIRE a='90.00000,130.00000' b='90.00000,94.00000'/>
+		<SYMBOL id='4' pos='36.00000,32.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='DC_Jack' show='1' pos='1.00000,-8.00000'/>
+			<FIELD type='0' description='Name' value='DC_JACK_PJ102AH' show='0' pos='-11.00000,-10.00000'/>
+			<FIELD type='1' description='Package' value='DC_IN' show='0' pos='1.00000,-5.60000'/>
+			<FIELD type='1' description='Usage' value='..' show='0' pos='1.00000,-3.20000'/>
+			<FIELD type='1' description='Datasheet' value='..' show='0' pos='1.00000,-0.80000'/>
+			<FIELD type='1' description='Manufacturer' value='CUI Inc' show='0' pos='1.00000,1.60000'/>
+			<FIELD type='1' description='Manufacturer Part' value='PJ-102AH ' show='0' pos='1.00000,4.00000'/>
+			<FIELD type='1' description='Digi-Key Part' value='CP-102AH-ND' show='0' pos='1.00000,6.40000'/>
+			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,8.80000'/>
+			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,11.20000'/>
+			<FIELD type='1' description='Cost' value='0.42' show='0' pos='1.00000,13.60000'/>
+		</SYMBOL>
+		<WIRE a='36.00000,22.00000' b='70.00000,22.00000'/>
+		<WIRE a='70.00000,48.00000' b='70.00000,62.00000'/>
+		<JUNCTION pos='70.00000,48.00000'/>
+		<WIRE a='70.00000,22.00000' b='70.00000,48.00000'/>
+		<WIRE a='36.00000,31.00000' b='66.00000,31.00000'/>
+		<JUNCTION pos='66.00000,31.00000'/>
+		<WIRE a='66.00000,30.00000' b='66.00000,31.00000'/>
+		<WIRE a='66.00000,31.00000' b='66.00000,30.00000'/>
+		<JUNCTION pos='66.00000,30.00000'/>
+		<WIRE a='66.00000,20.00000' b='66.00000,30.00000'/>
+	</TinyCAD>
+</TinyCADSheets>

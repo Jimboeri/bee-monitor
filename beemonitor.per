@@ -1,0 +1,219 @@
+[Version]
+Product,2
+File,16
+{
+"Config" : {
+  "NetImportFormat" : "Protel"
+},
+"Board" : {
+  "Width" : 72,
+  "Height" : 40,
+  "Pattern" : "Strip"
+},
+"CelledOutlines" : [
+  { "Name" : "", "Locked" : false,
+    "Rows" : [
+    ["Body","Free","Body"],
+    ["Body","Body","Body"]
+    ]
+  },
+  { "Name" : "DC_IN", "Locked" : false,
+    "Rows" : [
+    ["Body","Body","Body","Body"],
+    ["Body","Body","Body","Body"],
+    ["Body","Body",{"Pin" : "2"},"Body"],
+    [{"Pin" : "3"},"Body","Body","Body"],
+    ["Body","Body",{"Pin" : "1"},"Body"]
+    ]
+  },
+  { "Name" : "package name for PCB layout", "Locked" : false,
+    "Rows" : [
+    ["Body","Free","Body"],
+    ["Body","Body","Body"]
+    ]
+  },
+  { "Name" : "SIP4", "Locked" : false,
+    "Rows" : [
+    [{"Pin" : "1"}],
+    [{"Pin" : "2"}],
+    [{"Pin" : "3"}],
+    [{"Pin" : "4"}]
+    ]
+  }
+],
+"LeadedOutlines" : [
+  { "Name" : "AX2_1", "Locked" : false,
+    "BodyLength" : 2, "BodyWidth" : 1,
+    "Pin0Name" : "1", "Pin1Name" : "2", "ShowReference" : true
+  }
+],
+"RadialOutlines" : [
+],
+"CustomOutlines" : [
+  { "Name" : "MOTEINO", "Locked" : true,
+    "Pins" : [
+    { "Name" : "1", "X5" : 2, "Y5" : 42 },
+    { "Name" : "2", "X5" : 7, "Y5" : 42 },
+    { "Name" : "3", "X5" : 12, "Y5" : 42 },
+    { "Name" : "4", "X5" : 17, "Y5" : 42 },
+    { "Name" : "5", "X5" : 22, "Y5" : 42 },
+    { "Name" : "6", "X5" : 27, "Y5" : 42 },
+    { "Name" : "7", "X5" : 32, "Y5" : 42 },
+    { "Name" : "8", "X5" : 37, "Y5" : 42 },
+    { "Name" : "9", "X5" : 42, "Y5" : 42 },
+    { "Name" : "10", "X5" : 47, "Y5" : 42 },
+    { "Name" : "11", "X5" : 52, "Y5" : 42 },
+    { "Name" : "12", "X5" : 57, "Y5" : 42 },
+    { "Name" : "13", "X5" : 62, "Y5" : 42 },
+    { "Name" : "14", "X5" : 62, "Y5" : 2 },
+    { "Name" : "15", "X5" : 57, "Y5" : 2 },
+    { "Name" : "16", "X5" : 52, "Y5" : 2 },
+    { "Name" : "17", "X5" : 47, "Y5" : 2 },
+    { "Name" : "18", "X5" : 42, "Y5" : 2 },
+    { "Name" : "19", "X5" : 37, "Y5" : 2 },
+    { "Name" : "20", "X5" : 32, "Y5" : 2 },
+    { "Name" : "21", "X5" : 27, "Y5" : 2 },
+    { "Name" : "22", "X5" : 22, "Y5" : 2 },
+    { "Name" : "23", "X5" : 17, "Y5" : 2 },
+    { "Name" : "24", "X5" : 12, "Y5" : 2 },
+    { "Name" : "25", "X5" : 7, "Y5" : 2 },
+    { "Name" : "26", "X5" : 2, "Y5" : 2 }
+    ],
+    "Lines" : [
+    { "X5" : 0, "Y5" : 0, "DX5" : 5, "DY5" : 0},
+    { "X5" : 65, "Y5" : 0, "DX5" : 0, "DY5" : 5},
+    { "X5" : 5, "Y5" : 44, "DX5" : -5, "DY5" : 0},
+    { "X5" : 0, "Y5" : 5, "DX5" : 0, "DY5" : -5},
+    { "X5" : 0, "Y5" : 5, "DX5" : 0, "DY5" : 39},
+    { "X5" : 5, "Y5" : 0, "DX5" : 59, "DY5" : 0},
+    { "X5" : 5, "Y5" : 44, "DX5" : 60, "DY5" : 0},
+    { "X5" : 65, "Y5" : 5, "DX5" : 0, "DY5" : 39}
+    ]
+  }
+],
+"SmdOutlines" : [
+],
+"Components" : [
+  { "Designator" : "DC_Jack", "Value" : "DC_JACK_PJ102AH", "Outline" : "DC_IN",
+  "X1000" : 4000, "Y1000" : 0, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R1", "Value" : "R1", "Outline" : "AX2_1",
+  "X1000" : 4000, "Y1000" : 16000, "EndDeltaX" : 0, "EndDeltaY" : -8,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R2", "Value" : "R2", "Outline" : "AX2_1",
+  "X1000" : 5000, "Y1000" : 8000, "EndDeltaX" : 0, "EndDeltaY" : 9,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R3", "Value" : "R3", "Outline" : "AX2_1",
+  "X1000" : 19000, "Y1000" : 12000, "EndDeltaX" : 0, "EndDeltaY" : -8,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "Z1", "Value" : "To HX711 Scale", "Outline" : "SIP4",
+  "X1000" : 1000, "Y1000" : 21000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "Z2", "Value" : "To DB18B20 thermometer", "Outline" : "SIP4",
+  "X1000" : 1000, "Y1000" : 32000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : 4, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "Z3", "Value" : "To DHT22 thermometer", "Outline" : "SIP4",
+  "X1000" : 1000, "Y1000" : 26000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : 4, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "U1", "Value" : "Moteino", "Outline" : "MOTEINO",
+  "X1000" : 9000, "Y1000" : 17000, "EndDeltaX" : 1, "EndDeltaY" : 0,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  }
+],
+"Links" : [
+  { "X" : 2, "Y" : 2, "EndDeltaX" : 0, "EndDeltaY" : 15, "Group" : 0 },
+  { "X" : 3, "Y" : 4, "EndDeltaX" : 0, "EndDeltaY" : 12, "Group" : 0 }
+],
+"Breaks" : [
+  { "X" : 13, "Y" : 5, "Shift" : "none", "Group" : 0 },
+  { "X" : 13, "Y" : 6, "Shift" : "none", "Group" : 0 },
+  { "X" : 13, "Y" : 7, "Shift" : "none", "Group" : 0 },
+  { "X" : 13, "Y" : 8, "Shift" : "none", "Group" : 0 },
+  { "X" : 13, "Y" : 9, "Shift" : "none", "Group" : 0 },
+  { "X" : 13, "Y" : 10, "Shift" : "none", "Group" : 0 },
+  { "X" : 13, "Y" : 11, "Shift" : "none", "Group" : 0 },
+  { "X" : 13, "Y" : 12, "Shift" : "none", "Group" : 0 },
+  { "X" : 13, "Y" : 13, "Shift" : "none", "Group" : 0 },
+  { "X" : 13, "Y" : 14, "Shift" : "none", "Group" : 0 },
+  { "X" : 13, "Y" : 15, "Shift" : "none", "Group" : 0 },
+  { "X" : 13, "Y" : 16, "Shift" : "none", "Group" : 0 },
+  { "X" : 13, "Y" : 17, "Shift" : "none", "Group" : 0 },
+  { "X" : 5, "Y" : 3, "Shift" : "none", "Group" : 0 }
+],
+"Wires" : [
+    { "Value" : "N2", "X" : 8, "Y" : 5, "Group" : 0 },
+    { "Value" : "N2", "X" : 2, "Y" : 24, "Group" : 0 },
+    { "Value" : "N1", "X" : 8, "Y" : 6, "Group" : 0 },
+    { "Value" : "N1", "X" : 2, "Y" : 23, "Group" : 0 },
+    { "Value" : "N6", "X" : 8, "Y" : 16, "Group" : 0 },
+    { "Value" : "N6", "X" : 2, "Y" : 22, "Group" : 0 },
+    { "Value" : "N4", "X" : 8, "Y" : 17, "Group" : 0 },
+    { "Value" : "N4", "X" : 2, "Y" : 21, "Group" : 0 },
+    { "Value" : "N5", "X" : 2, "Y" : 28, "Group" : 0 },
+    { "Value" : "N5", "X" : 18, "Y" : 11, "Group" : 0 },
+    { "Value" : "N4", "X" : 2, "Y" : 26, "Group" : 0 },
+    { "Value" : "N6", "X" : 2, "Y" : 27, "Group" : 0 },
+    { "Value" : "N3", "X" : 18, "Y" : 12, "Group" : 0 },
+    { "Value" : "N3", "X" : 2, "Y" : 34, "Group" : 0 },
+    { "Value" : "N6", "X" : 2, "Y" : 33, "Group" : 0 },
+    { "Value" : "N4", "X" : 2, "Y" : 32, "Group" : 0 }
+],
+"Text" : [
+],
+"Nets" : [
+    { "Node" : "N000000", "Components" : [
+    { "Name" : "R1", "Pins" : ["2"] },
+    { "Name" : "R2", "Pins" : ["1"] },
+    { "Name" : "U1", "Pins" : ["17"] }
+    ] },
+    { "Node" : "N000001", "Components" : [
+    { "Name" : "U1", "Pins" : ["15"] },
+    { "Name" : "Z1", "Pins" : ["3"] }
+    ] },
+    { "Node" : "N000002", "Components" : [
+    { "Name" : "U1", "Pins" : ["14"] },
+    { "Name" : "Z1", "Pins" : ["4"] }
+    ] },
+    { "Node" : "N000003", "Components" : [
+    { "Name" : "R3", "Pins" : ["1"] },
+    { "Name" : "U1", "Pins" : ["6"] },
+    { "Name" : "Z2", "Pins" : ["3"] }
+    ] },
+    { "Node" : "N000004", "Components" : [
+    { "Name" : "DC_Jack", "Pins" : ["2"] },
+    { "Name" : "R2", "Pins" : ["2"] },
+    { "Name" : "U1", "Pins" : ["26"] },
+    { "Name" : "Z1", "Pins" : ["1"] },
+    { "Name" : "Z2", "Pins" : ["1"] },
+    { "Name" : "Z3", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000005", "Components" : [
+    { "Name" : "U1", "Pins" : ["7"] },
+    { "Name" : "Z3", "Pins" : ["3"] }
+    ] },
+    { "Node" : "N000006", "Components" : [
+    { "Name" : "DC_Jack", "Pins" : ["1"] },
+    { "Name" : "R1", "Pins" : ["1"] },
+    { "Name" : "R3", "Pins" : ["2"] },
+    { "Name" : "U1", "Pins" : ["25"] },
+    { "Name" : "Z1", "Pins" : ["2"] },
+    { "Name" : "Z2", "Pins" : ["2"] },
+    { "Name" : "Z3", "Pins" : ["2"] }
+    ] }
+]
+}
